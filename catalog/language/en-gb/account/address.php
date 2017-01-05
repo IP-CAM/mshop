@@ -12,7 +12,7 @@ $_['text_delete']          = 'Your address has been successfully deleted';
 $_['text_empty']           = 'You have no addresses in your account.';
 
 // Entry
-$_['entry_firstname']      = 'First Name';
+$_['entry_fullname']      = 'First Name';
 $_['entry_lastname']       = 'Last Name';
 $_['entry_company']        = 'Company';
 $_['entry_address_1']      = 'Address 1';
@@ -26,7 +26,7 @@ $_['entry_default']        = 'Default Address';
 // Error
 $_['error_delete']                = 'Warning: You must have at least one address!';
 $_['error_default']               = 'Warning: You can not delete your default address!';
-$_['error_firstname']             = 'First Name must be between 1 and 32 characters!';
+$_['error_fullname']             = 'First Name must be between 1 and 32 characters!';
 $_['error_lastname']              = 'Last Name must be between 1 and 32 characters!';
 $_['error_vat']                   = 'VAT number is invalid!';
 $_['error_address_1']             = 'Address must be between 3 and 128 characters!';

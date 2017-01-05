@@ -418,7 +418,7 @@ class ModelExtensionOpenBayEbayOpenbay extends Model{
 
 		$name_parts     = $this->openbay->splitName((string)$order->address->name);
 		$user           = array();
-		$user['fname']  = $name_parts['firstname'];
+		$user['fname']  = $name_parts['fullname'];
 		$user['lname']  = $name_parts['surname'];
 
 		/** get the iso2 code from the data and pull out the correct country for the details. */
@@ -460,11 +460,11 @@ class ModelExtensionOpenBayEbayOpenbay extends Model{
 			UPDATE `" . DB_PREFIX . "order`
 			SET
 			   `customer_id`              = '" . (int)$user['id'] . "',
-			   `firstname`                = '" . $this->db->escape($user['fname']) . "',
+			   `fullname`                = '" . $this->db->escape($user['fname']) . "',
 			   `lastname`                 = '" . $this->db->escape($user['lname']) . "',
 			   `email`                    = '" . $this->db->escape($order->user->email) . "',
 			   `telephone`                = '" . $this->db->escape($order->address->phone) . "',
-			   `shipping_firstname`       = '" . $this->db->escape($user['fname']) . "',
+			   `shipping_fullname`       = '" . $this->db->escape($user['fname']) . "',
 			   `shipping_lastname`        = '" . $this->db->escape($user['lname']) . "',
 			   `shipping_address_1`       = '" . $this->db->escape($order->address->street1) . "',
 			   `shipping_address_2`       = '" . $this->db->escape($order->address->street2) . "',
@@ -476,7 +476,7 @@ class ModelExtensionOpenBayEbayOpenbay extends Model{
 			   `shipping_zone_id`         = '" . (int)$zone_id . "',
 			   `shipping_method`          = '" . $this->db->escape($shipping_service_name) . "',
 			   `shipping_address_format`  = '" . $this->db->escape($address_format) . "',
-			   `payment_firstname`        = '" . $this->db->escape($user['fname']) . "',
+			   `payment_fullname`        = '" . $this->db->escape($user['fname']) . "',
 			   `payment_lastname`         = '" . $this->db->escape($user['lname']) . "',
 			   `payment_address_1`        = '" . $this->db->escape($order->address->street1) . "',
 			   `payment_address_2`        = '" . $this->db->escape($order->address->street2) . "',

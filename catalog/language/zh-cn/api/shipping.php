@@ -5,7 +5,7 @@ $_['text_method']        = '成功：配送方式已设置！';
 
 // Error
 $_['error_permission']   = '警告：您没有权限访问该 API！';
-$_['error_firstname']    = '名字必须在 1 至 32 个字符之间！';
+$_['error_fullname']    = '名字必须在 1 至 32 个字符之间！';
 $_['error_lastname']     = '姓氏必须在 1 至 32 个字符之间！';
 $_['error_address_1']    = '地址1必须是 3 至 128 字符之间！';
 $_['error_city']         = '城市必须是 3 至 128 字符之间！';

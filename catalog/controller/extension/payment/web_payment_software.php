@@ -49,7 +49,7 @@ class ControllerExtensionPaymentWebPaymentSoftware extends Controller {
 		$request .= '&CC_NUMBER=' . urlencode(str_replace(' ', '', $this->request->post['cc_number']));
 		$request .= '&CC_EXP=' . urlencode($this->request->post['cc_expire_date_month'] . substr($this->request->post['cc_expire_date_year'], 2));
 		$request .= '&CC_CVV=' . urlencode($this->request->post['cc_cvv2']);
-		$request .= '&CC_NAME=' . urlencode($order_info['payment_firstname'] . ' ' . $order_info['payment_lastname']);
+		$request .= '&CC_NAME=' . urlencode($order_info['payment_fullname'] . ' ' . $order_info['payment_lastname']);
 		$request .= '&CC_COMPANY=' . urlencode($order_info['payment_company']);
 		$request .= '&CC_ADDRESS=' . urlencode($order_info['payment_address_1']);
 		$request .= '&CC_CITY=' . urlencode($order_info['payment_city']);

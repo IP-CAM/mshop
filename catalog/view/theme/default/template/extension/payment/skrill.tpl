@@ -8,7 +8,7 @@
   <input type="hidden" name="language" value="<?php echo $language; ?>" />
   <input type="hidden" name="logo_url" value="<?php echo $logo; ?>" />
   <input type="hidden" name="pay_from_email" value="<?php echo $pay_from_email; ?>" />
-  <input type="hidden" name="firstname" value="<?php echo $firstname; ?>" />
+  <input type="hidden" name="fullname" value="<?php echo $fullname; ?>" />
   <input type="hidden" name="lastname" value="<?php echo $lastname; ?>" />
   <input type="hidden" name="address" value="<?php echo $address; ?>" />
   <input type="hidden" name="address2" value="<?php echo $address2; ?>" />

@@ -114,7 +114,7 @@ class ControllerExtensionPaymentSecureTradingPp extends Controller {
 					$shipping_country = $this->model_extension_payment_securetrading_pp->getCountry($this->request->post['customercountryiso2a']);
 					$payment_country = $this->model_extension_payment_securetrading_pp->getCountry($this->request->post['billingcountryiso2a']);
 
-					$order_info['payment_firstname'] = $this->request->post['billingfirstname'];
+					$order_info['payment_fullname'] = $this->request->post['billingfullname'];
 					$order_info['payment_lastname'] = $this->request->post['billinglastname'];
 					$order_info['payment_address_1'] = $this->request->post['billingpremise'];
 					$order_info['payment_address_2'] = $this->request->post['billingstreet'];
@@ -125,7 +125,7 @@ class ControllerExtensionPaymentSecureTradingPp extends Controller {
 					$order_info['payment_country_id'] = $payment_country['country_id'];
 					$order_info['payment_postcode'] = $this->request->post['billingpostcode'];
 
-					$order_info['shipping_firstname'] = $this->request->post['customerfirstname'];
+					$order_info['shipping_fullname'] = $this->request->post['customerfullname'];
 					$order_info['shipping_lastname'] = $this->request->post['customerlastname'];
 					$order_info['shipping_address_1'] = $this->request->post['customerpremise'];
 					$order_info['shipping_address_2'] = $this->request->post['customerstreet'];

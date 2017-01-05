@@ -208,7 +208,7 @@ class ControllerExtensionPaymentPPProIframe extends Controller {
 		$s_data['L_BUTTONVAR3'] = 'handling=0.00';
 
 		if ($this->cart->hasShipping()) {
-			$s_data['L_BUTTONVAR4'] = 'first_name=' . urlencode($order_info['shipping_firstname']);
+			$s_data['L_BUTTONVAR4'] = 'first_name=' . urlencode($order_info['shipping_fullname']);
 			$s_data['L_BUTTONVAR5'] = 'last_name=' . urlencode($order_info['shipping_lastname']);
 			$s_data['L_BUTTONVAR6'] = 'address1=' . urlencode($order_info['shipping_address_1']);
 			$s_data['L_BUTTONVAR7'] = 'address2=' . urlencode($order_info['shipping_address_2']);
@@ -217,7 +217,7 @@ class ControllerExtensionPaymentPPProIframe extends Controller {
 			$s_data['L_BUTTONVAR10'] = 'zip=' . urlencode($order_info['shipping_postcode']);
 			$s_data['L_BUTTONVAR11'] = 'country=' . urlencode($order_info['shipping_iso_code_2']);
 		} else {
-			$s_data['L_BUTTONVAR4'] = 'first_name=' . urlencode($order_info['payment_firstname']);
+			$s_data['L_BUTTONVAR4'] = 'first_name=' . urlencode($order_info['payment_fullname']);
 			$s_data['L_BUTTONVAR5'] = 'last_name=' . urlencode($order_info['payment_lastname']);
 			$s_data['L_BUTTONVAR6'] = 'address1=' . urlencode($order_info['payment_address_1']);
 			$s_data['L_BUTTONVAR7'] = 'address2=' . urlencode($order_info['payment_address_2']);
@@ -227,7 +227,7 @@ class ControllerExtensionPaymentPPProIframe extends Controller {
 			$s_data['L_BUTTONVAR11'] = 'country=' . urlencode($order_info['payment_iso_code_2']);
 		}
 
-		$s_data['L_BUTTONVAR12'] = 'billing_first_name=' . urlencode($order_info['payment_firstname']);
+		$s_data['L_BUTTONVAR12'] = 'billing_first_name=' . urlencode($order_info['payment_fullname']);
 		$s_data['L_BUTTONVAR13'] = 'billing_last_name=' . urlencode($order_info['payment_lastname']);
 		$s_data['L_BUTTONVAR14'] = 'billing_address1=' . urlencode($order_info['payment_address_1']);
 		$s_data['L_BUTTONVAR15'] = 'billing_address2=' . urlencode($order_info['payment_address_2']);

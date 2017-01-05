@@ -34,7 +34,7 @@ class ModelExtensionFraudFraudLabsPro extends Model {
 
 		$request['key'] = $this->config->get('fraudlabspro_key');
 		$request['ip'] = $ip;
-		$request['first_name'] = $data['firstname'];
+		$request['first_name'] = $data['fullname'];
 		$request['last_name'] = $data['lastname'];
 		$request['bill_city'] = $data['payment_city'];
 		$request['bill_state'] = $data['payment_zone'];

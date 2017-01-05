@@ -17,7 +17,7 @@ class ControllerExtensionPaymentPaypoint extends Controller {
 			$data['digest'] = '';
 		}
 
-		$data['bill_name'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+		$data['bill_name'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 		$data['bill_addr_1'] = $order_info['payment_address_1'];
 		$data['bill_addr_2'] = $order_info['payment_address_2'];
 		$data['bill_city'] = $order_info['payment_city'];
@@ -28,7 +28,7 @@ class ControllerExtensionPaymentPaypoint extends Controller {
 		$data['bill_email'] = $order_info['email'];
 
 		if ($this->cart->hasShipping()) {
-			$data['ship_name'] = $order_info['shipping_firstname'] . ' ' . $order_info['shipping_lastname'];
+			$data['ship_name'] = $order_info['shipping_fullname'] . ' ' . $order_info['shipping_lastname'];
 			$data['ship_addr_1'] = $order_info['shipping_address_1'];
 			$data['ship_addr_2'] = $order_info['shipping_address_2'];
 			$data['ship_city'] = $order_info['shipping_city'];

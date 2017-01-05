@@ -58,7 +58,7 @@ class ControllerExtensionPaymentEway extends Controller {
 
 		$request->Customer = new stdClass();
 		$request->Customer->Title = 'Mr.';
-		$request->Customer->FirstName = (string)substr($order_info['payment_firstname'], 0, 50);
+		$request->Customer->FullName = (string)substr($order_info['payment_fullname'], 0, 50);
 		$request->Customer->LastName = (string)substr($order_info['payment_lastname'], 0, 50);
 		$request->Customer->CompanyName = (string)substr($order_info['payment_company'], 0, 50);
 		$request->Customer->Street1 = (string)substr($order_info['payment_address_1'], 0, 50);
@@ -71,7 +71,7 @@ class ControllerExtensionPaymentEway extends Controller {
 		$request->Customer->Phone = (string)substr($order_info['telephone'], 0, 32);
 
 		$request->ShippingAddress = new stdClass();
-		$request->ShippingAddress->FirstName = (string)substr($order_info['shipping_firstname'], 0, 50);
+		$request->ShippingAddress->FullName = (string)substr($order_info['shipping_fullname'], 0, 50);
 		$request->ShippingAddress->LastName = (string)substr($order_info['shipping_lastname'], 0, 50);
 		$request->ShippingAddress->Street1 = (string)substr($order_info['shipping_address_1'], 0, 50);
 		$request->ShippingAddress->Street2 = (string)substr($order_info['shipping_address_2'], 0, 50);

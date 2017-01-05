@@ -73,12 +73,8 @@ class Affiliate {
 		return $this->affiliate_id;
 	}
 
-	public function getFirstName() {
-		return $this->firstname;
-	}
-
-	public function getLastName() {
-		return $this->lastname;
+	public function getFullName() {
+		return $this->fullname;
 	}
 
 	public function getEmail() {

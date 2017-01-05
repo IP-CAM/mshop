@@ -15,8 +15,7 @@ class ControllerApiPayment extends Controller {
 		} else {
 			// Add keys for missing post vars
 			$keys = array(
-				'firstname',
-				'lastname',
+				'fullname',
 				'company',
 				'address_1',
 				'address_2',
@@ -32,12 +31,8 @@ class ControllerApiPayment extends Controller {
 				}
 			}
 
-			if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
-				$json['error']['firstname'] = $this->language->get('error_firstname');
-			}
-
-			if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-				$json['error']['lastname'] = $this->language->get('error_lastname');
+			if ((utf8_strlen(trim($this->request->post['fullname'])) < 1) || (utf8_strlen(trim($this->request->post['fullname'])) > 32)) {
+				$json['error']['fullname'] = $this->language->get('error_fullname');
 			}
 
 			if ((utf8_strlen(trim($this->request->post['address_1'])) < 3) || (utf8_strlen(trim($this->request->post['address_1'])) > 128)) {
@@ -108,8 +103,7 @@ class ControllerApiPayment extends Controller {
 				}
 
 				$this->session->data['payment_address'] = array(
-					'firstname'      => $this->request->post['firstname'],
-					'lastname'       => $this->request->post['lastname'],
+					'fullname'      => $this->request->post['fullname'],
 					'company'        => $this->request->post['company'],
 					'address_1'      => $this->request->post['address_1'],
 					'address_2'      => $this->request->post['address_2'],

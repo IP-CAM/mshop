@@ -81,7 +81,7 @@ class ControllerExtensionPaymentWorldpay extends Controller {
 			"orderType" => $order_type,
 			"amount" => round($this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value'], false)*100),
 			"currencyCode" => $order_info['currency_code'],
-			"name" => $order_info['firstname'] . ' ' . $order_info['lastname'],
+			"name" => $order_info['fullname'] . ' ' . $order_info['lastname'],
 			"orderDescription" => $order_info['store_name'] . ' - ' . date('Y-m-d H:i:s'),
 			"customerOrderCode" => $order_info['order_id'],
 			"billingAddress" => $billing_address

@@ -93,7 +93,7 @@ class ModelExtensionPaymentFirstdataRemote extends Model {
 
 							$xml .= '<v1:Billing>';
 								$xml .= '<v1:CustomerID>' . (int)$this->customer->getId() . '</v1:CustomerID>';
-								$xml .= '<v1:Name>' . $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'] . '</v1:Name>';
+								$xml .= '<v1:Name>' . $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'] . '</v1:Name>';
 								$xml .= '<v1:Company>' . $order_info['payment_company'] . '</v1:Company>';
 								$xml .= '<v1:Address1>' . $order_info['payment_address_1'] . '</v1:Address1>';
 								$xml .= '<v1:Address2>' . $order_info['payment_address_2'] . '</v1:Address2>';
@@ -105,7 +105,7 @@ class ModelExtensionPaymentFirstdataRemote extends Model {
 							$xml .= '</v1:Billing>';
 
 							$xml .= '<v1:Shipping>';
-								$xml .= '<v1:Name>' . $order_info['shipping_firstname'] . ' ' . $order_info['shipping_lastname'] . '</v1:Name>';
+								$xml .= '<v1:Name>' . $order_info['shipping_fullname'] . ' ' . $order_info['shipping_lastname'] . '</v1:Name>';
 								$xml .= '<v1:Address1>' . $order_info['shipping_address_1'] . '</v1:Address1>';
 								$xml .= '<v1:Address2>' . $order_info['shipping_address_2'] . '</v1:Address2>';
 								$xml .= '<v1:City>' . $order_info['shipping_city'] . '</v1:City>';

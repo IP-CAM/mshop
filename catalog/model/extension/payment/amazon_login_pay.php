@@ -21,7 +21,7 @@ class ModelExtensionPaymentAmazonLoginPay extends Model {
 
 		$customer_group_info = $this->model_account_customer_group->getCustomerGroup($customer_group_id);
 
-		$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET customer_group_id = '" . (int)$customer_group_id . "', store_id = '" . (int)$this->config->get('config_store_id') . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', custom_field = '" . $this->db->escape(isset($data['custom_field']['account']) ? json_encode($data['custom_field']['account']) : '') . "', salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', status = '1', approved = '" . (int)!$customer_group_info['approval'] . "', date_added = NOW()");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET customer_group_id = '" . (int)$customer_group_id . "', store_id = '" . (int)$this->config->get('config_store_id') . "', fullname = '" . $this->db->escape($data['fullname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', custom_field = '" . $this->db->escape(isset($data['custom_field']['account']) ? json_encode($data['custom_field']['account']) : '') . "', salt = '" . $this->db->escape($salt = token(9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', status = '1', approved = '" . (int)!$customer_group_info['approval'] . "', date_added = NOW()");
 
 		$customer_id = $this->db->getLastId();
 
@@ -62,7 +62,7 @@ class ModelExtensionPaymentAmazonLoginPay extends Model {
 		if (in_array('account', (array)$this->config->get('config_mail_alert'))) {
 			$message  = $this->language->get('text_signup') . "\n\n";
 			$message .= $this->language->get('text_website') . ' ' . html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8') . "\n";
-			$message .= $this->language->get('text_firstname') . ' ' . $data['firstname'] . "\n";
+			$message .= $this->language->get('text_fullname') . ' ' . $data['fullname'] . "\n";
 			$message .= $this->language->get('text_lastname') . ' ' . $data['lastname'] . "\n";
 			$message .= $this->language->get('text_customer_group') . ' ' . $customer_group_info['name'] . "\n";
 			$message .= $this->language->get('text_email') . ' '  .  $data['email'] . "\n";
@@ -108,7 +108,7 @@ class ModelExtensionPaymentAmazonLoginPay extends Model {
 	}
 
 	public function addAddress($address) {
-		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "address` WHERE `firstname` = '" . $this->db->escape($address['firstname']) . "' AND `lastname` = '" . $this->db->escape($address['lastname']) . "' AND `address_1` = '" . $this->db->escape($address['address_1']) . "' AND `address_2` = '" . $this->db->escape($address['address_2']) . "' AND `postcode` = '" . $this->db->escape($address['postcode']) . "' AND `city` = '" . $this->db->escape($address['city']) . "' AND `zone_id` = '" . $this->db->escape($address['zone_id']) . "' AND `country_id` = '" . $this->db->escape($address['country_id']) . "'");
+		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "address` WHERE `fullname` = '" . $this->db->escape($address['fullname']) . "' AND `lastname` = '" . $this->db->escape($address['lastname']) . "' AND `address_1` = '" . $this->db->escape($address['address_1']) . "' AND `address_2` = '" . $this->db->escape($address['address_2']) . "' AND `postcode` = '" . $this->db->escape($address['postcode']) . "' AND `city` = '" . $this->db->escape($address['city']) . "' AND `zone_id` = '" . $this->db->escape($address['zone_id']) . "' AND `country_id` = '" . $this->db->escape($address['country_id']) . "'");
 		if (!$query->num_rows) {
 			$this->load->model('account/address');
 			$this->model_account_address->addAddress($this->session->data['lpa']['address']);
@@ -219,7 +219,7 @@ class ModelExtensionPaymentAmazonLoginPay extends Model {
 	}
 
 	public function editOrder($order_id, $order) {
-		$this->db->query("UPDATE `" . DB_PREFIX . "order` SET  payment_firstname = '" . $this->db->escape($order['payment_firstname']) . "', payment_lastname = '" . $this->db->escape($order['payment_lastname']) . "', payment_address_1 = '" . $this->db->escape($order['payment_address_1']) . "', payment_address_2 = '" . $this->db->escape($order['payment_address_2']) . "', payment_city = '" . $this->db->escape($order['payment_city']) . "', payment_zone = '" . $this->db->escape($order['payment_zone']) . "', payment_zone_id = " . (int)$order['payment_zone_id'] . ", payment_country = '" . $this->db->escape($order['payment_country']) . "', payment_country_id = " . (int)$order['payment_country_id'] . ", payment_postcode = '" . $this->db->escape($order['payment_postcode']) . "' WHERE order_id = " . (int)$order_id);
+		$this->db->query("UPDATE `" . DB_PREFIX . "order` SET  payment_fullname = '" . $this->db->escape($order['payment_fullname']) . "', payment_lastname = '" . $this->db->escape($order['payment_lastname']) . "', payment_address_1 = '" . $this->db->escape($order['payment_address_1']) . "', payment_address_2 = '" . $this->db->escape($order['payment_address_2']) . "', payment_city = '" . $this->db->escape($order['payment_city']) . "', payment_zone = '" . $this->db->escape($order['payment_zone']) . "', payment_zone_id = " . (int)$order['payment_zone_id'] . ", payment_country = '" . $this->db->escape($order['payment_country']) . "', payment_country_id = " . (int)$order['payment_country_id'] . ", payment_postcode = '" . $this->db->escape($order['payment_postcode']) . "' WHERE order_id = " . (int)$order_id);
 	}
 
 	public function updateStatus($amazon_id, $type, $status) {

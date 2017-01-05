@@ -100,7 +100,7 @@ class ModelExtensionShippingFedex extends Model {
 
 			$xml .= '				<ns1:Recipient>';
 			$xml .= '					<ns1:Contact>';
-			$xml .= '						<ns1:PersonName>' . $address['firstname'] . ' ' . $address['lastname'] . '</ns1:PersonName>';
+			$xml .= '						<ns1:PersonName>' . $address['fullname'] . ' ' . $address['lastname'] . '</ns1:PersonName>';
 			$xml .= '						<ns1:CompanyName>' . $address['company'] . '</ns1:CompanyName>';
 			$xml .= '						<ns1:PhoneNumber>' . $this->customer->getTelephone() . '</ns1:PhoneNumber>';
 			$xml .= '					</ns1:Contact>';

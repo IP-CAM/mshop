@@ -9,7 +9,7 @@
         <input type="hidden" name="orderreference" value="<?php echo $order_info['order_id']; ?>" />
         <input type="hidden" name="settlestatus" value="<?php echo $settle_status; ?>" />
         <input type="hidden" name="settleduedate" value="<?php echo $settle_due_date; ?>" />
-        <input type="hidden" name="billingfirstname" value="<?php echo $order_info['payment_firstname']; ?>" />
+        <input type="hidden" name="billingfullname" value="<?php echo $order_info['payment_fullname']; ?>" />
         <input type="hidden" name="billinglastname" value="<?php echo $order_info['payment_lastname']; ?>" />
         <input type="hidden" name="billingpremise" value="<?php echo $order_info['payment_address_1']; ?>" />
         <input type="hidden" name="billingstreet" value="<?php echo $order_info['payment_address_2']; ?>" />
@@ -18,7 +18,7 @@
         <input type="hidden" name="billingpostcode" value="<?php echo $order_info['payment_postcode']; ?>" />
         <input type="hidden" name="billingcountryiso2a" value="<?php echo $payment_country['iso_code_2']; ?>" />
         <input type="hidden" name="billingemail" value="<?php echo $order_info['email']; ?>" />
-		<input type="hidden" name="customerfirstname" value="<?php echo $order_info['shipping_firstname']; ?>" />
+		<input type="hidden" name="customerfullname" value="<?php echo $order_info['shipping_fullname']; ?>" />
 	    <input type="hidden" name="customerlastname" value="<?php echo $order_info['shipping_lastname']; ?>" />
         <input type="hidden" name="customerpremise" value="<?php echo $order_info['shipping_address_1']; ?>" />
         <input type="hidden" name="customerstreet" value="<?php echo $order_info['shipping_address_2']; ?>" />

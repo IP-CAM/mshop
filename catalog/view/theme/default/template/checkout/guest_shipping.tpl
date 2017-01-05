@@ -1,14 +1,8 @@
 <form class="form-horizontal">
   <div class="form-group required">
-    <label class="col-sm-2 control-label" for="input-shipping-firstname"><?php echo $entry_firstname; ?></label>
+    <label class="col-sm-2 control-label" for="input-shipping-fullname"><?php echo $entry_fullname; ?></label>
     <div class="col-sm-10">
-      <input type="text" name="firstname" value="<?php echo $firstname; ?>" placeholder="<?php echo $entry_firstname; ?>" id="input-shipping-firstname" class="form-control" />
-    </div>
-  </div>
-  <div class="form-group required">
-    <label class="col-sm-2 control-label" for="input-shipping-lastname"><?php echo $entry_lastname; ?></label>
-    <div class="col-sm-10">
-      <input type="text" name="lastname" value="<?php echo $lastname; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-shipping-lastname" class="form-control" />
+      <input type="text" name="fullname" value="<?php echo $fullname; ?>" placeholder="<?php echo $entry_fullname; ?>" id="input-shipping-fullname" class="form-control" />
     </div>
   </div>
   <div class="form-group">

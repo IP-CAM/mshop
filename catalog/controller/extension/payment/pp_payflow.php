@@ -22,7 +22,7 @@ class ControllerExtensionPaymentPPPayflow extends Controller {
 
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
 
-		$data['owner'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+		$data['owner'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 
 		$data['cards'] = array();
 

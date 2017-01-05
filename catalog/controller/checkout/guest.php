@@ -10,8 +10,7 @@ class ControllerCheckoutGuest extends Controller {
 		$data['text_your_address'] = $this->language->get('text_your_address');
 		$data['text_loading'] = $this->language->get('text_loading');
 
-		$data['entry_firstname'] = $this->language->get('entry_firstname');
-		$data['entry_lastname'] = $this->language->get('entry_lastname');
+		$data['entry_fullname'] = $this->language->get('entry_fullname');
 		$data['entry_email'] = $this->language->get('entry_email');
 		$data['entry_telephone'] = $this->language->get('entry_telephone');
 		$data['entry_fax'] = $this->language->get('entry_fax');
@@ -48,16 +47,10 @@ class ControllerCheckoutGuest extends Controller {
 			$data['customer_group_id'] = $this->config->get('config_customer_group_id');
 		}
 
-		if (isset($this->session->data['guest']['firstname'])) {
-			$data['firstname'] = $this->session->data['guest']['firstname'];
+		if (isset($this->session->data['guest']['fullname'])) {
+			$data['fullname'] = $this->session->data['guest']['fullname'];
 		} else {
-			$data['firstname'] = '';
-		}
-
-		if (isset($this->session->data['guest']['lastname'])) {
-			$data['lastname'] = $this->session->data['guest']['lastname'];
-		} else {
-			$data['lastname'] = '';
+			$data['fullname'] = '';
 		}
 
 		if (isset($this->session->data['guest']['email'])) {
@@ -192,12 +185,8 @@ class ControllerCheckoutGuest extends Controller {
 		}
 
 		if (!$json) {
-			if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
-				$json['error']['firstname'] = $this->language->get('error_firstname');
-			}
-
-			if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-				$json['error']['lastname'] = $this->language->get('error_lastname');
+			if ((utf8_strlen(trim($this->request->post['fullname'])) < 1) || (utf8_strlen(trim($this->request->post['fullname'])) > 32)) {
+				$json['error']['fullname'] = $this->language->get('error_fullname');
 			}
 
 			if ((utf8_strlen($this->request->post['email']) > 96) || !filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL)) {
@@ -266,8 +255,7 @@ class ControllerCheckoutGuest extends Controller {
 			$this->session->data['account'] = 'guest';
 
 			$this->session->data['guest']['customer_group_id'] = $customer_group_id;
-			$this->session->data['guest']['firstname'] = $this->request->post['firstname'];
-			$this->session->data['guest']['lastname'] = $this->request->post['lastname'];
+			$this->session->data['guest']['fullname'] = $this->request->post['fullname'];
 			$this->session->data['guest']['email'] = $this->request->post['email'];
 			$this->session->data['guest']['telephone'] = $this->request->post['telephone'];
 			$this->session->data['guest']['fax'] = $this->request->post['fax'];
@@ -278,8 +266,7 @@ class ControllerCheckoutGuest extends Controller {
 				$this->session->data['guest']['custom_field'] = array();
 			}
 
-			$this->session->data['payment_address']['firstname'] = $this->request->post['firstname'];
-			$this->session->data['payment_address']['lastname'] = $this->request->post['lastname'];
+			$this->session->data['payment_address']['fullname'] = $this->request->post['fullname'];
 			$this->session->data['payment_address']['company'] = $this->request->post['company'];
 			$this->session->data['payment_address']['address_1'] = $this->request->post['address_1'];
 			$this->session->data['payment_address']['address_2'] = $this->request->post['address_2'];
@@ -329,8 +316,7 @@ class ControllerCheckoutGuest extends Controller {
 			}
 
 			if ($this->session->data['guest']['shipping_address']) {
-				$this->session->data['shipping_address']['firstname'] = $this->request->post['firstname'];
-				$this->session->data['shipping_address']['lastname'] = $this->request->post['lastname'];
+				$this->session->data['shipping_address']['fullname'] = $this->request->post['fullname'];
 				$this->session->data['shipping_address']['company'] = $this->request->post['company'];
 				$this->session->data['shipping_address']['address_1'] = $this->request->post['address_1'];
 				$this->session->data['shipping_address']['address_2'] = $this->request->post['address_2'];

@@ -12,8 +12,7 @@ class ControllerCheckoutRegister extends Controller {
 		$data['text_loading'] = $this->language->get('text_loading');
 
 		$data['entry_customer_group'] = $this->language->get('entry_customer_group');
-		$data['entry_firstname'] = $this->language->get('entry_firstname');
-		$data['entry_lastname'] = $this->language->get('entry_lastname');
+		$data['entry_fullname'] = $this->language->get('entry_fullname');
 		$data['entry_email'] = $this->language->get('entry_email');
 		$data['entry_telephone'] = $this->language->get('entry_telephone');
 		$data['entry_fax'] = $this->language->get('entry_fax');
@@ -138,12 +137,8 @@ class ControllerCheckoutRegister extends Controller {
 		if (!$json) {
 			$this->load->model('account/customer');
 
-			if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
-				$json['error']['firstname'] = $this->language->get('error_firstname');
-			}
-
-			if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-				$json['error']['lastname'] = $this->language->get('error_lastname');
+			if ((utf8_strlen(trim($this->request->post['fullname'])) < 1) || (utf8_strlen(trim($this->request->post['fullname'])) > 32)) {
+				$json['error']['fullname'] = $this->language->get('error_fullname');
 			}
 
 			if ((utf8_strlen($this->request->post['email']) > 96) || !filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL)) {
@@ -269,7 +264,7 @@ class ControllerCheckoutRegister extends Controller {
 
 				$activity_data = array(
 					'customer_id' => $customer_id,
-					'name'        => $this->request->post['firstname'] . ' ' . $this->request->post['lastname']
+					'name'        => $this->request->post['fullname'] . ' ' . $this->request->post['lastname']
 				);
 
 				$this->model_account_activity->addActivity('register', $activity_data);

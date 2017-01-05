@@ -46,7 +46,7 @@ class ControllerExtensionPaymentFirstdata extends Controller {
 		$data['version'] = 'OPENCART-C-' . VERSION;
 
 		$data['bcompany'] = $order_info['payment_company'];
-		$data['bname'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+		$data['bname'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 		$data['baddr1'] = substr($order_info['payment_address_1'], 0, 30);
 		$data['baddr2'] = substr($order_info['payment_address_2'], 0, 30);
 		$data['bcity'] = substr($order_info['payment_city'], 0, 30);
@@ -56,7 +56,7 @@ class ControllerExtensionPaymentFirstdata extends Controller {
 		$data['email'] = $order_info['email'];
 
 		if ($this->cart->hasShipping()) {
-			$data['sname'] = $order_info['shipping_firstname'] . ' ' . $order_info['shipping_lastname'];
+			$data['sname'] = $order_info['shipping_fullname'] . ' ' . $order_info['shipping_lastname'];
 			$data['saddr1'] = substr($order_info['shipping_address_1'], 0, 30);
 			$data['saddr2'] = substr($order_info['shipping_address_2'], 0, 30);
 			$data['scity'] = substr($order_info['shipping_city'], 0, 30);
@@ -64,7 +64,7 @@ class ControllerExtensionPaymentFirstdata extends Controller {
 			$data['scountry'] = $order_info['shipping_iso_code_2'];
 			$data['szip'] = $order_info['shipping_postcode'];
 		} else {
-			$data['sname'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+			$data['sname'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 			$data['saddr1'] = substr($order_info['payment_address_1'], 0, 30);
 			$data['saddr2'] = substr($order_info['payment_address_2'], 0, 30);
 			$data['scity'] = substr($order_info['payment_city'], 0, 30);

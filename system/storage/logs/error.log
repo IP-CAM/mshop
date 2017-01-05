@@ -1,0 +1,4 @@
+2017-01-05 16:57:05 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
+2017-01-05 16:57:14 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
+2017-01-05 16:57:16 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
+2017-01-05 16:57:51 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98

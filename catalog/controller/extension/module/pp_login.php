@@ -111,7 +111,7 @@ class ControllerExtensionModulePPLogin extends Controller {
 
 				$data = array(
 					'customer_group_id' => (int)$customer_group_id,
-					'firstname'         => $user->given_name,
+					'fullname'         => $user->given_name,
 					'lastname'          => $user->family_name,
 					'email'             => $user->email,
 					'telephone'         => $user->phone_number,
@@ -166,7 +166,7 @@ class ControllerExtensionModulePPLogin extends Controller {
 
 			$activity_data = array(
 				'customer_id' => $this->customer->getId(),
-				'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+				'name'        => $this->customer->getFullName() . ' ' . $this->customer->getLastName()
 			);
 
 			$this->model_account_activity->addActivity('login', $activity_data);

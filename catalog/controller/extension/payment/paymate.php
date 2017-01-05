@@ -20,7 +20,7 @@ class ControllerExtensionPaymentPaymate extends Controller {
 		$data['ref'] = $order_info['order_id'];
 
 		$data['pmt_sender_email'] = $order_info['email'];
-		$data['pmt_contact_firstname'] = html_entity_decode($order_info['payment_firstname'], ENT_QUOTES, 'UTF-8');
+		$data['pmt_contact_fullname'] = html_entity_decode($order_info['payment_fullname'], ENT_QUOTES, 'UTF-8');
 		$data['pmt_contact_surname'] = html_entity_decode($order_info['payment_lastname'], ENT_QUOTES, 'UTF-8');
 		$data['pmt_contact_phone'] = $order_info['telephone'];
 		$data['pmt_country'] = $order_info['payment_iso_code_2'];

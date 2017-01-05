@@ -145,7 +145,7 @@ class ControllerExtensionOpenbayAmazonus extends Controller {
 		} else {
 			/* Add a new customer */
 			$customer_data = array(
-				'firstname' => (string)$order_xml->Shipping->Name,
+				'fullname' => (string)$order_xml->Shipping->Name,
 				'lastname' => '',
 				'email' => (string)$order_xml->Payment->Email,
 				'telephone' => (string)$order_xml->Shipping->Phone,
@@ -158,7 +158,7 @@ class ControllerExtensionOpenbayAmazonus extends Controller {
 
 			$this->db->query("
 				INSERT INTO " . DB_PREFIX . "customer
-				SET firstname = '" . $this->db->escape($customer_data['firstname']) . "',
+				SET fullname = '" . $this->db->escape($customer_data['fullname']) . "',
 					lastname = '" . $this->db->escape($customer_data['lastname']) . "',
 					email = '" . $this->db->escape($customer_data['email']) . "',
 					telephone = '" . $this->db->escape($customer_data['telephone']) . "',
@@ -172,7 +172,7 @@ class ControllerExtensionOpenbayAmazonus extends Controller {
 			$customer_id = $this->db->getLastId();
 		}
 
-		$shipping_first_name = (string)$order_xml->Shipping->FirstName;
+		$shipping_first_name = (string)$order_xml->Shipping->FullName;
 		$shipping_last_name = (string)$order_xml->Shipping->LastName;
 
 		if (empty($shipping_first_name) || empty($shipping_last_name)) {
@@ -187,12 +187,12 @@ class ControllerExtensionOpenbayAmazonus extends Controller {
 			'store_url' => $this->config->get('config_url'),
 			'customer_id' => (int)$customer_id,
 			'customer_group_id' => $this->config->get('openbay_amazonus_order_customer_group'),
-			'firstname' => $shipping_first_name,
+			'fullname' => $shipping_first_name,
 			'lastname' => $shipping_last_name,
 			'email' => (string)$order_xml->Payment->Email,
 			'telephone' => (string)$order_xml->Shipping->Phone,
 			'fax' => '',
-			'shipping_firstname' => $shipping_first_name,
+			'shipping_fullname' => $shipping_first_name,
 			'shipping_lastname' => $shipping_last_name,
 			'shipping_company' => '',
 			'shipping_address_1' => (string)$order_xml->Shipping->AddressLine1,
@@ -206,7 +206,7 @@ class ControllerExtensionOpenbayAmazonus extends Controller {
 			'shipping_address_format' => '',
 			'shipping_method' => (string)$order_xml->Shipping->Type,
 			'shipping_code' => 'amazonus.' . (string)$order_xml->Shipping->Type,
-			'payment_firstname' => $shipping_first_name,
+			'payment_fullname' => $shipping_first_name,
 			'payment_lastname' => $shipping_last_name,
 			'payment_company' => '',
 			'payment_address_1' => (string)$order_xml->Shipping->AddressLine1,

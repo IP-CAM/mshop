@@ -270,7 +270,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 
 			$order_data['customer_id'] = $this->customer->getId();
 			$order_data['customer_group_id'] = $customer_info['customer_group_id'];
-			$order_data['firstname'] = $customer_info['firstname'];
+			$order_data['fullname'] = $customer_info['fullname'];
 			$order_data['lastname'] = $customer_info['lastname'];
 			$order_data['email'] = $customer_info['email'];
 			$order_data['telephone'] = $customer_info['telephone'];
@@ -279,7 +279,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 		} elseif (isset($this->session->data['guest'])) {
 			$order_data['customer_id'] = 0;
 			$order_data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
-			$order_data['firstname'] = $this->session->data['guest']['firstname'];
+			$order_data['fullname'] = $this->session->data['guest']['fullname'];
 			$order_data['lastname'] = $this->session->data['guest']['lastname'];
 			$order_data['email'] = $this->session->data['guest']['email'];
 			$order_data['telephone'] = $this->session->data['guest']['telephone'];
@@ -303,7 +303,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 			$order_data['lpa_free_shipping'] = '0';
 		}
 
-		$order_data['payment_firstname'] = $order_data['firstname'];
+		$order_data['payment_fullname'] = $order_data['fullname'];
 		$order_data['payment_lastname'] = $order_data['lastname'];
 		$order_data['payment_company'] = $address['company'];
 		$order_data['payment_company_id'] = $address['company_id'];
@@ -321,7 +321,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 		$order_data['payment_method'] = $this->language->get('text_lpa');
 		$order_data['payment_code'] = 'amazon_login_pay';
 
-		$order_data['shipping_firstname'] = $address['firstname'];
+		$order_data['shipping_fullname'] = $address['fullname'];
 		$order_data['shipping_lastname'] = $address['lastname'];
 		$order_data['shipping_company'] = $address['company'];
 		$order_data['shipping_address_1'] = $address['address_1'];
@@ -697,7 +697,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 			$first_name = implode(' ', $full_name);
 
 			$address = array(
-				'firstname' => $first_name,
+				'fullname' => $first_name,
 				'lastname' => $last_name,
 				'company' => '',
 				'company_id' => '',
@@ -833,7 +833,7 @@ class ControllerExtensionPaymentAmazonLoginPay extends Controller {
 			$country_id = (int)$result['country_id'];
 		}
 
-		$order_info['payment_firstname'] = $first_name;
+		$order_info['payment_fullname'] = $first_name;
 		$order_info['payment_lastname'] = $last_name;
 		$order_info['payment_address_1'] = $address_1;
 		$order_info['payment_address_2'] = $address_2;

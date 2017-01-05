@@ -10,7 +10,7 @@ $_['text_your_address'] = '我的地址';
 $_['text_success']      = '成功 您的账户已经更新。';
 
 // Entry
-$_['entry_firstname']   = '您的名字';
+$_['entry_fullname']   = '您的名字';
 $_['entry_lastname']    = '您的姓氏';
 $_['entry_email']       = '电子邮箱';
 $_['entry_telephone']   = '联系电话';
@@ -26,7 +26,7 @@ $_['entry_zone']        = '地区/省份';
 
 // Error
 $_['error_exists']         = '警告 该邮箱地址已被注册、请换一个电子邮箱！';
-$_['error_firstname']      = '名字必须在 1 至 32 字符之间！';
+$_['error_fullname']      = '名字必须在 1 至 32 字符之间！';
 $_['error_lastname']       = '姓氏必须在 1 至 32 字符之间！';
 $_['error_email']          = '无效的邮箱地址！';
 $_['error_telephone']      = '电话号码必须为 3 至 32 字节！';

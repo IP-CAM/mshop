@@ -15,7 +15,7 @@ $_['text_agree']           = '我已经阅读并同意 <a href="%s" class="agree
 
 // Entry
 $_['entry_customer_group'] = '公司类型';
-$_['entry_firstname']      = '您的名字';
+$_['entry_fullname']      = '您的名字';
 $_['entry_lastname']       = '您的姓氏';
 $_['entry_email']          = '电子邮箱';
 $_['entry_telephone']      = '联系电话';
@@ -33,7 +33,7 @@ $_['entry_confirm']        = '确认密码';
 
 // Error
 $_['error_exists']         = '警告： 该邮箱地址已被注册、请换一个电子邮箱！';
-$_['error_firstname']      = '名字必须在1到32字符之间！';
+$_['error_fullname']      = '名字必须在1到32字符之间！';
 $_['error_lastname']       = '姓氏必须在1到32字符之间！';
 $_['error_email']          = '无效的邮箱地址！';
 $_['error_telephone']      = '电话号码必须为3到32字节！';

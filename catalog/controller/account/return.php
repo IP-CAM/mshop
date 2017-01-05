@@ -180,7 +180,6 @@ class ControllerAccountReturn extends Controller {
 			$data['date_ordered'] = date($this->language->get('date_format_short'), strtotime($return_info['date_ordered']));
 			$data['date_added'] = date($this->language->get('date_format_short'), strtotime($return_info['date_added']));
 			$data['fullname'] = $return_info['fullname'];
-			$data['lastname'] = $return_info['lastname'];
 			$data['email'] = $return_info['email'];
 			$data['telephone'] = $return_info['telephone'];
 			$data['product'] = $return_info['product'];

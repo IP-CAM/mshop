@@ -63,7 +63,7 @@ class ControllerExtensionPaymentPerpetualPayments extends Controller {
 			'card_cvv'      => $this->request->post['cc_cvv2'],
 			'card_start'    => $this->request->post['cc_start_date_month'] . substr($this->request->post['cc_start_date_year'], 2),
 			'card_expiry'   => $this->request->post['cc_expire_date_month'] . substr($this->request->post['cc_expire_date_year'], 2),
-			'cust_name'     => $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'],
+			'cust_name'     => $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'],
 			'cust_address'  => $order_info['payment_address_1'] . ' ' . $order_info['payment_city'],
 			'cust_country'  => $order_info['payment_iso_code_2'],
 			'cust_postcode' => $order_info['payment_postcode'],

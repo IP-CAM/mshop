@@ -39,7 +39,7 @@ class ControllerExtensionPaymentPPPayflowIframe extends Controller {
 			'CURRENCY'          => $order_info['currency_code'],
 			'CREATESECURETOKEN' => 'Y',
 			'SECURETOKENID'     => $secure_token_id,
-			'BILLTOFIRSTNAME'   => $order_info['payment_firstname'],
+			'BILLTOFULLNAME'   => $order_info['payment_fullname'],
 			'BILLTOLASTNAME'    => $order_info['payment_lastname'],
 			'BILLTOSTREET'      => trim($order_info['payment_address_1'] . ' ' . $order_info['payment_address_2']),
 			'BILLTOCITY'        => $order_info['payment_city'],
@@ -49,7 +49,7 @@ class ControllerExtensionPaymentPPPayflowIframe extends Controller {
 		);
 
 		if ($shipping_country) {
-			$url_params['SHIPTOFIRSTNAME'] = $order_info['shipping_firstname'];
+			$url_params['SHIPTOFULLNAME'] = $order_info['shipping_fullname'];
 			$url_params['SHIPTOLASTNAME'] = $order_info['shipping_lastname'];
 			$url_params['SHIPTOSTREET'] = trim($order_info['shipping_address_1'] . ' ' . $order_info['shipping_address_2']);
 			$url_params['SHIPTOCITY'] = $order_info['shipping_city'];

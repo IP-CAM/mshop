@@ -5,7 +5,7 @@
   <input type="hidden" name="currency" value="<?php echo $currency; ?>" />
   <input type="hidden" name="ref" value="<?php echo $ref; ?>" />
   <input type="hidden" name="pmt_sender_email" value="<?php echo $pmt_sender_email; ?>" />
-  <input type="hidden" name="pmt_contact_firstname" value="<?php echo $pmt_contact_firstname; ?>" />
+  <input type="hidden" name="pmt_contact_fullname" value="<?php echo $pmt_contact_fullname; ?>" />
   <input type="hidden" name="pmt_contact_surname" value="<?php echo $pmt_contact_surname; ?>" />
   <input type="hidden" name="pmt_contact_phone" value="<?php echo $pmt_contact_phone; ?>" />
   <input type="hidden" name="pmt_country" value="<?php echo $pmt_country; ?>" />

@@ -423,7 +423,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 				if ($zone || $zones) {
 					$this->session->data['shipping_address'] = array(
 						'address_id'	 => null,
-						'firstname'		 => utf8_substr($this->request->post['given_name'], 0, 32),
+						'fullname'		 => utf8_substr($this->request->post['given_name'], 0, 32),
 						'lastname'		 => utf8_substr($this->request->post['family_name'], 0, 32),
 						'company'		 => null,
 						'address_1'		 => utf8_substr($this->request->post['street_address'], 0, 128),
@@ -616,7 +616,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 				if ($zone || $zones) {
 					$this->session->data['shipping_address'] = array(
 						'address_id'	 => null,
-						'firstname'		 => null,
+						'fullname'		 => null,
 						'lastname'		 => null,
 						'company'		 => null,
 						'address_1'		 => null,
@@ -945,10 +945,10 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 			}
 
 			$order_data = array(
-				'firstname'				  => utf8_substr($request->billing_address->given_name, 0, 32),
+				'fullname'				  => utf8_substr($request->billing_address->given_name, 0, 32),
 				'lastname'				  => utf8_substr($request->billing_address->family_name, 0, 32),
 				'telephone'				  => utf8_substr($request->billing_address->phone, 0, 32),
-				'payment_firstname'		  => utf8_substr($request->billing_address->given_name, 0, 32),
+				'payment_fullname'		  => utf8_substr($request->billing_address->given_name, 0, 32),
 				'payment_lastname'		  => utf8_substr($request->billing_address->family_name, 0, 32),
 				'payment_address_1'		  => utf8_substr($request->billing_address->street_address, 0, 128),
 				'payment_address_2'		  => (isset($request->billing_address->street_address2) ? utf8_substr($request->billing_address->street_address2, 0, 128) : ''),
@@ -959,7 +959,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 				'payment_country'		  => ($payment_country_info ? $payment_country_info['name'] : ''),
 				'payment_country_id'	  => ($payment_country_info ? $payment_country_info['country_id'] : ''),
 				'payment_address_format'  => ($payment_country_info ? $payment_country_info['address_format'] : ''),
-				'shipping_firstname'	  => utf8_substr($request->shipping_address->given_name, 0, 32),
+				'shipping_fullname'	  => utf8_substr($request->shipping_address->given_name, 0, 32),
 				'shipping_lastname'		  => utf8_substr($request->shipping_address->family_name, 0, 32),
 				'shipping_address_1'	  => utf8_substr($request->shipping_address->street_address, 0, 128),
 				'shipping_address_2'	  => (isset($request->shipping_address->street_address2) ? utf8_substr($request->shipping_address->street_address2, 0, 128) : ''),
@@ -999,14 +999,14 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 				if ($this->customer->isLogged()) {
 					$activity_data = array(
 						'customer_id' => $this->customer->getId(),
-						'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName(),
+						'name'        => $this->customer->getFullName() . ' ' . $this->customer->getLastName(),
 						'order_id'    => $this->session->data['order_id']
 					);
 
 					$this->model_account_activity->addActivity('order_account', $activity_data);
 				} else {
 					$activity_data = array(
-						'name'     => $this->session->data['guest']['firstname'] . ' ' . $this->session->data['guest']['lastname'],
+						'name'     => $this->session->data['guest']['fullname'] . ' ' . $this->session->data['guest']['lastname'],
 						'order_id' => $this->session->data['order_id']
 					);
 
@@ -1156,10 +1156,10 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 								}
 
 								$order_data = array(
-									'firstname'				  => utf8_substr($order['billing_address']['given_name'], 0, 32),
+									'fullname'				  => utf8_substr($order['billing_address']['given_name'], 0, 32),
 									'lastname'				  => utf8_substr($order['billing_address']['family_name'], 0, 32),
 									'telephone'				  => utf8_substr($order['billing_address']['phone'], 0, 32),
-									'payment_firstname'		  => utf8_substr($order['billing_address']['given_name'], 0, 32),
+									'payment_fullname'		  => utf8_substr($order['billing_address']['given_name'], 0, 32),
 									'payment_lastname'		  => utf8_substr($order['billing_address']['family_name'], 0, 32),
 									'payment_address_1'		  => utf8_substr($order['billing_address']['street_address'], 0, 128),
 									'payment_address_2'		  => (isset($order['billing_address']['street_address2']) ? utf8_substr($order['billing_address']['street_address2'], 0, 128) : ''),
@@ -1170,7 +1170,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 									'payment_country'		  => ($payment_country_info ? $payment_country_info['name'] : ''),
 									'payment_country_id'	  => ($payment_country_info ? $payment_country_info['country_id'] : ''),
 									'payment_address_format'  => ($payment_country_info ? $payment_country_info['address_format'] : ''),
-									'shipping_firstname'	  => utf8_substr($order['shipping_address']['given_name'], 0, 32),
+									'shipping_fullname'	  => utf8_substr($order['shipping_address']['given_name'], 0, 32),
 									'shipping_lastname'		  => utf8_substr($order['shipping_address']['family_name'], 0, 32),
 									'shipping_address_1'	  => utf8_substr($order['shipping_address']['street_address'], 0, 128),
 									'shipping_address_2'	  => (isset($order['shipping_address']['street_address2']) ? utf8_substr($order['shipping_address']['street_address2'], 0, 128) : ''),
@@ -1214,7 +1214,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 
 			$this->session->data['payment_address'] = array(
 				'address_id'	 => null,
-				'firstname'		 => null,
+				'fullname'		 => null,
 				'lastname'		 => null,
 				'company'		 => null,
 				'address_1'		 => null,
@@ -1252,7 +1252,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 
 			$this->session->data['shipping_address'] = array(
 				'address_id'	 => null,
-				'firstname'		 => null,
+				'fullname'		 => null,
 				'lastname'		 => null,
 				'company'		 => null,
 				'address_1'		 => null,
@@ -1318,7 +1318,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 		if (!$this->customer->isLogged()) {
 			$this->session->data['guest'] = array(
 				'customer_group_id' => $this->config->get('config_customer_group_id'),
-				'firstname'			=> '',
+				'fullname'			=> '',
 				'lastname'			=> '',
 				'email'				=> '',
 				'telephone'			=> '',
@@ -1353,7 +1353,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 
 			$order_data['customer_id'] = $this->customer->getId();
 			$order_data['customer_group_id'] = $customer_info['customer_group_id'];
-			$order_data['firstname'] = $customer_info['firstname'];
+			$order_data['fullname'] = $customer_info['fullname'];
 			$order_data['lastname'] = $customer_info['lastname'];
 			$order_data['email'] = $customer_info['email'];
 			$order_data['telephone'] = $customer_info['telephone'];
@@ -1362,7 +1362,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 		} elseif (isset($this->session->data['guest'])) {
 			$order_data['customer_id'] = 0;
 			$order_data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
-			$order_data['firstname'] = $this->session->data['guest']['firstname'];
+			$order_data['fullname'] = $this->session->data['guest']['fullname'];
 			$order_data['lastname'] = $this->session->data['guest']['lastname'];
 			$order_data['email'] = $this->session->data['guest']['email'];
 			$order_data['telephone'] = $this->session->data['guest']['telephone'];
@@ -1370,7 +1370,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 			$order_data['custom_field'] = $this->session->data['guest']['custom_field'];
 		}
 
-		$order_data['payment_firstname'] = $this->session->data['payment_address']['firstname'];
+		$order_data['payment_fullname'] = $this->session->data['payment_address']['fullname'];
 		$order_data['payment_lastname'] = $this->session->data['payment_address']['lastname'];
 		$order_data['payment_company'] = $this->session->data['payment_address']['company'];
 		$order_data['payment_address_1'] = $this->session->data['payment_address']['address_1'];
@@ -1397,7 +1397,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 		}
 
 		if ($this->cart->hasShipping()) {
-			$order_data['shipping_firstname'] = $this->session->data['shipping_address']['firstname'];
+			$order_data['shipping_fullname'] = $this->session->data['shipping_address']['fullname'];
 			$order_data['shipping_lastname'] = $this->session->data['shipping_address']['lastname'];
 			$order_data['shipping_company'] = $this->session->data['shipping_address']['company'];
 			$order_data['shipping_address_1'] = $this->session->data['shipping_address']['address_1'];
@@ -1423,7 +1423,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 				$order_data['shipping_code'] = '';
 			}
 		} else {
-			$order_data['shipping_firstname'] = '';
+			$order_data['shipping_fullname'] = '';
 			$order_data['shipping_lastname'] = '';
 			$order_data['shipping_company'] = '';
 			$order_data['shipping_address_1'] = '';
@@ -1630,7 +1630,7 @@ class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 
 		// Billing Address
 		$klarna_order_data['billing_address'] = array(
-			'given_name'	  => $this->session->data['shipping_address']['firstname'],
+			'given_name'	  => $this->session->data['shipping_address']['fullname'],
 			'family_name'	  => $this->session->data['shipping_address']['lastname'],
 			'email'			  => ($this->customer->isLogged() ? $this->customer->getEmail() : null),
 			'street_address'  => $this->session->data['shipping_address']['address_1'],

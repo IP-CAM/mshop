@@ -9,8 +9,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 		$data['text_none'] = $this->language->get('text_none');
 		$data['text_loading'] = $this->language->get('text_loading');
 
-		$data['entry_firstname'] = $this->language->get('entry_firstname');
-		$data['entry_lastname'] = $this->language->get('entry_lastname');
+		$data['entry_fullname'] = $this->language->get('entry_fullname');
 		$data['entry_company'] = $this->language->get('entry_company');
 		$data['entry_address_1'] = $this->language->get('entry_address_1');
 		$data['entry_address_2'] = $this->language->get('entry_address_2');
@@ -127,14 +126,9 @@ class ControllerCheckoutShippingAddress extends Controller {
 					unset($this->session->data['shipping_methods']);
 				}
 			} else {
-				if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
-					$json['error']['firstname'] = $this->language->get('error_firstname');
+				if ((utf8_strlen(trim($this->request->post['fullname'])) < 1) || (utf8_strlen(trim($this->request->post['fullname'])) > 32)) {
+					$json['error']['fullname'] = $this->language->get('error_fullname');
 				}
-
-				if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-					$json['error']['lastname'] = $this->language->get('error_lastname');
-				}
-
 				if ((utf8_strlen(trim($this->request->post['address_1'])) < 3) || (utf8_strlen(trim($this->request->post['address_1'])) > 128)) {
 					$json['error']['address_1'] = $this->language->get('error_address_1');
 				}
@@ -188,7 +182,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 
 						$activity_data = array(
 							'customer_id' => $this->customer->getId(),
-							'name'        => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+							'name'        => $this->customer->getFullName() . ' ' . $this->customer->getLastName()
 						);
 
 						$this->model_account_activity->addActivity('address_add', $activity_data);

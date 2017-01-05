@@ -26,7 +26,7 @@ class ControllerExtensionPaymentNochex extends Controller {
 		$data['order_id'] = $this->session->data['order_id'];
 		$data['description'] = $this->config->get('config_name');
 
-		$data['billing_fullname'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+		$data['billing_fullname'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 
 		if ($order_info['payment_address_2']) {
 			$data['billing_address']  = $order_info['payment_address_1'] . "\r\n" . $order_info['payment_address_2'] . "\r\n" . $order_info['payment_city'] . "\r\n" . $order_info['payment_zone'] . "\r\n";
@@ -37,7 +37,7 @@ class ControllerExtensionPaymentNochex extends Controller {
 		$data['billing_postcode'] = $order_info['payment_postcode'];
 
 		if ($this->cart->hasShipping()) {
-			$data['delivery_fullname'] = $order_info['shipping_firstname'] . ' ' . $order_info['shipping_lastname'];
+			$data['delivery_fullname'] = $order_info['shipping_fullname'] . ' ' . $order_info['shipping_lastname'];
 
 			if ($order_info['shipping_address_2']) {
 				$data['delivery_address'] = $order_info['shipping_address_1'] . "\r\n" . $order_info['shipping_address_2'] . "\r\n" . $order_info['shipping_city'] . "\r\n" . $order_info['shipping_zone'] . "\r\n";
@@ -47,7 +47,7 @@ class ControllerExtensionPaymentNochex extends Controller {
 
 			$data['delivery_postcode'] = $order_info['shipping_postcode'];
 		} else {
-			$data['delivery_fullname'] = $order_info['payment_firstname'] . ' ' . $order_info['payment_lastname'];
+			$data['delivery_fullname'] = $order_info['payment_fullname'] . ' ' . $order_info['payment_lastname'];
 
 			if ($order_info['payment_address_2']) {
 				$data['delivery_address'] = $order_info['payment_address_1'] . "\r\n" . $order_info['payment_address_2'] . "\r\n" . $order_info['payment_city'] . "\r\n" . $order_info['payment_zone'] . "\r\n";

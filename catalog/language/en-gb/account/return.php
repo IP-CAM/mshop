@@ -39,7 +39,7 @@ $_['column_action']      = 'Action';
 // Entry
 $_['entry_order_id']     = 'Order ID';
 $_['entry_date_ordered'] = 'Order Date';
-$_['entry_firstname']    = 'First Name';
+$_['entry_fullname']    = 'First Name';
 $_['entry_lastname']     = 'Last Name';
 $_['entry_email']        = 'E-Mail';
 $_['entry_telephone']    = 'Telephone';
@@ -53,7 +53,7 @@ $_['entry_fault_detail'] = 'Faulty or other details';
 // Error
 $_['text_error']         = 'The returns you requested could not be found!';
 $_['error_order_id']     = 'Order ID required!';
-$_['error_firstname']    = 'First Name must be between 1 and 32 characters!';
+$_['error_fullname']    = 'First Name must be between 1 and 32 characters!';
 $_['error_lastname']     = 'Last Name must be between 1 and 32 characters!';
 $_['error_email']        = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']    = 'Telephone must be between 3 and 32 characters!';

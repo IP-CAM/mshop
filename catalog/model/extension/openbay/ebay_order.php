@@ -156,7 +156,7 @@ class ModelExtensionOpenBayEbayOrder extends Model{
 
 	public function hasAddress($order_id) {
 		// check if the first name, address 1 and country are set
-		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "order` WHERE `order_id` = '" . (int)$order_id . "' AND `payment_firstname` != '' AND `payment_address_1` != '' AND `payment_country` != ''");
+		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "order` WHERE `order_id` = '" . (int)$order_id . "' AND `payment_fullname` != '' AND `payment_address_1` != '' AND `payment_country` != ''");
 
 		if ($query->num_rows == 0) {
 			return false;
@@ -335,11 +335,11 @@ class ModelExtensionOpenBayEbayOrder extends Model{
 				if ($order_info['payment_address_format']) {
 					$format = $order_info['payment_address_format'];
 				} else {
-					$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+					$format = '{fullname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 				}
 
 				$find = array(
-					'{firstname}',
+					'{fullname}',
 					'{lastname}',
 					'{company}',
 					'{address_1}',
@@ -352,7 +352,7 @@ class ModelExtensionOpenBayEbayOrder extends Model{
 				);
 
 				$replace = array(
-					'firstname' => $order_info['payment_firstname'],
+					'fullname' => $order_info['payment_fullname'],
 					'lastname'  => $order_info['payment_lastname'],
 					'company'   => $order_info['payment_company'],
 					'address_1' => $order_info['payment_address_1'],
@@ -369,11 +369,11 @@ class ModelExtensionOpenBayEbayOrder extends Model{
 				if ($order_info['shipping_address_format']) {
 					$format = $order_info['shipping_address_format'];
 				} else {
-					$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+					$format = '{fullname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 				}
 
 				$find = array(
-					'{firstname}',
+					'{fullname}',
 					'{lastname}',
 					'{company}',
 					'{address_1}',
@@ -386,7 +386,7 @@ class ModelExtensionOpenBayEbayOrder extends Model{
 				);
 
 				$replace = array(
-					'firstname' => $order_info['shipping_firstname'],
+					'fullname' => $order_info['shipping_fullname'],
 					'lastname'  => $order_info['shipping_lastname'],
 					'company'   => $order_info['shipping_company'],
 					'address_1' => $order_info['shipping_address_1'],

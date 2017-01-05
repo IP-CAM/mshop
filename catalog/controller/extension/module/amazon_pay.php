@@ -89,7 +89,7 @@ class ControllerExtensionModuleAmazonPay extends Controller {
 				$first_name = implode(' ', $full_name);
 				$this->session->data['account'] = 'guest';
 				$this->session->data['guest']['customer_group_id'] = $this->config->get('config_customer_group_id');
-				$this->session->data['guest']['firstname'] = $first_name;
+				$this->session->data['guest']['fullname'] = $first_name;
 				$this->session->data['guest']['lastname'] = $last_name;
 				$this->session->data['guest']['email'] = $user->email;
 				$this->session->data['guest']['telephone'] = '';
@@ -120,7 +120,7 @@ class ControllerExtensionModuleAmazonPay extends Controller {
 
 						$activity_data = array(
 							'customer_id' => $this->customer->getId(),
-							'name' => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+							'name' => $this->customer->getFullName() . ' ' . $this->customer->getLastName()
 						);
 
 						$this->model_account_activity->addActivity('login', $activity_data);
@@ -144,7 +144,7 @@ class ControllerExtensionModuleAmazonPay extends Controller {
 
 				$data = array(
 					'customer_group_id' => (int)$this->config->get('config_customer_group_id'),
-					'firstname' => $first_name,
+					'fullname' => $first_name,
 					'lastname' => $last_name,
 					'email' => $user->email,
 					'telephone' => '',
@@ -187,7 +187,7 @@ class ControllerExtensionModuleAmazonPay extends Controller {
 
 						$activity_data = array(
 							'customer_id' => $this->customer->getId(),
-							'name' => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+							'name' => $this->customer->getFullName() . ' ' . $this->customer->getLastName()
 						);
 
 						$this->model_account_activity->addActivity('login', $activity_data);

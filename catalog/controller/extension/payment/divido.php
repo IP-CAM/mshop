@@ -172,12 +172,12 @@ class ControllerExtensionPaymentDivido extends Controller {
 			$this->load->model('account/customer');
 			$customer_info = $this->model_account_customer->getCustomer($this->customer->getId());
 
-			$firstname = $customer_info['firstname'];
+			$fullname = $customer_info['fullname'];
 			$lastname  = $customer_info['lastname'];
 			$email     = $customer_info['email'];
 			$telephone = $customer_info['telephone'];
 		} elseif (isset($this->session->data['guest'])) {
-			$firstname = $this->session->data['guest']['firstname'];
+			$fullname = $this->session->data['guest']['fullname'];
 			$lastname  = $this->session->data['guest']['lastname'];
 			$email     = $this->session->data['guest']['email'];
 			$telephone = $this->session->data['guest']['telephone'];
@@ -235,7 +235,7 @@ class ControllerExtensionPaymentDivido extends Controller {
 			),
 			'customer' => array(
 				'title'         => '',
-				'first_name'    => $firstname,
+				'first_name'    => $fullname,
 				'middle_name'   => '',
 				'last_name'     => $lastname,
 				'country'       => $country,

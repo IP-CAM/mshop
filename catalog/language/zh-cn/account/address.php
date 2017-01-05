@@ -12,7 +12,7 @@ $_['text_delete']       = '您的地址已注销';
 $_['text_empty']           = '您还没有地址。';
 
 // Entry
-$_['entry_firstname']   = '您的名字';
+$_['entry_fullname']   = '您的名字';
 $_['entry_lastname']    = '您的姓氏';
 $_['entry_company']     = '&nbsp;&nbsp;&nbsp;公司名称';
 $_['entry_address_1']      = '地址 1';
@@ -26,7 +26,7 @@ $_['entry_default']     = '&nbsp;&nbsp;&nbsp;默认地址';
 // Error
 $_['error_delete']      = '警告： 您必须填写至少一个地址！';
 $_['error_default']     = '警告： 您不能注销您的默认地址！';
-$_['error_firstname']   = '姓氏必须在1到32字符之间！';
+$_['error_fullname']   = '姓氏必须在1到32字符之间！';
 $_['error_lastname']    = '名字必须在1到32字符之间！';
 $_['error_vat']         = 'VAT 号码不存在！';
 $_['error_address_1']   = '地址必须在3到128字符之间！';

@@ -69,7 +69,7 @@ class ControllerExtensionModuleKlarnaCheckoutModule extends Controller {
 
 			$this->session->data['shipping_address'] = array(
 				'address_id'	 => null,
-				'firstname'		 => null,
+				'fullname'		 => null,
 				'lastname'		 => null,
 				'company'		 => null,
 				'address_1'		 => null,

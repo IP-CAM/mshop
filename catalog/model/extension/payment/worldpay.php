@@ -131,7 +131,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 			"orderType" => 'RECURRING',
 			"amount" => (int)($price * 100),
 			"currencyCode" => $order_info['currency_code'],
-			"name" => $order_info['firstname'] . ' ' . $order_info['lastname'],
+			"name" => $order_info['fullname'] . ' ' . $order_info['lastname'],
 			"orderDescription" => $order_info['store_name'] . ' - ' . date('Y-m-d H:i:s'),
 			"customerOrderCode" => 'orderRecurring-' . $order_recurring_id
 		);
@@ -213,7 +213,7 @@ class ModelExtensionPaymentWorldpay extends Model {
 				"orderType" => 'RECURRING',
 				"amount" => (int)($price * 100),
 				"currencyCode" => $order_info['currency_code'],
-				"name" => $order_info['firstname'] . ' ' . $order_info['lastname'],
+				"name" => $order_info['fullname'] . ' ' . $order_info['lastname'],
 				"orderDescription" => $order_info['store_name'] . ' - ' . date('Y-m-d H:i:s'),
 				"customerOrderCode" => 'orderRecurring-' . $profile['order_recurring_id'] . '-repeat-' . $i++
 			);

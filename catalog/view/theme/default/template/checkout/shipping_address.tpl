@@ -9,9 +9,9 @@
     <select name="address_id" class="form-control">
       <?php foreach ($addresses as $address) { ?>
       <?php if ($address['address_id'] == $address_id) { ?>
-      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['fullname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
       <?php } else { ?>
-      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['fullname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
       <?php } ?>
       <?php } ?>
     </select>
@@ -25,15 +25,9 @@
   <br />
   <div id="shipping-new" style="display: <?php echo ($addresses ? 'none' : 'block'); ?>;">
     <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-shipping-firstname"><?php echo $entry_firstname; ?></label>
+      <label class="col-sm-2 control-label" for="input-shipping-fullname"><?php echo $entry_fullname; ?></label>
       <div class="col-sm-10">
-        <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-shipping-firstname" class="form-control" />
-      </div>
-    </div>
-    <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-shipping-lastname"><?php echo $entry_lastname; ?></label>
-      <div class="col-sm-10">
-        <input type="text" name="lastname" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-shipping-lastname" class="form-control" />
+        <input type="text" name="fullname" value="" placeholder="<?php echo $entry_fullname; ?>" id="input-shipping-fullname" class="form-control" />
       </div>
     </div>
     <div class="form-group">

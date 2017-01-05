@@ -87,7 +87,7 @@ class ControllerExtensionPaymentBluePayRedirect extends Controller {
 			$post_data["RRNO"] = '';
 		}
 
-		$post_data["NAME"] = substr($order_info['payment_firstname'], 0, 20) . ' ' . substr($order_info['payment_lastname'], 0, 20);
+		$post_data["NAME"] = substr($order_info['payment_fullname'], 0, 20) . ' ' . substr($order_info['payment_lastname'], 0, 20);
 		$post_data["ADDR1"] = $post_data['BillingAddress1'] = substr($order_info['payment_address_1'], 0, 100);
 		$post_data["CITY"] = $order_info['payment_city'];
 		$post_data['STATE'] = $order_info['payment_zone_code'];

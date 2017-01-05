@@ -20,7 +20,7 @@ class ControllerExtensionPaymentAuthorizeNetSim extends Controller {
 		$data['x_currency_code'] = $this->session->data['currency'];
 		$data['x_invoice_num'] = $this->session->data['order_id'];
 		$data['x_description'] = html_entity_decode($this->config->get('config_name'), ENT_QUOTES, 'UTF-8');
-		$data['x_first_name'] = html_entity_decode($order_info['payment_firstname'], ENT_QUOTES, 'UTF-8');
+		$data['x_first_name'] = html_entity_decode($order_info['payment_fullname'], ENT_QUOTES, 'UTF-8');
 		$data['x_last_name'] = html_entity_decode($order_info['payment_lastname'], ENT_QUOTES, 'UTF-8');
 		$data['x_company'] = html_entity_decode($order_info['payment_company'], ENT_QUOTES, 'UTF-8');
 		$data['x_address'] = html_entity_decode($order_info['payment_address_1'], ENT_QUOTES, 'UTF-8') . ' ' . html_entity_decode($order_info['payment_address_2'], ENT_QUOTES, 'UTF-8');
@@ -29,7 +29,7 @@ class ControllerExtensionPaymentAuthorizeNetSim extends Controller {
 		$data['x_zip'] = html_entity_decode($order_info['payment_postcode'], ENT_QUOTES, 'UTF-8');
 		$data['x_country'] = html_entity_decode($order_info['payment_country'], ENT_QUOTES, 'UTF-8');
 		$data['x_phone'] = $order_info['telephone'];
-		$data['x_ship_to_first_name'] = html_entity_decode($order_info['shipping_firstname'], ENT_QUOTES, 'UTF-8');
+		$data['x_ship_to_first_name'] = html_entity_decode($order_info['shipping_fullname'], ENT_QUOTES, 'UTF-8');
 		$data['x_ship_to_last_name'] = html_entity_decode($order_info['shipping_lastname'], ENT_QUOTES, 'UTF-8');
 		$data['x_ship_to_company'] = html_entity_decode($order_info['shipping_company'], ENT_QUOTES, 'UTF-8');
 		$data['x_ship_to_address'] = html_entity_decode($order_info['shipping_address_1'], ENT_QUOTES, 'UTF-8') . ' ' . html_entity_decode($order_info['shipping_address_2'], ENT_QUOTES, 'UTF-8');

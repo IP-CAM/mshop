@@ -98,7 +98,7 @@ class ControllerExtensionModuleAmazonLogin extends Controller {
 
 						$activity_data = array(
 							'customer_id' => $this->customer->getId(),
-							'name' => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+							'name' => $this->customer->getFullName() 
 						);
 
 						$this->model_account_activity->addActivity('login', $activity_data);
@@ -121,7 +121,7 @@ class ControllerExtensionModuleAmazonLogin extends Controller {
 
 				$data = array(
 					'customer_group_id' => (int)$this->config->get('config_customer_group_id'),
-					'firstname' => $first_name,
+					'fullname' => $first_name,
 					'lastname' => $last_name,
 					'email' => $user->email,
 					'telephone' => '',
@@ -164,7 +164,7 @@ class ControllerExtensionModuleAmazonLogin extends Controller {
 
 						$activity_data = array(
 							'customer_id' => $this->customer->getId(),
-							'name' => $this->customer->getFirstName() . ' ' . $this->customer->getLastName()
+							'name' => $this->customer->getFullName() . ' ' . $this->customer->getLastName()
 						);
 
 						$this->model_account_activity->addActivity('login', $activity_data);

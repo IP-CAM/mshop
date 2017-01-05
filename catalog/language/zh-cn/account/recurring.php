@@ -23,7 +23,7 @@ $_['column_recurring_id'] = '分期 ID';
 
 $_['text_recurring_detail'] = '分期付款详情';
 $_['text_recurring_id']     = '分期 ID ';
-$_['text_payment_method']   = '付款方式✀';
+$_['text_payment_method']   = '付款方式';
 $_['text_date_added']       = '已创建';
 $_['text_recurring_description'] = '描述';
 $_['text_status'] = '状态 ';

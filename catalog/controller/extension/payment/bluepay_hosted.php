@@ -8,7 +8,7 @@ class ControllerExtensionPaymentBluePayHosted extends Controller {
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
 
 		$data['ORDER_ID'] = $this->session->data['order_id'];
-		$data['NAME1'] = $order_info['payment_firstname'];
+		$data['NAME1'] = $order_info['payment_fullname'];
 		$data['NAME2'] = $order_info['payment_lastname'];
 		$data['ADDR1'] = $order_info['payment_address_1'];
 		$data['ADDR2'] = $order_info['payment_address_2'];

@@ -9,9 +9,9 @@
     <select name="address_id" class="form-control">
       <?php foreach ($addresses as $address) { ?>
       <?php if ($address['address_id'] == $address_id) { ?>
-      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['fullname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
       <?php } else { ?>
-      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['fullname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option>
       <?php } ?>
       <?php } ?>
     </select>
@@ -25,15 +25,9 @@
   <br />
   <div id="payment-new" style="display: <?php echo ($addresses ? 'none' : 'block'); ?>;">
     <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-payment-firstname"><?php echo $entry_firstname; ?></label>
+      <label class="col-sm-2 control-label" for="input-payment-fullname"><?php echo $entry_fullname; ?></label>
       <div class="col-sm-10">
-        <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" class="form-control" />
-      </div>
-    </div>
-    <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-payment-lastname"><?php echo $entry_lastname; ?></label>
-      <div class="col-sm-10">
-        <input type="text" name="lastname" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-payment-lastname" class="form-control" />
+        <input type="text" name="fullname" value="" placeholder="<?php echo $entry_fullname; ?>" id="input-payment-fullname" class="form-control" />
       </div>
     </div>
     <div class="form-group">

@@ -97,7 +97,7 @@ class ControllerExtensionPaymentSecureTradingWs extends Controller {
 				$billing_node->addChild('postcode', $order_info['payment_postcode']);
 
 				$name_node = $billing_node->addChild('name');
-				$name_node->addChild('first', $order_info['payment_firstname']);
+				$name_node->addChild('first', $order_info['payment_fullname']);
 				$name_node->addChild('last', $order_info['payment_lastname']);
 
 				$payment_node = $billing_node->addChild('payment');
@@ -196,7 +196,7 @@ class ControllerExtensionPaymentSecureTradingWs extends Controller {
 				$billing_node->addChild('email', $order_info['email']);
 				$name_node = $billing_node->addChild('name');
 
-				$name_node->addChild('first', $order_info['payment_firstname']);
+				$name_node->addChild('first', $order_info['payment_fullname']);
 				$name_node->addChild('last', $order_info['payment_lastname']);
 
 				$amount_node = $billing_node->addChild('amount', str_replace('.', '', $this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value'], false)));

@@ -22,7 +22,7 @@ class ControllerExtensionPaymentSkrill extends Controller {
 		$order_info = $this->model_checkout_order->getOrder($this->session->data['order_id']);
 
 		$data['pay_from_email'] = $order_info['email'];
-		$data['firstname'] = $order_info['payment_firstname'];
+		$data['fullname'] = $order_info['payment_fullname'];
 		$data['lastname'] = $order_info['payment_lastname'];
 		$data['address'] = $order_info['payment_address_1'];
 		$data['address2'] = $order_info['payment_address_2'];

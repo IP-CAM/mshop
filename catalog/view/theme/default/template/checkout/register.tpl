@@ -21,12 +21,8 @@
         <?php } ?>
       </div>
       <div class="form-group required">
-        <label class="control-label" for="input-payment-firstname"><?php echo $entry_firstname; ?></label>
-        <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" class="form-control" />
-      </div>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-lastname"><?php echo $entry_lastname; ?></label>
-        <input type="text" name="lastname" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-payment-lastname" class="form-control" />
+        <label class="control-label" for="input-payment-fullname"><?php echo $entry_fullname; ?></label>
+        <input type="text" name="fullname" value="" placeholder="<?php echo $entry_fullname; ?>" id="input-payment-fullname" class="form-control" />
       </div>
       <div class="form-group required">
         <label class="control-label" for="input-payment-email"><?php echo $entry_email; ?></label>

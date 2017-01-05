@@ -20,7 +20,7 @@ class ControllerAffiliateLogin extends Controller {
 
 				$activity_data = array(
 					'affiliate_id' => $this->affiliate->getId(),
-					'name'         => $this->affiliate->getFirstName() . ' ' . $this->affiliate->getLastName()
+					'name'         => $this->affiliate->getFullName()
 				);
 
 				$this->model_affiliate_activity->addActivity('login', $activity_data);

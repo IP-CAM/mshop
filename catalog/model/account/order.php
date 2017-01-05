@@ -48,13 +48,11 @@ class ModelAccountOrder extends Model {
 				'store_name'              => $order_query->row['store_name'],
 				'store_url'               => $order_query->row['store_url'],
 				'customer_id'             => $order_query->row['customer_id'],
-				'firstname'               => $order_query->row['firstname'],
-				'lastname'                => $order_query->row['lastname'],
+				'fullname'               => $order_query->row['fullname'],
 				'telephone'               => $order_query->row['telephone'],
 				'fax'                     => $order_query->row['fax'],
 				'email'                   => $order_query->row['email'],
-				'payment_firstname'       => $order_query->row['payment_firstname'],
-				'payment_lastname'        => $order_query->row['payment_lastname'],
+				'payment_fullname'       => $order_query->row['payment_fullname'],
 				'payment_company'         => $order_query->row['payment_company'],
 				'payment_address_1'       => $order_query->row['payment_address_1'],
 				'payment_address_2'       => $order_query->row['payment_address_2'],
@@ -69,8 +67,7 @@ class ModelAccountOrder extends Model {
 				'payment_iso_code_3'      => $payment_iso_code_3,
 				'payment_address_format'  => $order_query->row['payment_address_format'],
 				'payment_method'          => $order_query->row['payment_method'],
-				'shipping_firstname'      => $order_query->row['shipping_firstname'],
-				'shipping_lastname'       => $order_query->row['shipping_lastname'],
+				'shipping_fullname'      => $order_query->row['shipping_fullname'],
 				'shipping_company'        => $order_query->row['shipping_company'],
 				'shipping_address_1'      => $order_query->row['shipping_address_1'],
 				'shipping_address_2'      => $order_query->row['shipping_address_2'],
@@ -110,7 +107,7 @@ class ModelAccountOrder extends Model {
 			$limit = 1;
 		}
 
-		$query = $this->db->query("SELECT o.order_id, o.firstname, o.lastname, os.name as status, o.date_added, o.total, o.currency_code, o.currency_value FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status os ON (o.order_status_id = os.order_status_id) WHERE o.customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id > '0' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY o.order_id DESC LIMIT " . (int)$start . "," . (int)$limit);
+		$query = $this->db->query("SELECT o.order_id, o.fullname, os.name as status, o.date_added, o.total, o.currency_code, o.currency_value FROM `" . DB_PREFIX . "order` o LEFT JOIN " . DB_PREFIX . "order_status os ON (o.order_status_id = os.order_status_id) WHERE o.customer_id = '" . (int)$this->customer->getId() . "' AND o.order_status_id > '0' AND o.store_id = '" . (int)$this->config->get('config_store_id') . "' AND os.language_id = '" . (int)$this->config->get('config_language_id') . "' ORDER BY o.order_id DESC LIMIT " . (int)$start . "," . (int)$limit);
 
 		return $query->rows;
 	}

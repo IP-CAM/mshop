@@ -94,8 +94,8 @@ class Customer {
 		return $this->customer_id;
 	}
 
-	public function getFirstName() {
-		return $this->firstname;
+	public function getFullName() {
+		return $this->fullname;
 	}
 
 	public function getLastName() {
