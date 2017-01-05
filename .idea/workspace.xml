@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feda2a4b-7a7f-4d1d-8106-6089e29d212e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/login.php" afterPath="$PROJECT_DIR$/catalog/controller/account/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/order.php" afterPath="$PROJECT_DIR$/catalog/controller/account/order.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/account/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+            <state relative-caret-position="508">
+              <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/account/order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="257" column="60" lean-forward="false" selection-start-line="257" selection-start-column="60" selection-end-line="257" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -94,6 +104,7 @@
         <option value="$PROJECT_DIR$/catalog/controller/account/edit.php" />
         <option value="$PROJECT_DIR$/catalog/controller/account/forgotten.php" />
         <option value="$PROJECT_DIR$/catalog/controller/account/login.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/account/order.php" />
       </list>
     </option>
   </component>
@@ -330,12 +341,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483580390712</updated>
       <workItem from="1483580392329" duration="6345000" />
-      <workItem from="1483599531895" duration="1514000" />
+      <workItem from="1483599531895" duration="1602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7859000" />
+    <option name="totallyTimeSpent" value="7947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -586,8 +597,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="67" />
+        <state relative-caret-position="508">
+          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/account/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="257" column="60" lean-forward="false" selection-start-line="257" selection-start-column="60" selection-end-line="257" selection-end-column="60" />
           <folding />
         </state>
       </provider>

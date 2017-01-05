@@ -68,7 +68,7 @@ class ControllerAccountOrder extends Controller {
 
 			$data['orders'][] = array(
 				'order_id'   => $result['order_id'],
-				'name'       => $result['firstname'] . ' ' . $result['lastname'],
+				'name'       => $result['fullname'],
 				'status'     => $result['status'],
 				'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
 				'products'   => ($product_total + $voucher_total),
@@ -205,12 +205,11 @@ class ControllerAccountOrder extends Controller {
 			if ($order_info['payment_address_format']) {
 				$format = $order_info['payment_address_format'];
 			} else {
-				$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+				$format = '{fullname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 			}
 
 			$find = array(
-				'{firstname}',
-				'{lastname}',
+				'{fullname}',
 				'{company}',
 				'{address_1}',
 				'{address_2}',
@@ -222,8 +221,7 @@ class ControllerAccountOrder extends Controller {
 			);
 
 			$replace = array(
-				'firstname' => $order_info['payment_firstname'],
-				'lastname'  => $order_info['payment_lastname'],
+				'fullname' => $order_info['payment_fullname'],
 				'company'   => $order_info['payment_company'],
 				'address_1' => $order_info['payment_address_1'],
 				'address_2' => $order_info['payment_address_2'],
@@ -241,12 +239,11 @@ class ControllerAccountOrder extends Controller {
 			if ($order_info['shipping_address_format']) {
 				$format = $order_info['shipping_address_format'];
 			} else {
-				$format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+				$format = '{fullname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
 			}
 
 			$find = array(
-				'{firstname}',
-				'{lastname}',
+				'{fullname}',
 				'{company}',
 				'{address_1}',
 				'{address_2}',
@@ -258,8 +255,7 @@ class ControllerAccountOrder extends Controller {
 			);
 
 			$replace = array(
-				'firstname' => $order_info['shipping_firstname'],
-				'lastname'  => $order_info['shipping_lastname'],
+				'fullname' => $order_info['shipping_fullname'],
 				'company'   => $order_info['shipping_company'],
 				'address_1' => $order_info['shipping_address_1'],
 				'address_2' => $order_info['shipping_address_2'],
