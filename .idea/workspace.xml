@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feda2a4b-7a7f-4d1d-8106-6089e29d212e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/register.php" afterPath="$PROJECT_DIR$/catalog/controller/account/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/reset.php" afterPath="$PROJECT_DIR$/catalog/controller/account/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/return.php" afterPath="$PROJECT_DIR$/catalog/controller/account/return.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,11 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/controller/account/register.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="413" column="27" lean-forward="true" selection-start-line="413" selection-start-column="27" selection-end-line="413" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/account/reset.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="405" column="40" lean-forward="false" selection-start-line="405" selection-start-column="40" selection-end-line="405" selection-end-column="40" />
+              <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="return.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/account/return.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="535" column="9" lean-forward="false" selection-start-line="535" selection-start-column="9" selection-end-line="535" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -127,6 +148,8 @@
         <option value="$PROJECT_DIR$/catalog/controller/account/order.php" />
         <option value="$PROJECT_DIR$/catalog/controller/account/password.php" />
         <option value="$PROJECT_DIR$/catalog/controller/account/register.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/account/reset.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/account/return.php" />
       </list>
     </option>
   </component>
@@ -363,12 +386,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483580390712</updated>
       <workItem from="1483580392329" duration="6345000" />
-      <workItem from="1483599531895" duration="1773000" />
+      <workItem from="1483599531895" duration="1935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8118000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -643,8 +666,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/account/register.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="413" column="27" lean-forward="true" selection-start-line="413" selection-start-column="27" selection-end-line="413" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/account/reset.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="405" column="40" lean-forward="false" selection-start-line="405" selection-start-column="40" selection-end-line="405" selection-end-column="40" />
+          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/account/return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="535" column="9" lean-forward="false" selection-start-line="535" selection-start-column="9" selection-end-line="535" selection-end-column="9" />
           <folding />
         </state>
       </provider>
