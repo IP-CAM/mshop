@@ -4274,7 +4274,7 @@ CREATE TABLE `oc_language` (
 --
 
 INSERT INTO `oc_language` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `sort_order`, `status`) VALUES
-(1, '简体中文', 'zh-cn', 'zh-cn,chinese', 'cn.png', 'chinese', 1, 0);
+(1, '简体中文', 'zh-cn', 'zh-cn,chinese', 'cn.png', 'chinese', 1, 1);
 
 -- --------------------------------------------------------
 
