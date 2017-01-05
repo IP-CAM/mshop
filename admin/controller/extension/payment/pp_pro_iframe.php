@@ -611,7 +611,7 @@ class ControllerExtensionPaymentPPProIframe extends Controller {
 		$data['text_country_code'] = $this->language->get('text_country_code');
 		$data['text_payer_business'] = $this->language->get('text_payer_business');
 		$data['text_payer_salute'] = $this->language->get('text_payer_salute');
-		$data['text_payer_firstname'] = $this->language->get('text_payer_firstname');
+		$data['text_payer_fullname'] = $this->language->get('text_payer_fullname');
 		$data['text_payer_middlename'] = $this->language->get('text_payer_middlename');
 		$data['text_payer_lastname'] = $this->language->get('text_payer_lastname');
 		$data['text_payer_suffix'] = $this->language->get('text_payer_suffix');

@@ -26,7 +26,7 @@ $_['column_action']         = 'Action';
 
 // Entry
 $_['entry_customer_group']  = 'Customer Group';
-$_['entry_firstname']       = 'First Name';
+$_['entry_fullname']       = 'First Name';
 $_['entry_lastname']        = 'Last Name';
 $_['entry_email']           = 'E-Mail';
 $_['entry_telephone']       = 'Telephone';
@@ -61,7 +61,7 @@ $_['help_points']           = 'Use minus to remove points';
 $_['error_warning']         = 'Warning: Please check the form carefully for errors!';
 $_['error_permission']      = 'Warning: You do not have permission to modify customers!';
 $_['error_exists']          = 'Warning: E-Mail Address is already registered!';
-$_['error_firstname']       = 'First Name must be between 1 and 32 characters!';
+$_['error_fullname']       = 'First Name must be between 1 and 32 characters!';
 $_['error_lastname']        = 'Last Name must be between 1 and 32 characters!';
 $_['error_email']           = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']       = 'Telephone must be between 3 and 32 characters!';

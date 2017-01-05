@@ -4,16 +4,16 @@
       font: {
         bold: 'Podebljano',
         italic: 'Kurziv',
-        underline: 'Podvučeno',
+        underline: 'Podvuceno',
         clear: 'Ukloni stilove fonta',
         height: 'Visina linije',
         strikethrough: 'Precrtano',
-        size: 'Veličina fonta'
+        size: 'Velicina fonta'
       },
       image: {
         image: 'Slika',
         insert: 'Umetni sliku',
-        resizeFull: 'Puna veličina',
+        resizeFull: 'Puna velicina',
         resizeHalf: 'Umanji na 50%',
         resizeQuarter: 'Umanji na 25%',
         floatLeft: 'Uz levu ivicu',
@@ -59,18 +59,18 @@
         h6: 'Zaglavlje 6'
       },
       lists: {
-        unordered: 'Obična lista',
+        unordered: 'Obicna lista',
         ordered: 'Numerisana lista'
       },
       options: {
-        help: 'Pomoć',
+        help: 'Pomo'c',
         fullscreen: 'Preko celog ekrana',
         codeview: 'Izvorni kod'
       },
       paragraph: {
         paragraph: 'Paragraf',
-        outdent: 'Smanji uvlačenje',
-        indent: 'Povečaj uvlačenje',
+        outdent: 'Smanji uvlacenje',
+        indent: 'Povecaj uvlacenje',
         left: 'Poravnaj u levo',
         center: 'Centrirano',
         right: 'Poravnaj u desno',
@@ -78,7 +78,7 @@
       },
       color: {
         recent: 'Poslednja boja',
-        more: 'Više boja',
+        more: 'Vise boja',
         background: 'Boja pozadine',
         foreground: 'Boja teksta',
         transparent: 'Providna',
@@ -87,7 +87,7 @@
         resetToDefault: 'Podrazumevana'
       },
       shortcut: {
-        shortcuts: 'Prečice sa tastature',
+        shortcuts: 'Precice sa tastature',
         close: 'Zatvori',
         textFormatting: 'Formatiranje teksta',
         action: 'Akcija',
@@ -96,7 +96,7 @@
         extraKeys: 'Dodatne kombinacije'
       },
       history: {
-        undo: 'Poništi',
+        undo: 'Ponisti',
         redo: 'Ponovi'
       }
     }

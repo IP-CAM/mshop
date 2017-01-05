@@ -66,20 +66,11 @@
                         </div>
                       </div>
                       <div class="form-group required">
-                        <label class="col-sm-2 control-label" for="input-firstname"><?php echo $entry_firstname; ?></label>
+                        <label class="col-sm-2 control-label" for="input-fullname"><?php echo $entry_fullname; ?></label>
                         <div class="col-sm-10">
-                          <input type="text" name="firstname" value="<?php echo $firstname; ?>" placeholder="<?php echo $entry_firstname; ?>" id="input-firstname" class="form-control" />
-                          <?php if ($error_firstname) { ?>
-                          <div class="text-danger"><?php echo $error_firstname; ?></div>
-                          <?php } ?>
-                        </div>
-                      </div>
-                      <div class="form-group required">
-                        <label class="col-sm-2 control-label" for="input-lastname"><?php echo $entry_lastname; ?></label>
-                        <div class="col-sm-10">
-                          <input type="text" name="lastname" value="<?php echo $lastname; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname" class="form-control" />
-                          <?php if ($error_lastname) { ?>
-                          <div class="text-danger"><?php echo $error_lastname; ?></div>
+                          <input type="text" name="fullname" value="<?php echo $fullname; ?>" placeholder="<?php echo $entry_fullname; ?>" id="input-fullname" class="form-control" />
+                          <?php if ($error_fullname) { ?>
+                          <div class="text-danger"><?php echo $error_fullname; ?></div>
                           <?php } ?>
                         </div>
                       </div>
@@ -340,20 +331,11 @@
                     <div class="tab-pane" id="tab-address<?php echo $address_row; ?>">
                       <input type="hidden" name="address[<?php echo $address_row; ?>][address_id]" value="<?php echo $address['address_id']; ?>" />
                       <div class="form-group required">
-                        <label class="col-sm-2 control-label" for="input-firstname<?php echo $address_row; ?>"><?php echo $entry_firstname; ?></label>
+                        <label class="col-sm-2 control-label" for="input-fullname<?php echo $address_row; ?>"><?php echo $entry_fullname; ?></label>
                         <div class="col-sm-10">
-                          <input type="text" name="address[<?php echo $address_row; ?>][firstname]" value="<?php echo $address['firstname']; ?>" placeholder="<?php echo $entry_firstname; ?>" id="input-firstname<?php echo $address_row; ?>" class="form-control" />
-                          <?php if (isset($error_address[$address_row]['firstname'])) { ?>
-                          <div class="text-danger"><?php echo $error_address[$address_row]['firstname']; ?></div>
-                          <?php } ?>
-                        </div>
-                      </div>
-                      <div class="form-group required">
-                        <label class="col-sm-2 control-label" for="input-lastname<?php echo $address_row; ?>"><?php echo $entry_lastname; ?></label>
-                        <div class="col-sm-10">
-                          <input type="text" name="address[<?php echo $address_row; ?>][lastname]" value="<?php echo $address['lastname']; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname<?php echo $address_row; ?>" class="form-control" />
-                          <?php if (isset($error_address[$address_row]['lastname'])) { ?>
-                          <div class="text-danger"><?php echo $error_address[$address_row]['lastname']; ?></div>
+                          <input type="text" name="address[<?php echo $address_row; ?>][fullname]" value="<?php echo $address['fullname']; ?>" placeholder="<?php echo $entry_fullname; ?>" id="input-fullname<?php echo $address_row; ?>" class="form-control" />
+                          <?php if (isset($error_address[$address_row]['fullname'])) { ?>
+                          <div class="text-danger"><?php echo $error_address[$address_row]['fullname']; ?></div>
                           <?php } ?>
                         </div>
                       </div>
@@ -692,15 +674,9 @@ function addAddress() {
 	html += '  <input type="hidden" name="address[' + address_row + '][address_id]" value="" />';
 
 	html += '  <div class="form-group required">';
-	html += '    <label class="col-sm-2 control-label" for="input-firstname' + address_row + '"><?php echo $entry_firstname; ?></label>';
-	html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][firstname]" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-firstname' + address_row + '" class="form-control" /></div>';
+	html += '    <label class="col-sm-2 control-label" for="input-fullname' + address_row + '"><?php echo $entry_fullname; ?></label>';
+	html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][fullname]" value="" placeholder="<?php echo $entry_fullname; ?>" id="input-fullname' + address_row + '" class="form-control" /></div>';
 	html += '  </div>';
-
-	html += '  <div class="form-group required">';
-	html += '    <label class="col-sm-2 control-label" for="input-lastname' + address_row + '"><?php echo $entry_lastname; ?></label>';
-	html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][lastname]" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname' + address_row + '" class="form-control" /></div>';
-	html += '  </div>';
-
 	html += '  <div class="form-group">';
 	html += '    <label class="col-sm-2 control-label" for="input-company' + address_row + '"><?php echo $entry_company; ?></label>';
 	html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][company]" value="" placeholder="<?php echo $entry_company; ?>" id="input-company' + address_row + '" class="form-control" /></div>';

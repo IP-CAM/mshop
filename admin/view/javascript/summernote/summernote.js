@@ -5057,7 +5057,7 @@
     var representShortcut = this.representShortcut = function (editorMethod) {
       var shortcut = invertedKeyMap[editorMethod];
       if (agent.isMac) {
-        shortcut = shortcut.replace('CMD', '⌘').replace('SHIFT', '⇧');
+        shortcut = shortcut.replace('CMD', '').replace('SHIFT', '');
       }
 
       shortcut = shortcut.replace('BACKSLASH', '\\')

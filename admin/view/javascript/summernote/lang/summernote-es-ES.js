@@ -11,12 +11,12 @@
         strikethrough: 'Tachado',
         superscript: 'Superíndice',
         subscript: 'Subíndice',
-        size: 'Tamaño de la fuente'
+        size: 'Tama~no de la fuente'
       },
       image: {
         image: 'Imagen',
         insert: 'Insertar imagen',
-        resizeFull: 'Redimensionar a tamaño completo',
+        resizeFull: 'Redimensionar a tama~no completo',
         resizeHalf: 'Redimensionar a la mitad',
         resizeQuarter: 'Redimensionar a un cuarto',
         floatLeft: 'Flotar a la izquierda',
@@ -29,8 +29,8 @@
         dragImageHere: 'Arrastrar una imagen o texto aquí',
         dropImage: 'Suelta la imagen o texto',
         selectFromFiles: 'Seleccionar desde los archivos',
-        maximumFileSize: 'Tamaño máximo del archivo',
-        maximumFileSizeError: 'Has superado el tamaño máximo del archivo.',
+        maximumFileSize: 'Tama~no máximo del archivo',
+        maximumFileSizeError: 'Has superado el tama~no máximo del archivo.',
         url: 'URL de la imagen',
         remove: 'Eliminar imagen'
       },
@@ -38,7 +38,7 @@
         video: 'Vídeo',
         videoLink: 'Link del vídeo',
         insert: 'Insertar vídeo',
-        url: '¿URL del vídeo?',
+        url: '?URL del vídeo?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, o Youku)'
       },
       link: {
@@ -47,7 +47,7 @@
         unlink: 'Quitar link',
         edit: 'Editar',
         textToDisplay: 'Texto para mostrar',
-        url: '¿Hacia que URL lleva el link?',
+        url: '?Hacia que URL lleva el link?',
         openInNewWindow: 'Abrir en una nueva ventana'
       },
       table: {
@@ -87,7 +87,7 @@
         justify: 'Justificar'
       },
       color: {
-        recent: 'Último color',
+        recent: ''Ultimo color',
         more: 'Más colores',
         background: 'Color de fondo',
         foreground: 'Color de fuente',

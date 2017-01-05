@@ -2,102 +2,102 @@
   $.extend($.summernote.lang, {
     'ar-AR': {
       font: {
-        bold: 'عريض',
-        italic: 'مائل',
-        underline: 'تحته خط',
-        clear: 'مسح التنسيق',
-        height: 'إرتفاع السطر',
-        name: 'الخط',
-        strikethrough: 'فى وسطه خط',
-        size: 'الحجم'
+        bold: '',
+        italic: '',
+        underline: ' ',
+        clear: ' ',
+        height: ' ',
+        name: '',
+        strikethrough: '  ',
+        size: ''
       },
       image: {
-        image: 'صورة',
-        insert: 'إضافة صورة',
-        resizeFull: 'الحجم بالكامل',
-        resizeHalf: 'تصغير للنصف',
-        resizeQuarter: 'تصغير للربع',
-        floatLeft: 'تطيير لليسار',
-        floatRight: 'تطيير لليمين',
-        floatNone: 'ثابته',
-        dragImageHere: 'إدرج الصورة هنا',
-        selectFromFiles: 'حدد ملف',
-        url: 'رابط الصورة',
-        remove: 'حذف الصورة'
+        image: '',
+        insert: ' ',
+        resizeFull: ' ',
+        resizeHalf: ' ',
+        resizeQuarter: ' ',
+        floatLeft: ' ',
+        floatRight: ' ',
+        floatNone: '',
+        dragImageHere: '  ',
+        selectFromFiles: ' ',
+        url: ' ',
+        remove: ' '
       },
       video: {
-        video: 'فيديو',
-        videoLink: 'رابط الفيديو',
-        insert: 'إدراج الفيديو',
-        url: 'رابط الفيديو',
+        video: '',
+        videoLink: ' ',
+        insert: ' ',
+        url: ' ',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ou Youku)'
       },
       link: {
-        link: 'رابط رابط',
-        insert: 'إدراج',
-        unlink: 'حذف الرابط',
-        edit: 'تعديل',
-        textToDisplay: 'النص',
-        url: 'مسار الرابط',
-        openInNewWindow: 'فتح في نافذة جديدة'
+        link: ' ',
+        insert: '',
+        unlink: ' ',
+        edit: '',
+        textToDisplay: '',
+        url: ' ',
+        openInNewWindow: '   '
       },
       table: {
-        table: 'جدول'
+        table: ''
       },
       hr: {
-        insert: 'إدراج خط أفقي'
+        insert: '  '
       },
       style: {
-        style: 'تنسيق',
-        normal: 'عادي',
-        blockquote: 'إقتباس',
-        pre: 'شفيرة',
-        h1: 'عنوان رئيسي 1',
-        h2: 'عنوان رئيسي 2',
-        h3: 'عنوان رئيسي 3',
-        h4: 'عنوان رئيسي 4',
-        h5: 'عنوان رئيسي 5',
-        h6: 'عنوان رئيسي 6'
+        style: '',
+        normal: '',
+        blockquote: '',
+        pre: '',
+        h1: '  1',
+        h2: '  2',
+        h3: '  3',
+        h4: '  4',
+        h5: '  5',
+        h6: '  6'
       },
       lists: {
-        unordered: 'قائمة مُنقطة',
-        ordered: 'قائمة مُرقمة'
+        unordered: ' ',
+        ordered: ' '
       },
       options: {
-        help: 'مساعدة',
-        fullscreen: 'حجم الشاشة بالكامل',
-        codeview: 'شفيرة المصدر'
+        help: '',
+        fullscreen: '  ',
+        codeview: ' '
       },
       paragraph: {
-        paragraph: 'فقرة',
-        outdent: 'محاذاة للخارج',
-        indent: 'محاذاة للداخل',
-        left: 'محاذاة لليسار',
-        center: 'توسيط',
-        right: 'محاذاة لليمين',
-        justify: 'ملئ السطر'
+        paragraph: '',
+        outdent: ' ',
+        indent: ' ',
+        left: ' ',
+        center: '',
+        right: ' ',
+        justify: ' '
       },
       color: {
-        recent: 'تم إستخدامه',
-        more: 'المزيد',
-        background: 'لون الخلفية',
-        foreground: 'لون النص',
-        transparent: 'شفاف',
-        setTransparent: 'بدون خلفية',
-        reset: 'إعادة الضبط',
-        resetToDefault: 'إعادة الضبط'
+        recent: ' ',
+        more: '',
+        background: ' ',
+        foreground: ' ',
+        transparent: '',
+        setTransparent: ' ',
+        reset: ' ',
+        resetToDefault: ' '
       },
       shortcut: {
-        shortcuts: 'إختصارات',
-        close: 'غلق',
-        textFormatting: 'تنسيق النص',
+        shortcuts: '',
+        close: '',
+        textFormatting: ' ',
         action: 'Action',
-        paragraphFormatting: 'تنسيق الفقرة',
-        documentStyle: 'تنسيق المستند'
+        paragraphFormatting: ' ',
+        documentStyle: ' '
       },
       history: {
-        undo: 'تراجع',
-        redo: 'إعادة'
+        undo: '',
+        redo: ''
       }
     }
   });

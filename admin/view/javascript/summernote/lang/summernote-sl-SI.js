@@ -3,12 +3,12 @@
     'sl-SI': {
       font: {
         bold: 'Krepko',
-        italic: 'Ležeče',
-        underline: 'Podčrtano',
-        clear: 'Počisti oblikovanje izbire',
+        italic: 'Lezece',
+        underline: 'Podcrtano',
+        clear: 'Pocisti oblikovanje izbire',
         height: 'Razmik med vrsticami',
         name: 'Pisava',
-        strikethrough: 'Prečrtano',
+        strikethrough: 'Precrtano',
         subscript: 'Podpisano',
         superscript: 'Nadpisano',
         size: 'Velikost pisave'
@@ -16,9 +16,9 @@
       image: {
         image: 'Slika',
         insert: 'Vstavi sliko',
-        resizeFull: 'Razširi na polno velikost',
-        resizeHalf: 'Razširi na polovico velikosti',
-        resizeQuarter: 'Razširi na četrtino velikosti',
+        resizeFull: 'Razsiri na polno velikost',
+        resizeHalf: 'Razsiri na polovico velikosti',
+        resizeQuarter: 'Razsiri na cetrtino velikosti',
         floatLeft: 'Leva poravnava',
         floatRight: 'Desna poravnava',
         floatNone: 'Brez poravnave',
@@ -47,7 +47,7 @@
         table: 'Tabela'
       },
       hr: {
-        insert: 'Vstavi horizontalno črto'
+        insert: 'Vstavi horizontalno crto'
       },
       style: {
         style: 'Slogi',
@@ -62,18 +62,18 @@
         h6: 'Naslov 6'
       },
       lists: {
-        unordered: 'Označen seznam',
-        ordered: 'Oštevilčen seznam'
+        unordered: 'Oznacen seznam',
+        ordered: 'Ostevilcen seznam'
       },
       options: {
-        help: 'Pomoč',
-        fullscreen: 'Celozaslonski način',
+        help: 'Pomoc',
+        fullscreen: 'Celozaslonski nacin',
         codeview: 'Pregled HTML kode'
       },
       paragraph: {
         paragraph: 'Slogi odstavka',
-        outdent: 'Zmanjšaj odmik',
-        indent: 'Povečaj odmik',
+        outdent: 'Zmanjsaj odmik',
+        indent: 'Povecaj odmik',
         left: 'Leva poravnava',
         center: 'Desna poravnava',
         right: 'Sredinska poravnava',
@@ -81,7 +81,7 @@
       },
       color: {
         recent: 'Uporabi zadnjo barvo',
-        more: 'Več barv',
+        more: 'Vec barv',
         background: 'Barva ozadja',
         foreground: 'Barva besedila',
         transparent: 'Brez barve',
@@ -90,7 +90,7 @@
         resetToDefault: 'Ponastavi na privzeto'
       },
       shortcut: {
-        shortcuts: 'Bljižnice',
+        shortcuts: 'Bljiznice',
         close: 'Zapri',
         textFormatting: 'Oblikovanje besedila',
         action: 'Dejanja',

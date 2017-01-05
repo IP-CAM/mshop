@@ -2,51 +2,51 @@
   $.extend($.summernote.lang, {
     'sk-SK': {
       font: {
-        bold: 'Tučné',
+        bold: 'Tucné',
         italic: 'Kurzíva',
-        underline: 'Podčiarknutie',
-        clear: 'Odstrániť štýl písma',
-        height: 'Výška riadku',
-        strikethrough: 'Prečiarknuté',
-        size: 'Veľkosť písma'
+        underline: 'Podciarknutie',
+        clear: 'Odstránit st'yl písma',
+        height: 'V'yska riadku',
+        strikethrough: 'Preciarknuté',
+        size: 'Velkost písma'
       },
       image: {
         image: 'Obrázok',
-        insert: 'Vložiť obrázok',
-        resizeFull: 'Pôvodná veľkosť',
-        resizeHalf: 'Polovičná veľkosť',
-        resizeQuarter: 'Štvrtinová veľkosť',
-        floatLeft: 'Umiestniť doľava',
-        floatRight: 'Umiestniť doprava',
+        insert: 'Vlozit obrázok',
+        resizeFull: 'P^ovodná velkost',
+        resizeHalf: 'Polovicná velkost',
+        resizeQuarter: 'Stvrtinová velkost',
+        floatLeft: 'Umiestnit dolava',
+        floatRight: 'Umiestnit doprava',
         floatNone: 'Bez zarovnania',
-        dragImageHere: 'Pretiahnuť sem obrázok',
-        selectFromFiles: 'Vybrať súbor',
+        dragImageHere: 'Pretiahnut sem obrázok',
+        selectFromFiles: 'Vybrat súbor',
         url: 'URL obrázku'
       },
       video: {
         video: 'Video',
         videoLink: 'Odkaz videa',
-        insert: 'Vložiť video',
+        insert: 'Vlozit video',
         url: 'URL videa?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion alebo Youku)'
       },
       link: {
         link: 'Odkaz',
-        insert: 'Vytvoriť odkaz',
-        unlink: 'Zrušiť odkaz',
-        edit: 'Upraviť',
-        textToDisplay: 'Zobrazovaný text',
-        url: 'Na akú URL adresu má tento odkaz viesť?',
-        openInNewWindow: 'Otvoriť v novom okne'
+        insert: 'Vytvorit odkaz',
+        unlink: 'Zrusit odkaz',
+        edit: 'Upravit',
+        textToDisplay: 'Zobrazovan'y text',
+        url: 'Na akú URL adresu má tento odkaz viest?',
+        openInNewWindow: 'Otvorit v novom okne'
       },
       table: {
-        table: 'Tabuľka'
+        table: 'Tabulka'
       },
       hr: {
-        insert: 'Vložit vodorovnú čiaru'
+        insert: 'Vlozit vodorovnú ciaru'
       },
       style: {
-        style: 'Štýl',
+        style: 'St'yl',
         normal: 'Normálny',
         blockquote: 'Citácia',
         pre: 'Kód',
@@ -58,8 +58,8 @@
         h6: 'Nadpis 6'
       },
       lists: {
-        unordered: 'Odrážkový zoznam',
-        ordered: 'Číselný zoznam'
+        unordered: 'Odrázkov'y zoznam',
+        ordered: 'Císeln'y zoznam'
       },
       options: {
         help: 'Pomoc',
@@ -68,30 +68,30 @@
       },
       paragraph: {
         paragraph: 'Odsek',
-        outdent: 'Zväčšiť odsadenie',
-        indent: 'Zmenšiť odsadenie',
-        left: 'Zarovnať doľava',
-        center: 'Zarovnať na stred',
-        right: 'Zarovnať doprava',
-        justify: 'Zarovnať obojstranne'
+        outdent: 'Zv"acsit odsadenie',
+        indent: 'Zmensit odsadenie',
+        left: 'Zarovnat dolava',
+        center: 'Zarovnat na stred',
+        right: 'Zarovnat doprava',
+        justify: 'Zarovnat obojstranne'
       },
       color: {
         recent: 'Aktuálna farba',
-        more: 'Dalšie farby',
+        more: 'Dalsie farby',
         background: 'Farba pozadia',
         foreground: 'Farba písma',
-        transparent: 'Priehľadnosť',
-        setTransparent: 'Nastaviť priehľadnosť',
-        reset: 'Obnoviť',
-        resetToDefault: 'Obnoviť prednastavené'
+        transparent: 'Priehladnost',
+        setTransparent: 'Nastavit priehladnost',
+        reset: 'Obnovit',
+        resetToDefault: 'Obnovit prednastavené'
       },
       shortcut: {
         shortcuts: 'Klávesové skratky',
-        close: 'Zavrieť',
+        close: 'Zavriet',
         textFormatting: 'Formátovanie textu',
         action: 'Akcia',
         paragraphFormatting: 'Formátovanie odseku',
-        documentStyle: 'Štýl dokumentu'
+        documentStyle: 'St'yl dokumentu'
       },
       history: {
         undo: 'Krok vzad',

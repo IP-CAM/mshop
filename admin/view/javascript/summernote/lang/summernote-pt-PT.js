@@ -22,15 +22,15 @@
         floatNone: 'Sem Float',
         dragImageHere: 'Arraste uma imagem para aqui',
         selectFromFiles: 'Selecione a partir dos arquivos',
-        url: 'Endereço da imagem'
+        url: 'Endereco da imagem'
       },
       link: {
         link: 'Link',
-        insert: 'Inserir ligação',
-        unlink: 'Remover ligação',
+        insert: 'Inserir ligac~ao',
+        unlink: 'Remover ligac~ao',
         edit: 'Editar',
         textToDisplay: 'Texto para exibir',
-        url: 'Que endereço esta licação leva?',
+        url: 'Que endereco esta licac~ao leva?',
         openInNewWindow: 'Abrir numa nova janela'
       },
       table: {
@@ -42,7 +42,7 @@
       style: {
         style: 'Estilo',
         normal: 'Normal',
-        blockquote: 'Citação',
+        blockquote: 'Citac~ao',
         pre: 'Código',
         h1: 'Título 1',
         h2: 'Título 2',
@@ -62,8 +62,8 @@
       },
       paragraph: {
         paragraph: 'Parágrafo',
-        outdent: 'Menor tabulação',
-        indent: 'Maior tabulação',
+        outdent: 'Menor tabulac~ao',
+        indent: 'Maior tabulac~ao',
         left: 'Alinhar à esquerda',
         center: 'Alinhar ao centro',
         right: 'Alinha à direita',
@@ -77,14 +77,14 @@
         transparent: 'Transparente',
         setTransparent: 'Fundo transparente',
         reset: 'Restaurar',
-        resetToDefault: 'Restaurar padrão'
+        resetToDefault: 'Restaurar padr~ao'
       },
       shortcut: {
         shortcuts: 'Atalhos do teclado',
         close: 'Fechar',
-        textFormatting: 'Formatação de texto',
-        action: 'Ação',
-        paragraphFormatting: 'Formatação de parágrafo',
+        textFormatting: 'Formatac~ao de texto',
+        action: 'Ac~ao',
+        paragraphFormatting: 'Formatac~ao de parágrafo',
         documentStyle: 'Estilo de documento'
       },
       history: {

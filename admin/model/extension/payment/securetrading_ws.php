@@ -200,7 +200,7 @@ class ModelExtensionPaymentSecureTradingWs extends Model {
 				'securityresponseaddress',
 				'securityresponsepostcode',
 				'billingprefixname',
-				'billingfirstname',
+				'billingfullname',
 				'billingmiddlename',
 				'billinglastname',
 				'billingpremise',
@@ -212,7 +212,7 @@ class ModelExtensionPaymentSecureTradingWs extends Model {
 				'billingpostcode',
 				'billingtelephones',
 				'customerprefixname',
-				'customerfirstname',
+				'customerfullname',
 				'customermiddlename',
 				'customerlastname',
 				'customerpremise',
@@ -233,7 +233,7 @@ class ModelExtensionPaymentSecureTradingWs extends Model {
 				'settlestatus',
 				'requesttypedescription',
 				'mainamount',
-				'billingfirstname',
+				'billingfullname',
 				'billinglastname',
 			);
 		}

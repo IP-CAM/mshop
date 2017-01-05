@@ -28,7 +28,7 @@ $_['column_amount']             = '金额';
 $_['column_action']             = '管理';
 
 // Entry
-$_['entry_firstname']           = '名字';
+$_['entry_fullname']           = '名字';
 $_['entry_lastname']            = '姓氏';
 $_['entry_email']               = 'E-Mail';
 $_['entry_telephone']           = '电话';
@@ -69,7 +69,7 @@ $_['help_commission']           = '加盟会员佣金的比率。';
 $_['error_warning']             = '警告：请仔细检查错误！';
 $_['error_permission']          = '警告：您没有权限修改加盟会员！';
 $_['error_exists']              = '警告：电子邮件地址已被注册！';
-$_['error_firstname']           = '名字必须在 1 到 32 个字符之间！';
+$_['error_fullname']           = '名字必须在 1 到 32 个字符之间！';
 $_['error_lastname']            = '姓氏必须在 1 到 32 个字符之间！';
 $_['error_email']               = '电子邮件地址无效！';
 $_['error_cheque']              = '支票收款人姓名必填！';

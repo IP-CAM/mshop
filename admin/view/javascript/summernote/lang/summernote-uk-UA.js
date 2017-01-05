@@ -2,41 +2,41 @@
   $.extend($.summernote.lang, {
     'uk-UA': {
       font: {
-        bold: 'Напівжирний',
+        bold: 'Напвжирний',
         italic: 'Курсив',
-        underline: 'Підкреслений',
-        clear: 'Прибрати стилі шрифту',
-        height: 'Висота лінії',
+        underline: 'Пдкреслений',
+        clear: 'Прибрати стил шрифту',
+        height: 'Висота лн',
         name: 'Шрифт',
         strikethrough: 'Закреслений',
-        subscript: 'Нижній індекс',
-        superscript: 'Верхній індекс',
-        size: 'Розмір шрифту'
+        subscript: 'Нижнй ндекс',
+        superscript: 'Верхнй ндекс',
+        size: 'Розмр шрифту'
       },
       image: {
         image: 'Картинка',
         insert: 'Вставити картинку',
-        resizeFull: 'Відновити розмір',
+        resizeFull: 'Вдновити розмр',
         resizeHalf: 'Зменшити до 50%',
         resizeQuarter: 'Зменшити до 25%',
-        floatLeft: 'Розташувати ліворуч',
+        floatLeft: 'Розташувати лворуч',
         floatRight: 'Розташувати праворуч',
         floatNone: 'Початкове розташування',
         shapeRounded: 'Форма: Заокруглена',
         shapeCircle: 'Форма: Коло',
-        shapeThumbnail: 'Форма: Мініатюра',
-        shapeNone: 'Форма: Немає',
-        dragImageHere: 'Перетягніть сюди картинку',
-        dropImage: 'Перетягніть картинку',
-        selectFromFiles: 'Вибрати з файлів',
+        shapeThumbnail: 'Форма: Мнатюра',
+        shapeNone: 'Форма: Нема',
+        dragImageHere: 'Перетягнть сюди картинку',
+        dropImage: 'Перетягнть картинку',
+        selectFromFiles: 'Вибрати з файлв',
         url: 'URL картинки',
         remove: 'Видалити картинку'
       },
       video: {
-        video: 'Відео',
-        videoLink: 'Посилання на відео',
-        insert: 'Вставити відео',
-        url: 'URL відео',
+        video: 'Вдео',
+        videoLink: 'Посилання на вдео',
+        insert: 'Вставити вдео',
+        url: 'URL вдео',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion чи Youku)'
       },
       link: {
@@ -44,15 +44,15 @@
         insert: 'Вставити посилання',
         unlink: 'Прибрати посилання',
         edit: 'Редагувати',
-        textToDisplay: 'Текст, що відображається',
+        textToDisplay: 'Текст, що вдображаться',
         url: 'URL для переходу',
-        openInNewWindow: 'Відкривати у новому вікні'
+        openInNewWindow: 'Вдкривати у новому вкн'
       },
       table: {
         table: 'Таблиця'
       },
       hr: {
-        insert: 'Вставити горизонтальну лінію'
+        insert: 'Вставити горизонтальну лню'
       },
       style: {
         style: 'Стиль',
@@ -77,33 +77,33 @@
       },
       paragraph: {
         paragraph: 'Параграф',
-        outdent: 'Зменшити відступ',
-        indent: 'Збільшити відступ',
-        left: 'Вирівняти по лівому краю',
-        center: 'Вирівняти по центру',
-        right: 'Вирівняти по правому краю',
-        justify: 'Розтягнути по ширині'
+        outdent: 'Зменшити вдступ',
+        indent: 'Збльшити вдступ',
+        left: 'Вирвняти по лвому краю',
+        center: 'Вирвняти по центру',
+        right: 'Вирвняти по правому краю',
+        justify: 'Розтягнути по ширин'
       },
       color: {
-        recent: 'Останній колір',
+        recent: 'Останнй колр',
         more: 'Ще кольори',
-        background: 'Колір фону',
-        foreground: 'Колір шрифту',
+        background: 'Колр фону',
+        foreground: 'Колр шрифту',
         transparent: 'Прозорий',
         setTransparent: 'Зробити прозорим',
-        reset: 'Відновити',
-        resetToDefault: 'Відновити початкові'
+        reset: 'Вдновити',
+        resetToDefault: 'Вдновити початков'
       },
       shortcut: {
-        shortcuts: 'Комбінації клавіш',
+        shortcuts: 'Комбнац клавш',
         close: 'Закрити',
         textFormatting: 'Форматування тексту',
-        action: 'Дія',
+        action: 'Дя',
         paragraphFormatting: 'Форматування параграфу',
         documentStyle: 'Стиль документу'
       },
       history: {
-        undo: 'Відмінити',
+        undo: 'Вдмнити',
         redo: 'Повторити'
       }
     }

@@ -1,7 +1,7 @@
 <?php
 class ModelSaleRecurring extends Model {
 	public function getRecurrings($data) {
-		$sql = "SELECT `or`.order_recurring_id, `or`.order_id, `or`.reference, `or`.`status`, `or`.`date_added`, CONCAT(`o`.firstname, ' ', `o`.lastname) AS customer FROM `" . DB_PREFIX . "order_recurring` `or` LEFT JOIN `" . DB_PREFIX . "order` `o` ON (`or`.order_id = `o`.order_id)";
+		$sql = "SELECT `or`.order_recurring_id, `or`.order_id, `or`.reference, `or`.`status`, `or`.`date_added`, CONCAT(`o`.fullname) AS customer FROM `" . DB_PREFIX . "order_recurring` `or` LEFT JOIN `" . DB_PREFIX . "order` `o` ON (`or`.order_id = `o`.order_id)";
 
 		$implode = array();
 
@@ -18,7 +18,7 @@ class ModelSaleRecurring extends Model {
 		}
 
 		if (!empty($data['filter_customer'])) {
-			$implode[] = "CONCAT(o.firstname, ' ', o.lastname) LIKE '" . $this->db->escape($data['filter_customer']) . "%'";
+			$implode[] = "CONCAT(o.fullname) LIKE '" . $this->db->escape($data['filter_customer']) . "%'";
 		}
 
 		if (!empty($data['filter_status'])) {
@@ -175,7 +175,7 @@ class ModelSaleRecurring extends Model {
 		}
 
 		if (!empty($data['filter_customer'])) {
-			$implode[] .= "CONCAT(o.firstname, ' ', o.lastname) LIKE '" . $this->db->escape($data['filter_customer']) . "%'";
+			$implode[] .= "CONCAT(o.fullname) LIKE '" . $this->db->escape($data['filter_customer']) . "%'";
 		}
 
 		if (!empty($data['filter_status'])) {

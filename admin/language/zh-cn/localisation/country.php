@@ -24,7 +24,7 @@ $_['entry_postcode_required']= '邮编必填';
 $_['entry_status']           = '状态';
 
 // Help
-$_['help_address_format']     = '名字 = {firstname}<br />姓氏 = {lastname}<br />公司 = {company}<br />地址 1 = {address_1}<br />地址 2 = {address_2}<br />城市 = {city}<br />邮编 = {postcode}<br />国家地区 = {zone}<br />地区编码 = {zone_code}<br />国家 = {country}';
+$_['help_address_format']     = '名字 = {fullname}<br />姓氏 = {lastname}<br />公司 = {company}<br />地址 1 = {address_1}<br />地址 2 = {address_2}<br />城市 = {city}<br />邮编 = {postcode}<br />国家地区 = {zone}<br />地区编码 = {zone_code}<br />国家 = {country}';
 
 
 // Error

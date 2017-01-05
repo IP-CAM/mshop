@@ -11,8 +11,7 @@ class ControllerCommonColumnLeft extends Controller {
 			$user_info = $this->model_user_user->getUser($this->user->getId());
 	
 			if ($user_info) {
-				$data['firstname'] = $user_info['firstname'];
-				$data['lastname'] = $user_info['lastname'];
+				$data['fullname'] = $user_info['fullname'];
 	
 				$data['user_group'] = $user_info['user_group'];
 	
@@ -22,8 +21,7 @@ class ControllerCommonColumnLeft extends Controller {
 					$data['image'] = '';
 				}
 			} else {
-				$data['firstname'] = '';
-				$data['lastname'] = '';
+				$data['fullname'] = '';
 				$data['user_group'] = '';
 				$data['image'] = '';
 			}			

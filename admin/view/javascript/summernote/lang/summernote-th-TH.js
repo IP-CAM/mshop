@@ -2,104 +2,104 @@
 	$.extend($.summernote.lang, {
 		'th-TH': {
 			font: {
-				bold: 'ตัวหนา',
-				italic: 'ตัวเอียง',
-				underline: 'ขีดเส้นใต้',
-				clear: 'ล้างรูปแบบตัวอักษร',
-				height: 'ความสูงบรรทัด',
-				name: 'แบบตัวอักษร',
-				strikethrough: 'ขีดฆ่า',
-				subscript: 'ตัวห้อย',
-				superscript: 'ตัวยก',
-				size: 'ขนาดตัวอักษร'
+				bold: '',
+				italic: '',
+				underline: '',
+				clear: '',
+				height: '',
+				name: '',
+				strikethrough: '',
+				subscript: '',
+				superscript: '',
+				size: ''
 			},
 			image: {
-				image: 'รูปภาพ',
-				insert: 'แทรกรูปภาพ',
-				resizeFull: 'ปรับขนาดเท่าจริง',
-				resizeHalf: 'ปรับขนาดลง 50%',
-				resizeQuarter: 'ปรับขนาดลง 25%',
-				floatLeft: 'ชิดซ้าย',
-				floatRight: 'ชิดขวา',
-				floatNone: 'ไม่จัดตำแหน่ง',
-				dragImageHere: 'ลากรูปภาพที่ต้องการไว้ที่นี่',
-				selectFromFiles: 'เลือกไฟล์รูปภาพ',
-				url: 'ที่อยู่ URL ของรูปภาพ',
-				remove: 'ลบรูปภาพ'
+				image: '',
+				insert: '',
+				resizeFull: '',
+				resizeHalf: ' 50%',
+				resizeQuarter: ' 25%',
+				floatLeft: '',
+				floatRight: '',
+				floatNone: '',
+				dragImageHere: '',
+				selectFromFiles: '',
+				url: ' URL ',
+				remove: ''
 			},
 			video: {
-				video: 'วีดีโอ',
-				videoLink: 'ลิงก์ของวีดีโอ',
-				insert: 'แทรกวีดีโอ',
-				url: 'ที่อยู่ URL ของวีดีโอ?',
-				providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion หรือ Youku)'
+				video: '',
+				videoLink: '',
+				insert: '',
+				url: ' URL ?',
+				providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion  Youku)'
 			},
 			link: {
-				link: 'ตัวเชื่อมโยง',
-				insert: 'แทรกตัวเชื่อมโยง',
-				unlink: 'ยกเลิกตัวเชื่อมโยง',
-				edit: 'แก้ไข',
-				textToDisplay: 'ข้อความที่ให้แสดง',
-				url: 'ที่อยู่เว็บไซต์ที่ต้องการให้เชื่อมโยงไปถึง?',
-				openInNewWindow: 'เปิดในหน้าต่างใหม่'
+				link: '',
+				insert: '',
+				unlink: '',
+				edit: '',
+				textToDisplay: '',
+				url: '?',
+				openInNewWindow: ''
 			},
 			table: {
-				table: 'ตาราง'
+				table: ''
 			},
 			hr: {
-				insert: 'แทรกเส้นคั่น'
+				insert: ''
 			},
 			style: {
-				style: 'รูปแบบ',
-				normal: 'ปกติ',
-				blockquote: 'ข้อความ',
-				pre: 'โค้ด',
-				h1: 'หัวข้อ 1',
-				h2: 'หัวข้อ 2',
-				h3: 'หัวข้อ 3',
-				h4: 'หัวข้อ 4',
-				h5: 'หัวข้อ 5',
-				h6: 'หัวข้อ 6'
+				style: '',
+				normal: '',
+				blockquote: '',
+				pre: '',
+				h1: ' 1',
+				h2: ' 2',
+				h3: ' 3',
+				h4: ' 4',
+				h5: ' 5',
+				h6: ' 6'
 			},
 			lists: {
-				unordered: 'รายการแบบไม่มีลำดับ',
-				ordered: 'รายการแบบมีลำดับ'
+				unordered: '',
+				ordered: ''
 			},
 			options: {
-				help: 'ช่วยเหลือ',
-				fullscreen: 'ขยายเต็มหน้าจอ',
-				codeview: 'ซอร์สโค้ด'
+				help: '',
+				fullscreen: '',
+				codeview: ''
 			},
 			paragraph: {
-				paragraph: 'ย่อหน้า',
-				outdent: 'เยื้องซ้าย',
-				indent: 'เยื้องขวา',
-				left: 'จัดหน้าชิดซ้าย',
-				center: 'จัดหน้ากึ่งกลาง',
-				right: 'จัดหน้าชิดขวา',
-				justify: 'จัดบรรทัดเสมอกัน'
+				paragraph: '',
+				outdent: '',
+				indent: '',
+				left: '',
+				center: '',
+				right: '',
+				justify: ''
 			},
 			color: {
-				recent: 'สีที่ใช้ล่าสุด',
-				more: 'สีอื่นๆ',
-				background: 'สีพื้นหลัง',
-				foreground: 'สีพื้นหน้า',
-				transparent: 'โปร่งแสง',
-				setTransparent: 'ตั้งค่าความโปร่งแสง',
-				reset: 'คืนค่า',
-				resetToDefault: 'คืนค่ามาตรฐาน'
+				recent: '',
+				more: '',
+				background: '',
+				foreground: '',
+				transparent: '',
+				setTransparent: '',
+				reset: '',
+				resetToDefault: ''
 			},
 			shortcut: {
-				shortcuts: 'แป้นลัด',
-				close: 'ปิด',
-				textFormatting: 'การจัดรูปแบบข้อความ',
-				action: 'การกระทำ',
-				paragraphFormatting: 'การจัดรูปแบบย่อหน้า',
-				documentStyle: 'รูปแบบของเอกสาร'
+				shortcuts: '',
+				close: '',
+				textFormatting: '',
+				action: '',
+				paragraphFormatting: '',
+				documentStyle: ''
 			},
 			history: {
-				undo: 'ยกเลิกการกระทำ',
-				redo: 'ทำซ้ำการกระทำ'
+				undo: '',
+				redo: ''
 			}
 		}
 	});

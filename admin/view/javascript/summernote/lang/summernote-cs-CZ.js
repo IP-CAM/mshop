@@ -2,48 +2,48 @@
   $.extend($.summernote.lang, {
     'cs-CZ': {
       font: {
-        bold: 'Tučné',
+        bold: 'Tucné',
         italic: 'Kurzíva',
-        underline: 'Podtržené',
+        underline: 'Podtrzené',
         clear: 'Odstranit styl písma',
-        height: 'Výška řádku',
-        strikethrough: 'Přeškrtnuté',
+        height: 'V'yska rádku',
+        strikethrough: 'Preskrtnuté',
         size: 'Velikost písma'
       },
       image: {
         image: 'Obrázek',
-        insert: 'Vložit obrázek',
-        resizeFull: 'Původní velikost',
-        resizeHalf: 'Poloviční velikost',
-        resizeQuarter: 'Čtvrteční velikost',
+        insert: 'Vlozit obrázek',
+        resizeFull: 'Puvodní velikost',
+        resizeHalf: 'Polovicní velikost',
+        resizeQuarter: 'Ctvrtecní velikost',
         floatLeft: 'Umístit doleva',
         floatRight: 'Umístit doprava',
         floatNone: 'Neobtékat textem',
-        dragImageHere: 'Přetáhnout sem obrázek',
+        dragImageHere: 'Pretáhnout sem obrázek',
         selectFromFiles: 'Vybrat soubor',
         url: 'URL obrázku'
       },
       video: {
         video: 'Video',
         videoLink: 'Odkaz videa',
-        insert: 'Vložit video',
+        insert: 'Vlozit video',
         url: 'URL videa?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion nebo Youku)'
       },
       link: {
         link: 'Odkaz',
-        insert: 'Vytvořit odkaz',
-        unlink: 'Zrušit odkaz',
+        insert: 'Vytvorit odkaz',
+        unlink: 'Zrusit odkaz',
         edit: 'Upravit',
-        textToDisplay: 'Zobrazovaný text',
+        textToDisplay: 'Zobrazovan'y text',
         url: 'Na jaké URL má tento odkaz vést?',
-        openInNewWindow: 'Otevřít v novém okně'
+        openInNewWindow: 'Otevrít v novém okně'
       },
       table: {
         table: 'Tabulka'
       },
       hr: {
-        insert: 'Vložit vodorovnou čáru'
+        insert: 'Vlozit vodorovnou cáru'
       },
       style: {
         style: 'Styl',
@@ -58,8 +58,8 @@
         h6: 'Nadpis 6'
       },
       lists: {
-        unordered: 'Odrážkový seznam',
-        ordered: 'Číselný seznam'
+        unordered: 'Odrázkov'y seznam',
+        ordered: 'Císeln'y seznam'
       },
       options: {
         help: 'Nápověda',
@@ -68,26 +68,26 @@
       },
       paragraph: {
         paragraph: 'Odstavec',
-        outdent: 'Zvětšit odsazení',
-        indent: 'Zmenšit odsazení',
+        outdent: 'Zvětsit odsazení',
+        indent: 'Zmensit odsazení',
         left: 'Zarovnat doleva',
-        center: 'Zarovnat na střed',
+        center: 'Zarovnat na stred',
         right: 'Zarovnat doprava',
         justify: 'Zarovnat oboustranně'
       },
       color: {
         recent: 'Aktuální barva',
-        more: 'Další barvy',
+        more: 'Dalsí barvy',
         background: 'Barva pozadí',
         foreground: 'Barva písma',
-        transparent: 'Průhlednost',
-        setTransparent: 'Nastavit průhlednost',
+        transparent: 'Pruhlednost',
+        setTransparent: 'Nastavit pruhlednost',
         reset: 'Obnovit',
-        resetToDefault: 'Obnovit výchozí'
+        resetToDefault: 'Obnovit v'ychozí'
       },
       shortcut: {
         shortcuts: 'Klávesové zkratky',
-        close: 'Zavřít',
+        close: 'Zavrít',
         textFormatting: 'Formátování textu',
         action: 'Akce',
         paragraphFormatting: 'Formátování odstavce',
@@ -95,7 +95,7 @@
       },
       history: {
         undo: 'Krok vzad',
-        redo: 'Krok vpřed'
+        redo: 'Krok vpred'
       }
 
     }

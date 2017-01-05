@@ -6,27 +6,27 @@
         italic: 'Kursiv',
         underline: 'Unterstreichen',
         clear: 'Zurücksetzen',
-        height: 'Zeilenhöhe',
+        height: 'Zeilenh"ohe',
         strikethrough: 'Durchgestrichen',
-        size: 'Schriftgröße'
+        size: 'Schriftgr"osse'
       },
       image: {
         image: 'Grafik',
         insert: 'Grafik einfügen',
-        resizeFull: 'Originalgröße',
-        resizeHalf: 'Größe 1/2',
-        resizeQuarter: 'Größe 1/4',
+        resizeFull: 'Originalgr"osse',
+        resizeHalf: 'Gr"osse 1/2',
+        resizeQuarter: 'Gr"osse 1/4',
         floatLeft: 'Linksbündig',
         floatRight: 'Rechtsbündig',
         floatNone: 'Kein Textfluss',
         shapeRounded: 'Rahmen: Abgerundet',
-        shapeCircle: 'Rahmen: Kreisförmig',
+        shapeCircle: 'Rahmen: Kreisf"ormig',
         shapeThumbnail: 'Rahmen: Thumbnail',
         shapeNone: 'Kein Rahmen',
         dragImageHere: 'Ziehen Sie ein Bild mit der Maus hierher',
-        selectFromFiles: 'Wählen Sie eine Datei aus',
-        maximumFileSize: 'Maximale Dateigröße',
-        maximumFileSizeError: 'Maximale Dateigröße überschritten',
+        selectFromFiles: 'W"ahlen Sie eine Datei aus',
+        maximumFileSize: 'Maximale Dateigr"osse',
+        maximumFileSizeError: 'Maximale Dateigr"osse überschritten',
         url: 'Grafik URL',
         remove: 'Grafik entfernen'
       },
@@ -44,7 +44,7 @@
         edit: 'Editieren',
         textToDisplay: 'Anzeigetext',
         url: 'Ziel des Links?',
-        openInNewWindow: 'In einem neuen Fenster öffnen'
+        openInNewWindow: 'In einem neuen Fenster "offnen'
       },
       table: {
         table: 'Tabelle'
@@ -57,15 +57,15 @@
         normal: 'Normal',
         blockquote: 'Zitat',
         pre: 'Quellcode',
-        h1: 'Überschrift 1',
-        h2: 'Überschrift 2',
-        h3: 'Überschrift 3',
-        h4: 'Überschrift 4',
-        h5: 'Überschrift 5',
-        h6: 'Überschrift 6'
+        h1: '"Uberschrift 1',
+        h2: '"Uberschrift 2',
+        h3: '"Uberschrift 3',
+        h4: '"Uberschrift 4',
+        h5: '"Uberschrift 5',
+        h6: '"Uberschrift 6'
       },
       lists: {
-        unordered: 'Aufzählung',
+        unordered: 'Aufz"ahlung',
         ordered: 'Nummerierung'
       },
       options: {
@@ -75,7 +75,7 @@
       },
       paragraph: {
         paragraph: 'Absatz',
-        outdent: 'Einzug vergrößern',
+        outdent: 'Einzug vergr"ossern',
         indent: 'Einzug verkleinern',
         left: 'Links ausrichten',
         center: 'Zentriert ausrichten',
@@ -94,14 +94,14 @@
       },
       shortcut: {
         shortcuts: 'Tastenkürzel',
-        close: 'Schließen',
+        close: 'Schliessen',
         textFormatting: 'Textformatierung',
         action: 'Aktion',
         paragraphFormatting: 'Absatzformatierung',
         documentStyle: 'Dokumentenstil'
       },
       history: {
-        undo: 'Rückgängig',
+        undo: 'Rückg"angig',
         redo: 'Wiederholen'
       }
 

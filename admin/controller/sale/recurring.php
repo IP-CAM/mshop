@@ -441,8 +441,7 @@ class ControllerSaleRecurring extends Controller {
 			// Order
 			$data['order_id'] = $order_info['order_id'];
 			$data['order'] = $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $order_info['order_id'], true);
-			$data['firstname'] = $order_info['firstname'];
-			$data['lastname'] = $order_info['lastname'];
+			$data['fullname'] = $order_info['fullname'];
 			
 			if ($order_info['customer_id']) {
 				$data['customer'] = $this->url->link('customer/customer/edit', 'token=' . $this->session->data['token'] . '&customer_id=' . $order_info['customer_id'], true);

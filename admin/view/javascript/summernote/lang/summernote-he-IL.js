@@ -2,105 +2,105 @@
   $.extend($.summernote.lang, {
     'he-IL': {
       font: {
-        bold: 'מודגש',
-        italic: 'נטוי',
-        underline: 'קו תחתון',
-        clear: 'נקה עיצוב',
-        height: 'גובה',
-        name: 'גופן',
-        strikethrough: 'קו חוצה',
-        subscript: 'כתב תחתי',
-        superscript: 'כתב עילי',
-        size: 'גודל גופן'
+        bold: '',
+        italic: '',
+        underline: ' ',
+        clear: ' ',
+        height: '',
+        name: '',
+        strikethrough: ' ',
+        subscript: ' ',
+        superscript: ' ',
+        size: ' '
       },
       image: {
-        image: 'תמונה',
-        insert: 'הוסף תמונה',
-        resizeFull: 'גודל מלא',
-        resizeHalf: 'להקטין לחצי',
-        resizeQuarter: 'להקטין לרבע',
-        floatLeft: 'יישור לשמאל',
-        floatRight: 'יישור לימין',
-        floatNone: 'ישר',
-        dragImageHere: 'גרור תמונה לכאן',
-        selectFromFiles: 'בחר מתוך קבצים',
-        url: 'נתיב לתמונה',
-        remove: 'הסר תמונה'
+        image: '',
+        insert: ' ',
+        resizeFull: ' ',
+        resizeHalf: ' ',
+        resizeQuarter: ' ',
+        floatLeft: ' ',
+        floatRight: ' ',
+        floatNone: '',
+        dragImageHere: '  ',
+        selectFromFiles: '  ',
+        url: ' ',
+        remove: ' '
       },
       video: {
-        video: 'סרטון',
-        videoLink: 'קישור לסרטון',
-        insert: 'הוסף סרטון',
-        url: 'קישור לסרטון',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion או Youku)'
+        video: '',
+        videoLink: ' ',
+        insert: ' ',
+        url: ' ',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion  Youku)'
       },
       link: {
-        link: 'קישור',
-        insert: 'הוסף קישור',
-        unlink: 'הסר קישור',
-        edit: 'ערוך',
-        textToDisplay: 'טקסט להציג',
-        url: 'קישור',
-        openInNewWindow: 'פתח בחלון חדש'
+        link: '',
+        insert: ' ',
+        unlink: ' ',
+        edit: '',
+        textToDisplay: ' ',
+        url: '',
+        openInNewWindow: '  '
       },
       table: {
-        table: 'טבלה'
+        table: ''
       },
       hr: {
-        insert: 'הוסף קו'
+        insert: ' '
       },
       style: {
-        style: 'עיצוב',
-        normal: 'טקסט רגיל',
-        blockquote: 'ציטוט',
-        pre: 'קוד',
-        h1: 'כותרת 1',
-        h2: 'כותרת 2',
-        h3: 'כותרת 3',
-        h4: 'כותרת 4',
-        h5: 'כותרת 5',
-        h6: 'כותרת 6'
+        style: '',
+        normal: ' ',
+        blockquote: '',
+        pre: '',
+        h1: ' 1',
+        h2: ' 2',
+        h3: ' 3',
+        h4: ' 4',
+        h5: ' 5',
+        h6: ' 6'
       },
       lists: {
-        unordered: 'רשימת תבליטים',
-        ordered: 'רשימה ממוספרת'
+        unordered: ' ',
+        ordered: ' '
       },
       options: {
-        help: 'עזרה',
-        fullscreen: 'מסך מלא',
-        codeview: 'תצוגת קוד'
+        help: '',
+        fullscreen: ' ',
+        codeview: ' '
       },
       paragraph: {
-        paragraph: 'פסקה',
-        outdent: 'הקטן כניסה',
-        indent: 'הגדל כניסה',
-        left: 'יישור לשמאל',
-        center: 'יישור למרכז',
-        right: 'יישור לימין',
-        justify: 'מיושר'
+        paragraph: '',
+        outdent: ' ',
+        indent: ' ',
+        left: ' ',
+        center: ' ',
+        right: ' ',
+        justify: ''
       },
       color: {
-        recent: 'צבע טקסט אחרון',
-        more: 'עוד צבעים',
-        background: 'צבע רקע',
-        foreground: 'צבע טקסט',
-        transparent: 'שקוף',
-        setTransparent: 'קבע כשקוף',
-        reset: 'איפוס',
-        resetToDefault: 'אפס לברירת מחדל'
+        recent: '  ',
+        more: ' ',
+        background: ' ',
+        foreground: ' ',
+        transparent: '',
+        setTransparent: ' ',
+        reset: '',
+        resetToDefault: '  '
       },
       shortcut: {
-        shortcuts: 'קיצורי מקלדת',
-        close: 'סגור',
-        textFormatting: 'עיצוב הטקסט',
-        action: 'פעולה',
-        paragraphFormatting: 'סגנונות פסקה',
-        documentStyle: 'עיצוב המסמך',
-        extraKeys: 'קיצורים נוספים'
+        shortcuts: ' ',
+        close: '',
+        textFormatting: ' ',
+        action: '',
+        paragraphFormatting: ' ',
+        documentStyle: ' ',
+        extraKeys: ' '
       },
       history: {
-        undo: 'בטל פעולה',
-        redo: 'בצע שוב'
+        undo: ' ',
+        redo: ' '
       }
     }
   });

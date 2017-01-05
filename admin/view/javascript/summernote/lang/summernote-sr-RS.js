@@ -2,11 +2,11 @@
   $.extend($.summernote.lang, {
     'sr-RS': {
       font: {
-        bold: 'Подебљано',
+        bold: 'Подебано',
         italic: 'Курзив',
         underline: 'Подвучено',
         clear: 'Уклони стилове фонта',
-        height: 'Висина линије',
+        height: 'Висина линие',
         strikethrough: 'Прецртано',
         size: 'Величина фонта'
       },
@@ -14,11 +14,11 @@
         image: 'Слика',
         insert: 'Уметни слику',
         resizeFull: 'Пуна величина',
-        resizeHalf: 'Умањи на 50%',
-        resizeQuarter: 'Умањи на 25%',
+        resizeHalf: 'Умаи на 50%',
+        resizeQuarter: 'Умаи на 25%',
         floatLeft: 'Уз леву ивицу',
         floatRight: 'Уз десну ивицу',
-        floatNone: 'Без равнања',
+        floatNone: 'Без равнаа',
         dragImageHere: 'Превуци слику овде',
         selectFromFiles: 'Изабери из датотеке',
         url: 'Адреса слике',
@@ -44,43 +44,43 @@
         table: 'Табела'
       },
       hr: {
-        insert: 'Уметни хоризонталну линију'
+        insert: 'Уметни хоризонталну линиу'
       },
       style: {
         style: 'Стил',
         normal: 'Нормални',
         blockquote: 'Цитат',
         pre: 'Код',
-        h1: 'Заглавље 1',
-        h2: 'Заглавље 2',
-        h3: 'Заглавље 3',
-        h4: 'Заглавље 4',
-        h5: 'Заглавље 5',
-        h6: 'Заглавље 6'
+        h1: 'Заглаве 1',
+        h2: 'Заглаве 2',
+        h3: 'Заглаве 3',
+        h4: 'Заглаве 4',
+        h5: 'Заглаве 5',
+        h6: 'Заглаве 6'
       },
       lists: {
         unordered: 'Обична листа',
         ordered: 'Нумерисана листа'
       },
       options: {
-        help: 'Помоћ',
+        help: 'Помо',
         fullscreen: 'Преко целог екрана',
         codeview: 'Изворни код'
       },
       paragraph: {
         paragraph: 'Параграф',
-        outdent: 'Смањи увлачење',
-        indent: 'Повечај увлачење',
-        left: 'Поравнај у лево',
+        outdent: 'Смаи увлачее',
+        indent: 'Повеча увлачее',
+        left: 'Поравна у лево',
         center: 'Центрирано',
-        right: 'Поравнај у десно',
-        justify: 'Поравнај обострано'
+        right: 'Поравна у десно',
+        justify: 'Поравна обострано'
       },
       color: {
-        recent: 'Последња боја',
-        more: 'Више боја',
-        background: 'Боја позадине',
-        foreground: 'Боја текста',
+        recent: 'Последа боа',
+        more: 'Више боа',
+        background: 'Боа позадине',
+        foreground: 'Боа текста',
         transparent: 'Провидна',
         setTransparent: 'Провидна',
         reset: 'Опозив',
@@ -89,11 +89,11 @@
       shortcut: {
         shortcuts: 'Пречице са тастатуре',
         close: 'Затвори',
-        textFormatting: 'Форматирање текста',
-        action: 'Акција',
-        paragraphFormatting: 'Форматирање параграфа',
+        textFormatting: 'Форматирае текста',
+        action: 'Акциа',
+        paragraphFormatting: 'Форматирае параграфа',
         documentStyle: 'Стил документа',
-        extraKeys: 'Додатне комбинације'
+        extraKeys: 'Додатне комбинацие'
       },
       history: {
         undo: 'Поништи',

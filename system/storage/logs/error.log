@@ -2,3 +2,6 @@
 2017-01-05 16:57:14 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
 2017-01-05 16:57:16 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
 2017-01-05 16:57:51 - PHP Notice:  Undefined property: Cart\Customer::$fullname in C:\xampp\htdocs\mshop\system\library\cart\customer.php on line 98
+2017-01-05 17:08:06 - PHP Notice:  Undefined index: firstname in C:\xampp\htdocs\mshop\admin\controller\common\column_left.php on line 14
+2017-01-05 17:08:06 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\mshop\admin\controller\common\column_left.php on line 15
+2017-01-05 17:36:22 - PHP Notice:  Undefined index: lastname in C:\xampp\htdocs\mshop\admin\controller\customer\customer.php on line 1005

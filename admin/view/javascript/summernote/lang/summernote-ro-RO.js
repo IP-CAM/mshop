@@ -2,47 +2,47 @@
   $.extend($.summernote.lang, {
     'ro-RO': {
       font: {
-        bold: 'Îngroșat',
-        italic: 'Înclinat',
+        bold: '^Ingrosat',
+        italic: '^Inclinat',
         underline: 'Subliniat',
-        clear: 'Înlătură formatare font',
-        height: 'Înălțime rând',
-        strikethrough: 'Tăiat',
+        clear: '^Inlatura formatare font',
+        height: '^Inaltime r^and',
+        strikethrough: 'Taiat',
         size: 'Dimensiune font'
       },
       image: {
         image: 'Imagine',
-        insert: 'Inserează imagine',
-        resizeFull: 'Redimensionează complet',
-        resizeHalf: 'Redimensionează 1/2',
-        resizeQuarter: 'Redimensionează 1/4',
-        floatLeft: 'Aliniere la stânga',
+        insert: 'Insereaza imagine',
+        resizeFull: 'Redimensioneaza complet',
+        resizeHalf: 'Redimensioneaza 1/2',
+        resizeQuarter: 'Redimensioneaza 1/4',
+        floatLeft: 'Aliniere la st^anga',
         floatRight: 'Aliniere la dreapta',
-        floatNone: 'Fară aliniere',
+        floatNone: 'Fara aliniere',
         dragImageHere: 'Trage o imagine aici',
-        selectFromFiles: 'Alege din fişiere',
+        selectFromFiles: 'Alege din fisiere',
         url: 'URL imagine'
       },
       video: {
         video: 'Video',
         videoLink: 'Link video',
-        insert: 'Inserează video',
+        insert: 'Insereaza video',
         url: 'URL video?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, sau Youku)'
       },
       link: {
         link: 'Link',
-        insert: 'Inserează link',
-        unlink: 'Înlătură link',
-        edit: 'Editează',
-        textToDisplay: 'Text ce va fi afişat',
-        url: 'Deschidere în fereastra nouă?'
+        insert: 'Insereaza link',
+        unlink: '^Inlatura link',
+        edit: 'Editeaza',
+        textToDisplay: 'Text ce va fi afisat',
+        url: 'Deschidere ^in fereastra noua?'
       },
       table: {
         table: 'Tabel'
       },
       hr: {
-        insert: 'Inserează o linie orizontală'
+        insert: 'Insereaza o linie orizontala'
       },
       style: {
         style: 'Stil',
@@ -57,44 +57,44 @@
         h6: 'Titlu 6'
       },
       lists: {
-        unordered: 'Listă neordonată',
-        ordered: 'Listă ordonată'
+        unordered: 'Lista neordonata',
+        ordered: 'Lista ordonata'
       },
       options: {
         help: 'Ajutor',
-        fullscreen: 'Măreşte',
-        codeview: 'Sursă'
+        fullscreen: 'Mareste',
+        codeview: 'Sursa'
       },
       paragraph: {
         paragraph: 'Paragraf',
-        outdent: 'Creşte identarea',
+        outdent: 'Creste identarea',
         indent: 'Scade identarea',
-        left: 'Aliniere la stânga',
-        center: 'Aliniere centrală',
+        left: 'Aliniere la st^anga',
+        center: 'Aliniere centrala',
         right: 'Aliniere la dreapta',
-        justify: 'Aliniere în bloc'
+        justify: 'Aliniere ^in bloc'
       },
       color: {
-        recent: 'Culoare recentă',
+        recent: 'Culoare recenta',
         more: 'Mai multe  culori',
         background: 'Culoarea fundalului',
         foreground: 'Culoarea textului',
         transparent: 'Transparent',
-        setTransparent: 'Setează transparent',
-        reset: 'Resetează',
-        resetToDefault: 'Revino la iniţial'
+        setTransparent: 'Seteaza transparent',
+        reset: 'Reseteaza',
+        resetToDefault: 'Revino la initial'
       },
       shortcut: {
-        shortcuts: 'Scurtături tastatură',
-        close: 'Închide',
+        shortcuts: 'Scurtaturi tastatura',
+        close: '^Inchide',
         textFormatting: 'Formatare text',
-        action: 'Acţiuni',
+        action: 'Actiuni',
         paragraphFormatting: 'Formatare paragraf',
         documentStyle: 'Stil paragraf'
       },
       history: {
-        undo: 'Starea anterioară',
-        redo: 'Starea ulterioară'
+        undo: 'Starea anterioara',
+        redo: 'Starea ulterioara'
       }
 
     }

@@ -36,7 +36,7 @@ class ModelExtensionOpenBayEbay extends Model{
 		$value["ebay_itm_link"]      = 'http://www.ebay.com/itm/';
 		$value["ebay_relistitems"]        = 0;
 		$value["ebay_time_offset"]        = 0;
-		$value["ebay_default_addressformat"] = '{firstname} {lastname}
+		$value["ebay_default_addressformat"] = '{fullname} {lastname}
 {company}
 {address_1}
 {address_2}

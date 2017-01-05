@@ -6,7 +6,7 @@
         italic: 'Kursiv',
         underline: 'Understruken',
         clear: 'Radera formatering',
-        height: 'Radavstånd',
+        height: 'Radavstand',
         name: 'Teckensnitt',
         strikethrough: 'Genomstruken',
         size: 'Teckenstorlek'
@@ -16,30 +16,30 @@
         insert: 'Infoga bild',
         resizeFull: 'Full storlek',
         resizeHalf: 'Halv storlek',
-        resizeQuarter: 'En fjärdedel i storlek',
-        floatLeft: 'Vänsterjusterad',
-        floatRight: 'Högerjusterad',
+        resizeQuarter: 'En fj"ardedel i storlek',
+        floatLeft: 'V"ansterjusterad',
+        floatRight: 'H"ogerjusterad',
         floatNone: 'Ingen justering',
         dragImageHere: 'Dra en bild hit',
-        selectFromFiles: 'Välj från filer',
-        url: 'Länk till bild',
+        selectFromFiles: 'V"alj fran filer',
+        url: 'L"ank till bild',
         remove: 'Ta bort bild'
       },
       video: {
         video: 'Filmklipp',
-        videoLink: 'Länk till filmklipp',
+        videoLink: 'L"ank till filmklipp',
         insert: 'Infoga filmklipp',
-        url: 'Länk till filmklipp',
+        url: 'L"ank till filmklipp',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion eller Youku)'
       },
       link: {
-        link: 'Länk',
-        insert: 'Infoga länk',
-        unlink: 'Ta bort länk',
+        link: 'L"ank',
+        insert: 'Infoga l"ank',
+        unlink: 'Ta bort l"ank',
         edit: 'Redigera',
         textToDisplay: 'Visningstext',
-        url: 'Till vilken URL ska denna länk peka?',
-        openInNewWindow: 'Öppna i ett nytt fönster'
+        url: 'Till vilken URL ska denna l"ank peka?',
+        openInNewWindow: '"Oppna i ett nytt f"onster'
       },
       table: {
         table: 'Tabell'
@@ -64,40 +64,40 @@
         ordered: 'Numrerad lista'
       },
       options: {
-        help: 'Hjälp',
-        fullscreen: 'Fullskärm',
+        help: 'Hj"alp',
+        fullscreen: 'Fullsk"arm',
         codeview: 'HTML-visning'
       },
       paragraph: {
         paragraph: 'Justera text',
         outdent: 'Minska indrag',
-        indent: 'Öka indrag',
-        left: 'Vänsterjusterad',
+        indent: '"Oka indrag',
+        left: 'V"ansterjusterad',
         center: 'Centrerad',
-        right: 'Högerjusterad',
+        right: 'H"ogerjusterad',
         justify: 'Justera text'
       },
       color: {
-        recent: 'Senast använda färg',
-        more: 'Fler färger',
-        background: 'Bakgrundsfärg',
-        foreground: 'Teckenfärg',
+        recent: 'Senast anv"anda f"arg',
+        more: 'Fler f"arger',
+        background: 'Bakgrundsf"arg',
+        foreground: 'Teckenf"arg',
         transparent: 'Genomskinlig',
-        setTransparent: 'Gör genomskinlig',
-        reset: 'Nollställ',
-        resetToDefault: 'Återställ till standard'
+        setTransparent: 'G"or genomskinlig',
+        reset: 'Nollst"all',
+        resetToDefault: 'Aterst"all till standard'
       },
       shortcut: {
         shortcuts: 'Kortkommandon',
-        close: 'Stäng',
+        close: 'St"ang',
         textFormatting: 'Textformatering',
         action: 'Funktion',
         paragraphFormatting: 'Avsnittsformatering',
         documentStyle: 'Dokumentstil'
       },
       history: {
-        undo: 'Ångra',
-        redo: 'Gör om'
+        undo: 'Angra',
+        redo: 'G"or om'
       }
     }
   });

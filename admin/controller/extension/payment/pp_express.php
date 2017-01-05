@@ -994,7 +994,7 @@ class ControllerExtensionPaymentPPExpress extends Controller {
 		$data['entry_amount'] = $this->language->get('entry_amount');
 		$data['entry_recurring_id'] = $this->language->get('entry_recurring_id');
 
-		$data['entry_firstname'] = $this->language->get('entry_firstname');
+		$data['entry_fullname'] = $this->language->get('entry_fullname');
 		$data['entry_middlename'] = $this->language->get('entry_middlename');
 		$data['entry_lastname'] = $this->language->get('entry_lastname');
 		$data['entry_suffix'] = $this->language->get('entry_suffix');
@@ -1117,7 +1117,7 @@ class ControllerExtensionPaymentPPExpress extends Controller {
 		$data['text_country_code'] = $this->language->get('text_country_code');
 		$data['text_payer_business'] = $this->language->get('text_payer_business');
 		$data['text_payer_salute'] = $this->language->get('text_payer_salute');
-		$data['text_payer_firstname'] = $this->language->get('text_payer_firstname');
+		$data['text_payer_fullname'] = $this->language->get('text_payer_fullname');
 		$data['text_payer_middlename'] = $this->language->get('text_payer_middlename');
 		$data['text_payer_lastname'] = $this->language->get('text_payer_lastname');
 		$data['text_payer_suffix'] = $this->language->get('text_payer_suffix');

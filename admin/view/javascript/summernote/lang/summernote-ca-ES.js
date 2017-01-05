@@ -6,7 +6,7 @@
         italic: 'Cursiva',
         underline: 'Subratllat',
         clear: 'Treure estil de lletra',
-        height: 'Alçada de línia',
+        height: 'Alcada de línia',
         name: 'Font',
         strikethrough: 'Ratllat',
         subscript: 'Subíndex',
@@ -36,18 +36,18 @@
       },
       video: {
         video: 'Vídeo',
-        videoLink: 'Enllaç del vídeo',
+        videoLink: 'Enllac del vídeo',
         insert: 'Inserir vídeo',
         url: 'URL del vídeo?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, o Youku)'
       },
       link: {
-        link: 'Enllaç',
-        insert: 'Inserir enllaç',
-        unlink: 'Treure enllaç',
+        link: 'Enllac',
+        insert: 'Inserir enllac',
+        unlink: 'Treure enllac',
         edit: 'Editar',
         textToDisplay: 'Text per mostrar',
-        url: 'Cap a quina URL porta l\'enllaç?',
+        url: 'Cap a quina URL porta l\'enllac?',
         openInNewWindow: 'Obrir en una finestra nova'
       },
       table: {
@@ -69,8 +69,8 @@
         h6: 'Títol 6'
       },
       lists: {
-        unordered: 'Llista desendreçada',
-        ordered: 'Llista endreçada'
+        unordered: 'Llista desendrecada',
+        ordered: 'Llista endrecada'
       },
       options: {
         help: 'Ajut',
@@ -87,7 +87,7 @@
         justify: 'Justificar'
       },
       color: {
-        recent: 'Últim color',
+        recent: ''Ultim color',
         more: 'Més colors',
         background: 'Color de fons',
         foreground: 'Color de lletra',
@@ -120,9 +120,9 @@
         'justifyCenter': 'Alinear al centre',
         'justifyRight': 'Alinear a la dreta',
         'justifyFull': 'Justificar',
-        'insertUnorderedList': 'Inserir llista desendreçada',
-        'insertOrderedList': 'Inserir llista endreçada',
-        'outdent': 'Reduïr tabulació del paràgraf',
+        'insertUnorderedList': 'Inserir llista desendrecada',
+        'insertOrderedList': 'Inserir llista endrecada',
+        'outdent': 'Redu"ir tabulació del paràgraf',
         'indent': 'Augmentar tabulació del paràgraf',
         'formatPara': 'Canviar l\'estil del bloc com a un paràgraf (etiqueta P)',
         'formatH1': 'Canviar l\'estil del bloc com a un H1',
@@ -132,14 +132,14 @@
         'formatH5': 'Canviar l\'estil del bloc com a un H5',
         'formatH6': 'Canviar l\'estil del bloc com a un H6',
         'insertHorizontalRule': 'Inserir una línia horitzontal',
-        'linkDialog.show': 'Mostrar panel d\'enllaços'
+        'linkDialog.show': 'Mostrar panel d\'enllacos'
       },
       history: {
         undo: 'Desfer',
         redo: 'Refer'
       },
       specialChar: {
-        specialChar: 'CARÀCTERS ESPECIALS',
+        specialChar: 'CAR`ACTERS ESPECIALS',
         select: 'Selecciona caràcters especials'
       }
     }

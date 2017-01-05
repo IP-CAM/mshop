@@ -2,7 +2,7 @@
 namespace Cart;
 class Customer {
 	private $customer_id;
-	private $firstname;
+	private $fullname;
 	private $lastname;
 	private $customer_group_id;
 	private $email;
@@ -22,7 +22,7 @@ class Customer {
 
 			if ($customer_query->num_rows) {
 				$this->customer_id = $customer_query->row['customer_id'];
-				$this->firstname = $customer_query->row['firstname'];
+				$this->fullname = $customer_query->row['fullname'];
 				$this->lastname = $customer_query->row['lastname'];
 				$this->customer_group_id = $customer_query->row['customer_group_id'];
 				$this->email = $customer_query->row['email'];
@@ -55,7 +55,7 @@ class Customer {
 			$this->session->data['customer_id'] = $customer_query->row['customer_id'];
 
 			$this->customer_id = $customer_query->row['customer_id'];
-			$this->firstname = $customer_query->row['firstname'];
+			$this->fullname = $customer_query->row['fullname'];
 			$this->lastname = $customer_query->row['lastname'];
 			$this->customer_group_id = $customer_query->row['customer_group_id'];
 			$this->email = $customer_query->row['email'];
@@ -76,7 +76,7 @@ class Customer {
 		unset($this->session->data['customer_id']);
 
 		$this->customer_id = '';
-		$this->firstname = '';
+		$this->fullname = '';
 		$this->lastname = '';
 		$this->customer_group_id = '';
 		$this->email = '';

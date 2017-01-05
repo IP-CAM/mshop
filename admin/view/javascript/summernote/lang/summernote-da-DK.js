@@ -6,55 +6,55 @@
         italic: 'Kursiv',
         underline: 'Understreget',
         clear: 'Fjern formatering',
-        height: 'Højde',
+        height: 'Hojde',
         name: 'Skrifttype',
         strikethrough: 'Gennemstreget',
-        subscript: 'Sænket skrift',
-        superscript: 'Hævet skrift',
-        size: 'Skriftstørrelse'
+        subscript: 'Saenket skrift',
+        superscript: 'Haevet skrift',
+        size: 'Skriftstorrelse'
       },
       image: {
         image: 'Billede',
-        insert: 'Indsæt billede',
-        resizeFull: 'Original størrelse',
-        resizeHalf: 'Halv størrelse',
-        resizeQuarter: 'Kvart størrelse',
+        insert: 'Indsaet billede',
+        resizeFull: 'Original storrelse',
+        resizeHalf: 'Halv storrelse',
+        resizeQuarter: 'Kvart storrelse',
         floatLeft: 'Venstrestillet',
-        floatRight: 'Højrestillet',
+        floatRight: 'Hojrestillet',
         floatNone: 'Fjern formatering',
         shapeRounded: 'Form: Runde kanter',
         shapeCircle: 'Form: Cirkel',
         shapeThumbnail: 'Form: Miniature',
         shapeNone: 'Form: Ingen',
-        dragImageHere: 'Træk billede hertil',
+        dragImageHere: 'Traek billede hertil',
         dropImage: 'Slip billede',
-        selectFromFiles: 'Vælg billed-fil',
-        maximumFileSize: 'Maks fil størrelse',
-        maximumFileSizeError: 'Filen er større end maks tilladte fil størrelse!',
+        selectFromFiles: 'Vaelg billed-fil',
+        maximumFileSize: 'Maks fil storrelse',
+        maximumFileSizeError: 'Filen er storre end maks tilladte fil storrelse!',
         url: 'Billede URL',
         remove: 'Fjern billede'
       },
       video: {
         video: 'Video',
         videoLink: 'Video Link',
-        insert: 'Indsæt Video',
+        insert: 'Indsaet Video',
         url: 'Video URL?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion eller Youku)'
       },
       link: {
         link: 'Link',
-        insert: 'Indsæt link',
+        insert: 'Indsaet link',
         unlink: 'Fjern link',
         edit: 'Rediger',
         textToDisplay: 'Visningstekst',
         url: 'Hvor skal linket pege hen?',
-        openInNewWindow: 'Åbn i nyt vindue'
+        openInNewWindow: 'Abn i nyt vindue'
       },
       table: {
         table: 'Tabel'
       },
       hr: {
-        insert: 'Indsæt horisontal linje'
+        insert: 'Indsaet horisontal linje'
       },
       style: {
         style: 'Stil',
@@ -73,17 +73,17 @@
         ordered: 'Nummereret liste'
       },
       options: {
-        help: 'Hjælp',
-        fullscreen: 'Fuld skærm',
+        help: 'Hjaelp',
+        fullscreen: 'Fuld skaerm',
         codeview: 'HTML-Visning'
       },
       paragraph: {
         paragraph: 'Afsnit',
         outdent: 'Formindsk indryk',
-        indent: 'Forøg indryk',
+        indent: 'Forog indryk',
         left: 'Venstrestillet',
         center: 'Centreret',
-        right: 'Højrestillet',
+        right: 'Hojrestillet',
         justify: 'Blokjuster'
       },
       color: {
@@ -92,7 +92,7 @@
         background: 'Baggrund',
         foreground: 'Forgrund',
         transparent: 'Transparent',
-        setTransparent: 'Sæt transparent',
+        setTransparent: 'Saet transparent',
         reset: 'Nulstil',
         resetToDefault: 'Gendan standardindstillinger'
       },

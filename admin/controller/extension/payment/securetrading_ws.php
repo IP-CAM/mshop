@@ -388,7 +388,7 @@ class ControllerExtensionPaymentSecureTradingWs extends Controller {
 					'order_id' => $row['orderreference'],
 					'order_href' => $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . $row['orderreference'], true),
 					'transaction_reference' => $row['transactionreference'],
-					'customer' => $row['billingfirstname'] . ' ' . $row['billinglastname'],
+					'customer' => $row['billingfullname'] . ' ' . $row['billinglastname'],
 					'total' => $row['mainamount'],
 					'currency' => $row['currencyiso3a'],
 					'settle_status' => $settle_status_mapping[$row['settlestatus']],

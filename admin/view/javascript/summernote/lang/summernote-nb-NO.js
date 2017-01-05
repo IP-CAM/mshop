@@ -6,19 +6,19 @@
         italic: 'Kursiv',
         underline: 'Understrek',
         clear: 'Fjern formatering',
-        height: 'Linjehøyde',
+        height: 'Linjehoyde',
         name: 'Skrifttype',
         strikethrough: 'Gjennomstrek',
-        size: 'Skriftstørrelse'
+        size: 'Skriftstorrelse'
       },
       image: {
         image: 'Bilde',
         insert: 'Sett inn bilde',
-        resizeFull: 'Sett full størrelse',
-        resizeHalf: 'Sett halv størrelse',
-        resizeQuarter: 'Sett kvart størrelse',
+        resizeFull: 'Sett full storrelse',
+        resizeHalf: 'Sett halv storrelse',
+        resizeQuarter: 'Sett kvart storrelse',
         floatLeft: 'Flyt til venstre',
-        floatRight: 'Flyt til høyre',
+        floatRight: 'Flyt til hoyre',
         floatNone: 'Fjern flyt',
         dragImageHere: 'Dra et bilde hit',
         selectFromFiles: 'Velg fra filer',
@@ -39,7 +39,7 @@
         edit: 'Rediger',
         textToDisplay: 'Visningstekst',
         url: 'Til hvilken URL skal denne lenken peke?',
-        openInNewWindow: 'Åpne i nytt vindu'
+        openInNewWindow: 'Apne i nytt vindu'
       },
       table: {
         table: 'Tabell'
@@ -74,7 +74,7 @@
         indent: 'Innrykk',
         left: 'Venstrejustert',
         center: 'Midtstilt',
-        right: 'Høyrejustert',
+        right: 'Hoyrejustert',
         justify: 'Blokkjustert'
       },
       color: {
@@ -97,7 +97,7 @@
       },
       history: {
         undo: 'Angre',
-        redo: 'Gjør om'
+        redo: 'Gjor om'
       }
     }
   });

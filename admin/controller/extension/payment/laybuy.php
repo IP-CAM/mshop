@@ -405,7 +405,7 @@ class ControllerExtensionPaymentLaybuy extends Controller {
 				'id'			=> $result['laybuy_transaction_id'],
 				'order_id'		=> $result['order_id'],
 				'order_url'		=> $this->url->link('sale/order/info', 'token=' . $this->session->data['token'] . '&order_id=' . (int)$result['order_id'], true),
-				'customer_name'	=> $result['firstname'] . ' ' . $result['lastname'],
+				'customer_name'	=> $result['fullname'] . ' ' . $result['lastname'],
 				'customer_url'	=> $customer_url,
 				'amount'		=> $this->currency->format($result['amount'], $result['currency']),
 				'dp_percent'	=> $result['downpayment'],
@@ -786,7 +786,7 @@ class ControllerExtensionPaymentLaybuy extends Controller {
 			$data['text_paypal_profile_id'] = $this->language->get('text_paypal_profile_id');
 			$data['text_laybuy_ref_no'] = $this->language->get('text_laybuy_ref_no');
 			$data['text_order_id'] = $this->language->get('text_order_id');
-			$data['text_firstname'] = $this->language->get('text_firstname');
+			$data['text_fullname'] = $this->language->get('text_fullname');
 			$data['text_lastname'] = $this->language->get('text_lastname');
 			$data['text_email'] = $this->language->get('text_email');
 			$data['text_address'] = $this->language->get('text_address');
@@ -846,7 +846,7 @@ class ControllerExtensionPaymentLaybuy extends Controller {
 				'paypal_profile_id' => $transaction_info['paypal_profile_id'],
 				'laybuy_ref_no' 	=> $transaction_info['laybuy_ref_no'],
 				'order_id'        	=> $transaction_info['order_id'],
-				'firstname'         => $transaction_info['firstname'],
+				'fullname'         => $transaction_info['fullname'],
 				'lastname'          => $transaction_info['lastname'],
 				'email'	  			=> $transaction_info['email'],
 				'address'	  		=> $transaction_info['address'],

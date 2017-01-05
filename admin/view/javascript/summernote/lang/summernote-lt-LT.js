@@ -2,104 +2,104 @@
   $.extend($.summernote.lang, {
     'lt-LT': {
       font: {
-        bold: 'Paryškintas',
+        bold: 'Paryskintas',
         italic: 'Kursyvas',
-        underline: 'Pabrėžtas',
+        underline: 'Pabreztas',
         clear: 'Be formatavimo',
-        height: 'Eilutės aukštis',
-        name: 'Šrifto pavadinimas',
+        height: 'Eilutes aukstis',
+        name: 'Srifto pavadinimas',
         strikethrough: 'Perbrauktas',
-        superscript: 'Viršutinis',
+        superscript: 'Virsutinis',
         subscript: 'Indeksas',
-        size: 'Šrifto dydis'
+        size: 'Srifto dydis'
       },
       image: {
-        image: 'Paveikslėlis',
-        insert: 'Įterpti paveikslėlį',
+        image: 'Paveikslelis',
+        insert: 'Iterpti paveiksleli',
         resizeFull: 'Pilnas dydis',
-        resizeHalf: 'Sumažinti dydį 50%',
-        resizeQuarter: 'Sumažinti dydį 25%',
+        resizeHalf: 'Sumazinti dydi 50%',
+        resizeQuarter: 'Sumazinti dydi 25%',
         floatLeft: 'Kairinis lygiavimas',
-        floatRight: 'Dešininis lygiavimas',
+        floatRight: 'Desininis lygiavimas',
         floatNone: 'Jokio lygiavimo',
-        shapeRounded: 'Forma: apvalūs kraštai',
+        shapeRounded: 'Forma: apvalūs krastai',
         shapeCircle: 'Forma: apskritimas',
         shapeThumbnail: 'Forma: miniatiūra',
         shapeNone: 'Forma: jokia',
-        dragImageHere: 'Vilkite paveikslėlį čia',
-        selectFromFiles: 'Pasirinkite failą',
+        dragImageHere: 'Vilkite paveiksleli cia',
+        selectFromFiles: 'Pasirinkite faila',
         maximumFileSize: 'Maskimalus failo dydis',
-        maximumFileSizeError: 'Maskimalus failo dydis viršytas!',
-        url: 'Paveikslėlio URL adresas',
-        remove: 'Ištrinti paveikslėlį'
+        maximumFileSizeError: 'Maskimalus failo dydis virsytas!',
+        url: 'Paveikslelio URL adresas',
+        remove: 'Istrinti paveiksleli'
       },
       link: {
         link: 'Nuoroda',
-        insert: 'Įterpti nuorodą',
-        unlink: 'Pašalinti nuorodą',
+        insert: 'Iterpti nuoroda',
+        unlink: 'Pasalinti nuoroda',
         edit: 'Redaguoti',
         textToDisplay: 'Rodomas tekstas',
         url: 'Koks URL adresas yra susietas?',
         openInNewWindow: 'Atidaryti naujame lange'
       },
       table: {
-        table: 'Lentelė'
+        table: 'Lentele'
       },
       hr: {
-        insert: 'Įterpti horizontalią liniją'
+        insert: 'Iterpti horizontalia linija'
       },
       style: {
         style: 'Stilius',
         normal: 'Normalus',
         blockquote: 'Citata',
         pre: 'Kodas',
-        h1: 'Antraštė 1',
-        h2: 'Antraštė 2',
-        h3: 'Antraštė 3',
-        h4: 'Antraštė 4',
-        h5: 'Antraštė 5',
-        h6: 'Antraštė 6'
+        h1: 'Antraste 1',
+        h2: 'Antraste 2',
+        h3: 'Antraste 3',
+        h4: 'Antraste 4',
+        h5: 'Antraste 5',
+        h6: 'Antraste 6'
       },
       lists: {
-        unordered: 'Suženklintasis sąrašas',
-        ordered: 'Sunumeruotas sąrašas'
+        unordered: 'Suzenklintasis sarasas',
+        ordered: 'Sunumeruotas sarasas'
       },
       options: {
         help: 'Pagalba',
-        fullscreen: 'Viso ekrano režimas',
-        codeview: 'HTML kodo peržiūra'
+        fullscreen: 'Viso ekrano rezimas',
+        codeview: 'HTML kodo perziūra'
       },
       paragraph: {
         paragraph: 'Pastraipa',
-        outdent: 'Sumažinti įtrauką',
-        indent: 'Padidinti įtrauką',
-        left: 'Kairinė lygiuotė',
-        center: 'Centrinė lygiuotė',
-        right: 'Dešininė lygiuotė',
-        justify: 'Abipusis išlyginimas'
+        outdent: 'Sumazinti itrauka',
+        indent: 'Padidinti itrauka',
+        left: 'Kairine lygiuote',
+        center: 'Centrine lygiuote',
+        right: 'Desinine lygiuote',
+        justify: 'Abipusis islyginimas'
       },
       color: {
-        recent: 'Paskutinė naudota spalva',
-        more: 'Daugiau spalvų',
+        recent: 'Paskutine naudota spalva',
+        more: 'Daugiau spalvu',
         background: 'Fono spalva',
-        foreground: 'Šrifto spalva',
+        foreground: 'Srifto spalva',
         transparent: 'Permatoma',
-        setTransparent: 'Nustatyti skaidrumo intensyvumą',
+        setTransparent: 'Nustatyti skaidrumo intensyvuma',
         reset: 'Atkurti',
-        resetToDefault: 'Atstatyti numatytąją spalvą'
+        resetToDefault: 'Atstatyti numatytaja spalva'
       },
       shortcut: {
-        shortcuts: 'Spartieji klavišai',
-        close: 'Uždaryti',
+        shortcuts: 'Spartieji klavisai',
+        close: 'Uzdaryti',
         textFormatting: 'Teksto formatavimas',
         action: 'Veiksmas',
         paragraphFormatting: 'Pastraipos formatavimas',
         documentStyle: 'Dokumento stilius',
-        extraKeys: 'Papildomi klavišų deriniai'
+        extraKeys: 'Papildomi klavisu deriniai'
       },
       history: {
-        undo: 'Anuliuoti veiksmą',
-        redo: 'Perdaryti veiksmą'
+        undo: 'Anuliuoti veiksma',
+        redo: 'Perdaryti veiksma'
       }
 
     }

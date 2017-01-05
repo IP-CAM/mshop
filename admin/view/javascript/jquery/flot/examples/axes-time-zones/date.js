@@ -29,7 +29,7 @@
  * Ricky Romero
  * Preston Hunt (prestonhunt@gmail.com)
  * Dov. B Katz (dov.katz@morganstanley.com)
- * Peter Bergström (pbergstr@mac.com)
+ * Peter Bergstr"om (pbergstr@mac.com)
  * Long Ho
  */
 (function () {

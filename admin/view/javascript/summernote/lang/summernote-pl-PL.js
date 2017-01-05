@@ -4,33 +4,33 @@
       font: {
         bold: 'Pogrubienie',
         italic: 'Pochylenie',
-        underline: 'Podkreślenie',
+        underline: 'Podkre'slenie',
         clear: 'Usuń formatowanie',
         height: 'Interlinia',
         name: 'Czcionka',
-        strikethrough: 'Przekreślenie',
+        strikethrough: 'Przekre'slenie',
         size: 'Rozmiar'
       },
       image: {
         image: 'Grafika',
-        insert: 'Wstaw grafikę',
+        insert: 'Wstaw grafike',
         resizeFull: 'Zmień rozmiar na 100%',
         resizeHalf: 'Zmień rozmiar na 50%',
         resizeQuarter: 'Zmień rozmiar na 25%',
         floatLeft: 'Po lewej',
         floatRight: 'Po prawej',
         floatNone: 'Równo z tekstem',
-        shapeRounded: 'Kształt: zaokrąglone',
-        shapeCircle: 'Kształt: okrąg',
-        shapeThumbnail: 'Kształt: miniatura',
-        shapeNone: 'Kształt: brak',
-        dragImageHere: 'Przeciągnij grafikę lub tekst tutaj',
-        dropImage: 'Przeciągnij grafikę lub tekst',
+        shapeRounded: 'Ksztalt: zaokraglone',
+        shapeCircle: 'Ksztalt: okrag',
+        shapeThumbnail: 'Ksztalt: miniatura',
+        shapeNone: 'Ksztalt: brak',
+        dragImageHere: 'Przeciagnij grafike lub tekst tutaj',
+        dropImage: 'Przeciagnij grafike lub tekst',
         selectFromFiles: 'Wybierz z dysku',
-        maximumFileSize: 'Limit wielkości pliku',
-        maximumFileSizeError: 'Przekroczono limit wielkości pliku.',
+        maximumFileSize: 'Limit wielko'sci pliku',
+        maximumFileSizeError: 'Przekroczono limit wielko'sci pliku.',
         url: 'Adres URL grafiki',
-        remove: 'Usuń grafikę'
+        remove: 'Usuń grafike'
       },
       video: {
         video: 'Wideo',
@@ -40,31 +40,31 @@
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, lub Youku)'
       },
       link: {
-        link: 'Odnośnik',
-        insert: 'Wstaw odnośnik',
-        unlink: 'Usuń odnośnik',
+        link: 'Odno'snik',
+        insert: 'Wstaw odno'snik',
+        unlink: 'Usuń odno'snik',
         edit: 'Edytuj',
-        textToDisplay: 'Tekst do wyświetlenia',
-        url: 'Na jaki adres URL powinien przenosić ten odnośnik?',
+        textToDisplay: 'Tekst do wy'swietlenia',
+        url: 'Na jaki adres URL powinien przenosi'c ten odno'snik?',
         openInNewWindow: 'Otwórz w nowym oknie'
       },
       table: {
         table: 'Tabela'
       },
       hr: {
-        insert: 'Wstaw poziomą linię'
+        insert: 'Wstaw pozioma linie'
       },
       style: {
         style: 'Style',
         normal: 'Normalny',
         blockquote: 'Cytat',
         pre: 'Kod',
-        h1: 'Nagłówek 1',
-        h2: 'Nagłówek 2',
-        h3: 'Nagłówek 3',
-        h4: 'Nagłówek 4',
-        h5: 'Nagłówek 5',
-        h6: 'Nagłówek 6'
+        h1: 'Naglówek 1',
+        h2: 'Naglówek 2',
+        h3: 'Naglówek 3',
+        h4: 'Naglówek 4',
+        h5: 'Naglówek 5',
+        h6: 'Naglówek 6'
       },
       lists: {
         unordered: 'Lista wypunktowana',
@@ -72,27 +72,27 @@
       },
       options: {
         help: 'Pomoc',
-        fullscreen: 'Pełny ekran',
-        codeview: 'Źródło'
+        fullscreen: 'Pelny ekran',
+        codeview: ''Zródlo'
       },
       paragraph: {
         paragraph: 'Akapit',
-        outdent: 'Zmniejsz wcięcie',
-        indent: 'Zwiększ wcięcie',
+        outdent: 'Zmniejsz wciecie',
+        indent: 'Zwieksz wciecie',
         left: 'Wyrównaj do lewej',
-        center: 'Wyrównaj do środka',
+        center: 'Wyrównaj do 'srodka',
         right: 'Wyrównaj do prawej',
         justify: 'Wyrównaj do lewej i prawej'
       },
       color: {
         recent: 'Ostani kolor',
-        more: 'Więcej kolorów',
-        background: 'Tło',
+        more: 'Wiecej kolorów',
+        background: 'Tlo',
         foreground: 'Czcionka',
-        transparent: 'Przeźroczysty',
-        setTransparent: 'Przeźroczyste',
+        transparent: 'Prze'zroczysty',
+        setTransparent: 'Prze'zroczyste',
         reset: 'Reset',
-        resetToDefault: 'Domyślne'
+        resetToDefault: 'Domy'slne'
       },
       shortcut: {
         shortcuts: 'Skróty klawiaturowe',

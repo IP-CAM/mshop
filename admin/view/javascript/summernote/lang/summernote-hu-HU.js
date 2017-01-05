@@ -2,29 +2,29 @@
   $.extend($.summernote.lang, {
     'hu-HU': {
       font: {
-        bold: 'Félkövér',
-        italic: 'Dőlt',
+        bold: 'Félk"ovér',
+        italic: 'D"olt',
         underline: 'Aláhúzott',
-        clear: 'Formázás törlése',
-        height: 'Sorköz',
-        name: 'Betűtípus',
-        strikethrough: 'Áthúzott',
-        size: 'Betűméret'
+        clear: 'Formázás t"orlése',
+        height: 'Sork"oz',
+        name: 'Bet"utípus',
+        strikethrough: ''Athúzott',
+        size: 'Bet"uméret'
       },
       image: {
         image: 'Kép',
         insert: 'Kép beszúrása',
-        resizeFull: 'Átméretezés teljes méretre',
-        resizeHalf: 'Átméretezés felére',
-        resizeQuarter: 'Átméretezés negyedére',
+        resizeFull: ''Atméretezés teljes méretre',
+        resizeHalf: ''Atméretezés felére',
+        resizeQuarter: ''Atméretezés negyedére',
         floatLeft: 'Igazítás balra',
         floatRight: 'Igazítás jobbra',
-        floatNone: 'Igazítás törlése',
-        dragImageHere: 'Ide húzhat képet vagy szöveget',
-        dropImage: 'Engedje el a képet vagy szöveget',
+        floatNone: 'Igazítás t"orlése',
+        dragImageHere: 'Ide húzhat képet vagy sz"oveget',
+        dropImage: 'Engedje el a képet vagy sz"oveget',
         selectFromFiles: 'Fájlok kiválasztása',
         url: 'Kép URL címe',
-        remove: 'Kép törlése'
+        remove: 'Kép t"orlése'
       },
       video: {
         video: 'Videó',
@@ -38,7 +38,7 @@
         insert: 'Hivatkozás beszúrása',
         unlink: 'Hivatkozás megszüntetése',
         edit: 'Szerkesztés',
-        textToDisplay: 'Megjelenítendő szöveg',
+        textToDisplay: 'Megjelenítend"o sz"oveg',
         url: 'Milyen URL címre hivatkozzon?',
         openInNewWindow: 'Megnyitás új ablakban'
       },
@@ -66,15 +66,15 @@
       },
       options: {
         help: 'Súgó',
-        fullscreen: 'Teljes képernyő',
+        fullscreen: 'Teljes képerny"o',
         codeview: 'Kód nézet'
       },
       paragraph: {
         paragraph: 'Bekezdés',
-        outdent: 'Behúzás csökkentése',
-        indent: 'Behúzás növelése',
+        outdent: 'Behúzás cs"okkentése',
+        indent: 'Behúzás n"ovelése',
         left: 'Igazítás balra',
-        center: 'Igazítás középre',
+        center: 'Igazítás k"ozépre',
         right: 'Igazítás jobbra',
         justify: 'Sorkizárt'
       },
@@ -82,33 +82,33 @@
         recent: 'Jelenlegi szín',
         more: 'További színek',
         background: 'Háttérszín',
-        foreground: 'Betűszín',
-        transparent: 'Átlátszó',
-        setTransparent: 'Átlászóság beállítása',
+        foreground: 'Bet"uszín',
+        transparent: ''Atlátszó',
+        setTransparent: ''Atlászóság beállítása',
         reset: 'Visszaállítás',
         resetToDefault: 'Alaphelyzetbe állítás'
       },
       shortcut: {
-        shortcuts: 'Gyorsbillentyű',
+        shortcuts: 'Gyorsbillenty"u',
         close: 'Bezárás',
-        textFormatting: 'Szöveg formázása',
-        action: 'Művelet',
+        textFormatting: 'Sz"oveg formázása',
+        action: 'M"uvelet',
         paragraphFormatting: 'Bekezdés formázása',
         documentStyle: 'Dokumentumstílus'
       },
       help: {
-        'insertParagraph': 'Új bekezdés',
+        'insertParagraph': ''Uj bekezdés',
         'undo': 'Visszavonás',
-        'redo': 'Újra',
-        'tab': 'Behúzás növelése',
-        'untab': 'Behúzás csökkentése',
-        'bold': 'Félkövérre állítás',
-        'italic': 'Dőltre állítás',
+        'redo': ''Ujra',
+        'tab': 'Behúzás n"ovelése',
+        'untab': 'Behúzás cs"okkentése',
+        'bold': 'Félk"ovérre állítás',
+        'italic': 'D"oltre állítás',
         'underline': 'Aláhúzás',
-        'strikethrough': 'Áthúzás',
-        'removeFormat': 'Formázás törlése',
+        'strikethrough': ''Athúzás',
+        'removeFormat': 'Formázás t"orlése',
         'justifyLeft': 'Balra igazítás',
-        'justifyCenter': 'Középre igazítás',
+        'justifyCenter': 'K"ozépre igazítás',
         'justifyRight': 'Jobbra igazítás',
         'justifyFull': 'Sorkizárt',
         'insertUnorderedList': 'Számozatlan lista be/ki',
@@ -127,7 +127,7 @@
       },
       history: {
         undo: 'Visszavonás',
-        redo: 'Újra'
+        redo: ''Ujra'
       }
 
     }

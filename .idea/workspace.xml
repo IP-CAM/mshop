@@ -3,130 +3,105 @@
   <component name="ChangeListManager">
     <list default="true" id="feda2a4b-7a7f-4d1d-8106-6089e29d212e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/account/voucher.php" afterPath="$PROJECT_DIR$/catalog/controller/account/voucher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/edit.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/forgotten.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/forgotten.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/login.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/password.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/password.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/payment.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/affiliate/register.php" afterPath="$PROJECT_DIR$/catalog/controller/affiliate/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/api/customer.php" afterPath="$PROJECT_DIR$/catalog/controller/api/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/api/order.php" afterPath="$PROJECT_DIR$/catalog/controller/api/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/api/payment.php" afterPath="$PROJECT_DIR$/catalog/controller/api/payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/api/shipping.php" afterPath="$PROJECT_DIR$/catalog/controller/api/shipping.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/confirm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/guest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/guest_shipping.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/guest_shipping.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/login.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/register.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/shipping_address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/checkout/success.php" afterPath="$PROJECT_DIR$/catalog/controller/checkout/success.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/amazon_login.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/amazon_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/amazon_pay.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/amazon_pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/klarna_checkout_module.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/klarna_checkout_module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/module/pp_login.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/pp_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/openbay/amazon.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/openbay/amazon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/openbay/amazonus.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/openbay/amazonus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/openbay/fba.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/openbay/fba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/amazon_login_pay.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/amazon_login_pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/authorizenet_aim.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/authorizenet_aim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/authorizenet_sim.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/authorizenet_sim.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/bluepay_hosted.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/bluepay_hosted.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/bluepay_redirect.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/bluepay_redirect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/cardconnect.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/cardconnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/divido.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/divido.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/eway.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/eway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/firstdata.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/firstdata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_account.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_account.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_checkout.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_invoice.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/klarna_invoice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/liqpay.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/liqpay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/nochex.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/nochex.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/paymate.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/paymate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/paypoint.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/paypoint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/perpetual_payments.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/perpetual_payments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pilibaba.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pilibaba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_express.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_express.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_payflow.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_payflow.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_payflow_iframe.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_payflow_iframe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_pro.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_pro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_pro_iframe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_standard.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/pp_standard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/sagepay_direct.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/sagepay_direct.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/sagepay_server.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/sagepay_server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/securetrading_pp.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/securetrading_pp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/securetrading_ws.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/securetrading_ws.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/skrill.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/skrill.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/twocheckout.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/twocheckout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/web_payment_software.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/web_payment_software.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/payment/worldpay.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/payment/worldpay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/extension/total/shipping.php" afterPath="$PROJECT_DIR$/catalog/controller/extension/total/shipping.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/information/contact.php" afterPath="$PROJECT_DIR$/catalog/controller/information/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/account/address.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/account/address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/account/edit.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/account/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/account/register.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/account/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/account/return.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/account/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/affiliate/edit.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/affiliate/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/affiliate/register.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/affiliate/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/api/customer.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/api/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/api/payment.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/api/payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/api/shipping.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/api/shipping.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/checkout/checkout.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/checkout/checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/mail/affiliate.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/mail/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/en-gb/mail/customer.php" afterPath="$PROJECT_DIR$/catalog/language/en-gb/mail/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/account/address.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/account/address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/account/edit.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/account/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/account/recurring.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/account/recurring.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/account/register.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/account/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/account/return.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/account/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/affiliate/edit.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/affiliate/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/affiliate/register.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/affiliate/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/api/customer.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/api/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/api/payment.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/api/payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/api/shipping.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/api/shipping.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/checkout/checkout.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/checkout/checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/mail/affiliate.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/mail/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/zh-cn/mail/customer.php" afterPath="$PROJECT_DIR$/catalog/language/zh-cn/mail/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/account/address.php" afterPath="$PROJECT_DIR$/catalog/model/account/address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/account/customer.php" afterPath="$PROJECT_DIR$/catalog/model/account/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/account/order.php" afterPath="$PROJECT_DIR$/catalog/model/account/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/account/return.php" afterPath="$PROJECT_DIR$/catalog/model/account/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/affiliate/affiliate.php" afterPath="$PROJECT_DIR$/catalog/model/affiliate/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/checkout/order.php" afterPath="$PROJECT_DIR$/catalog/model/checkout/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/fraud/fraudlabspro.php" afterPath="$PROJECT_DIR$/catalog/model/extension/fraud/fraudlabspro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/openbay/ebay_openbay.php" afterPath="$PROJECT_DIR$/catalog/model/extension/openbay/ebay_openbay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/openbay/ebay_order.php" afterPath="$PROJECT_DIR$/catalog/model/extension/openbay/ebay_order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/openbay/etsy_order.php" afterPath="$PROJECT_DIR$/catalog/model/extension/openbay/etsy_order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/amazon_login_pay.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/amazon_login_pay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/firstdata_remote.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/firstdata_remote.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/klarna_checkout.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/klarna_checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/laybuy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/pilibaba.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/pilibaba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/sagepay_direct.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/sagepay_direct.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/sagepay_server.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/sagepay_server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/securetrading_pp.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/securetrading_pp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/payment/worldpay.php" afterPath="$PROJECT_DIR$/catalog/model/extension/payment/worldpay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/extension/shipping/fedex.php" afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/fedex.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/address_form.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/address_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/edit.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/edit.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/return_form.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/return_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/edit.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/edit.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/register.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/affiliate/register.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/guest.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/guest.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/guest_shipping.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/guest_shipping.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/payment_address.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/payment_address.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/register.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/register.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/shipping_address.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/shipping_address.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/klarna_account.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/klarna_account.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/klarna_invoice.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/klarna_invoice.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/paymate.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/paymate.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/securetrading_pp.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/securetrading_pp.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/skrill.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/payment/skrill.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install/opencart.sql" afterPath="$PROJECT_DIR$/install/opencart.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/common/column_left.php" afterPath="$PROJECT_DIR$/admin/controller/common/column_left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/customer/customer.php" afterPath="$PROJECT_DIR$/admin/controller/customer/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/openbay/fba.php" afterPath="$PROJECT_DIR$/admin/controller/extension/openbay/fba.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/laybuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/pp_express.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/pp_express.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/pp_pro_iframe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/securetrading_ws.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/securetrading_ws.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/controller/marketing/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/report/customer_online.php" afterPath="$PROJECT_DIR$/admin/controller/report/customer_online.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/order.php" afterPath="$PROJECT_DIR$/admin/controller/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/recurring.php" afterPath="$PROJECT_DIR$/admin/controller/sale/recurring.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/return.php" afterPath="$PROJECT_DIR$/admin/controller/sale/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/user/user.php" afterPath="$PROJECT_DIR$/admin/controller/user/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/customer/customer.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/customer/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/laybuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_search.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_view.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_pro_iframe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/localisation/country.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/localisation/country.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/marketing/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/sale/order.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/sale/return.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/sale/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/user/user.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/user/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/customer/customer.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/customer/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/laybuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_search.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_view.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_pro_iframe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/localisation/country.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/localisation/country.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/marketing/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/sale/order.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/sale/return.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/sale/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/user/user.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/user/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/customer/customer.php" afterPath="$PROJECT_DIR$/admin/model/customer/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/openbay/ebay.php" afterPath="$PROJECT_DIR$/admin/model/extension/openbay/ebay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/openbay/order.php" afterPath="$PROJECT_DIR$/admin/model/extension/openbay/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/model/extension/payment/laybuy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/payment/securetrading_ws.php" afterPath="$PROJECT_DIR$/admin/model/extension/payment/securetrading_ws.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/model/marketing/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/marketing/coupon.php" afterPath="$PROJECT_DIR$/admin/model/marketing/coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/report/affiliate.php" afterPath="$PROJECT_DIR$/admin/model/report/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/report/customer.php" afterPath="$PROJECT_DIR$/admin/model/report/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/order.php" afterPath="$PROJECT_DIR$/admin/model/sale/order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/recurring.php" afterPath="$PROJECT_DIR$/admin/model/sale/recurring.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/return.php" afterPath="$PROJECT_DIR$/admin/model/sale/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/voucher.php" afterPath="$PROJECT_DIR$/admin/model/sale/voucher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/user/user.php" afterPath="$PROJECT_DIR$/admin/model/user/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-multiple/index.html" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-multiple/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-time-zones/date.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-time-zones/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/canvas/index.html" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/canvas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.algeria.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.algeria.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.brazil.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.brazil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.france.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.france.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.germany.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.germany.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ar-AR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ar-AR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ca-ES.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ca-ES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-cs-CZ.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-cs-CZ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-da-DK.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-da-DK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-de-DE.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-de-DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-es-ES.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-es-ES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fa-IR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fa-IR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fi-FI.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fi-FI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-he-IL.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-he-IL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-hu-HU.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-hu-HU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ko-KR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ko-KR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-lt-LT.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-lt-LT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-nb-NO.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-nb-NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pl-PL.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pl-PL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-BR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-PT.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-PT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ro-RO.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ro-RO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sk-SK.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sk-SK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sl-SI.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sl-SI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS-Latin.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS-Latin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sv-SE.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sv-SE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-th-TH.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-th-TH.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-tr-TR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-tr-TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-uk-UA.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-uk-UA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-vi-VN.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-vi-VN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.min.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/common/column_left.tpl" afterPath="$PROJECT_DIR$/admin/view/template/common/column_left.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/customer/customer_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/customer/customer_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_order.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_order.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_transaction.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_transaction.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_search.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_search.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_view.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_view.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_pro_iframe_transaction.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_pro_iframe_transaction.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/marketing/affiliate_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/marketing/affiliate_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/recurring_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/recurring_info.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/return_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/return_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/user/user_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/user/user_form.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/cart/affiliate.php" afterPath="$PROJECT_DIR$/system/library/cart/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/cart/customer.php" afterPath="$PROJECT_DIR$/system/library/cart/customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/openbay.php" afterPath="$PROJECT_DIR$/system/library/openbay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -391,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483580390712</updated>
       <workItem from="1483580392329" duration="6345000" />
-      <workItem from="1483599531895" duration="5433000" />
+      <workItem from="1483599531895" duration="6029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11778000" />
+    <option name="totallyTimeSpent" value="12374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -689,7 +664,7 @@
         <state relative-caret-position="506">
           <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
-            <marker date="1483605677608" expanded="true" signature="40326:40340" ph="..." />
+            <marker date="1483606185659" expanded="true" signature="40326:40340" ph="..." />
           </folding>
         </state>
       </provider>
@@ -699,7 +674,7 @@
         <state relative-caret-position="440">
           <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
-            <marker date="1483605693164" expanded="true" signature="17152:17166" ph="..." />
+            <marker date="1483606185550" expanded="true" signature="17152:17166" ph="..." />
           </folding>
         </state>
       </provider>
@@ -709,7 +684,7 @@
         <state relative-caret-position="154">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <marker date="1483605703887" expanded="true" signature="20321:20335" ph="..." />
+            <marker date="1483606185510" expanded="true" signature="20321:20335" ph="..." />
           </folding>
         </state>
       </provider>
@@ -743,7 +718,7 @@
         <state relative-caret-position="308">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
-            <marker date="1483605746986" expanded="true" signature="29377:29391" ph="..." />
+            <marker date="1483606185922" expanded="true" signature="29377:29391" ph="..." />
           </folding>
         </state>
       </provider>
@@ -753,7 +728,7 @@
         <state relative-caret-position="154">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <marker date="1483605755607" expanded="true" signature="14690:14704" ph="..." />
+            <marker date="1483606185942" expanded="true" signature="14690:14704" ph="..." />
           </folding>
         </state>
       </provider>
@@ -763,7 +738,7 @@
         <state relative-caret-position="550">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
-            <marker date="1483605769256" expanded="true" signature="14347:14361" ph="..." />
+            <marker date="1483606488373" expanded="true" signature="14275:14289" ph="..." />
           </folding>
         </state>
       </provider>
@@ -773,15 +748,15 @@
         <state relative-caret-position="266">
           <caret line="111" column="55" lean-forward="false" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
           <folding>
-            <marker date="1483605866981" expanded="true" signature="105:755" ph="INSERT INTO ${DB_PREFIX}address... " />
-            <marker date="1483605866981" expanded="true" signature="2067:2207" ph="DELETE FROM " />
-            <marker date="1483605866981" expanded="true" signature="2295:2446" ph="SELECT DISTI... ${DB_PREFIX}" />
-            <marker date="1483605866981" expanded="true" signature="2523:2631" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483605866981" expanded="true" signature="3024:3123" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483605866981" expanded="true" signature="4288:4386" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605866981" expanded="true" signature="4467:4563" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483605866981" expanded="true" signature="4956:5043" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483605866981" expanded="true" signature="6060:6174" ph="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1483606183794" expanded="true" signature="105:755" ph="INSERT INTO ${DB_PREFIX}address... " />
+            <marker date="1483606183794" expanded="true" signature="2067:2207" ph="DELETE FROM " />
+            <marker date="1483606183794" expanded="true" signature="2295:2446" ph="SELECT DISTI... ${DB_PREFIX}" />
+            <marker date="1483606183794" expanded="true" signature="2523:2631" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606183794" expanded="true" signature="3024:3123" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606183794" expanded="true" signature="4288:4386" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183794" expanded="true" signature="4467:4563" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606183794" expanded="true" signature="4956:5043" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606183794" expanded="true" signature="6060:6174" ph="SELECT COUNT... ${DB_PREFIX}" />
           </folding>
         </state>
       </provider>
@@ -791,7 +766,7 @@
         <state relative-caret-position="352">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
-            <marker date="1483605778905" expanded="true" signature="14398:14412" ph="..." />
+            <marker date="1483606518960" expanded="true" signature="14326:14340" ph="..." />
           </folding>
         </state>
       </provider>
@@ -801,19 +776,19 @@
         <state relative-caret-position="288">
           <caret line="126" column="63" lean-forward="false" selection-start-line="126" selection-start-column="63" selection-end-line="126" selection-end-column="63" />
           <folding>
-            <marker date="1483605907094" expanded="true" signature="598:1588" ph="INSERT INTO ${DB_PREFIX}customer... " />
-            <marker date="1483605907094" expanded="true" signature="1655:2315" ph="INSERT INTO ${DB_PREFIX}address... " />
-            <marker date="1483605907094" expanded="true" signature="7457:7544" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="7650:7763" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="7867:7998" ph="SELECT custo... ${DB_PREFIX}customer" />
-            <marker date="1483605907094" expanded="true" signature="8104:8209" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="8393:8522" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="8639:8752" ph="SELECT SUM(p... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="8861:8953" ph="SELECT * FRO... ${DB_PREFIX}customer_ip" />
-            <marker date="1483605907094" expanded="true" signature="9057:9253" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605907094" expanded="true" signature="9306:9635" ph="INSERT INTO ${DB_PREFIX}customer_login... " />
-            <marker date="1483605907094" expanded="true" signature="9958:10072" ph="SELECT * FRO... ${DB_PREFIX}customer_login" />
-            <marker date="1483605907094" expanded="true" signature="10170:10282" ph="DELETE FROM " />
+            <marker date="1483606183820" expanded="true" signature="598:1588" ph="INSERT INTO ${DB_PREFIX}customer... " />
+            <marker date="1483606183820" expanded="true" signature="1655:2315" ph="INSERT INTO ${DB_PREFIX}address... " />
+            <marker date="1483606183820" expanded="true" signature="7457:7544" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="7650:7763" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="7867:7998" ph="SELECT custo... ${DB_PREFIX}customer" />
+            <marker date="1483606183820" expanded="true" signature="8104:8209" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="8393:8522" ph="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="8639:8752" ph="SELECT SUM(p... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="8861:8953" ph="SELECT * FRO... ${DB_PREFIX}customer_ip" />
+            <marker date="1483606183820" expanded="true" signature="9057:9253" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183820" expanded="true" signature="9306:9635" ph="INSERT INTO ${DB_PREFIX}customer_login... " />
+            <marker date="1483606183820" expanded="true" signature="9958:10072" ph="SELECT * FRO... ${DB_PREFIX}customer_login" />
+            <marker date="1483606183820" expanded="true" signature="10170:10282" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -823,21 +798,21 @@
         <state relative-caret-position="574">
           <caret line="109" column="67" lean-forward="true" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
           <folding>
-            <marker date="1483605932805" expanded="true" signature="120:284" ph="SELECT * FRO... ${DB_PREFIX}order" />
-            <marker date="1483605932805" expanded="true" signature="359:473" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483605932805" expanded="true" signature="748:853" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483605932805" expanded="true" signature="1026:1141" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483605932805" expanded="true" signature="1420:1526" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483605932805" expanded="true" signature="5312:5826" ph="SELECT o.ord... ${DB_PREFIX}order" />
-            <marker date="1483605932805" expanded="true" signature="5966:6108" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="6215:6301" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="6427:6568" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="6676:6764" ph="SELECT * FRO... ${DB_PREFIX}order_voucher" />
-            <marker date="1483605932805" expanded="true" signature="6870:6974" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="7083:7412" ph="SELECT date_... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="7509:7723" ph="SELECT COUNT... ${DB_PREFIX}order" />
-            <marker date="1483605932805" expanded="true" signature="7853:7955" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483605932805" expanded="true" signature="8085:8189" ph="SELECT COUNT... ${DB_PREFIX}order_voucher" />
+            <marker date="1483606183867" expanded="true" signature="120:284" ph="SELECT * FRO... ${DB_PREFIX}order" />
+            <marker date="1483606183867" expanded="true" signature="359:473" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606183867" expanded="true" signature="748:853" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606183867" expanded="true" signature="1026:1141" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606183867" expanded="true" signature="1420:1526" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606183867" expanded="true" signature="5312:5826" ph="SELECT o.ord... ${DB_PREFIX}order" />
+            <marker date="1483606183867" expanded="true" signature="5966:6108" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="6215:6301" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="6427:6568" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="6676:6764" ph="SELECT * FRO... ${DB_PREFIX}order_voucher" />
+            <marker date="1483606183867" expanded="true" signature="6870:6974" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="7083:7412" ph="SELECT date_... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="7509:7723" ph="SELECT COUNT... ${DB_PREFIX}order" />
+            <marker date="1483606183867" expanded="true" signature="7853:7955" ph="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1483606183867" expanded="true" signature="8085:8189" ph="SELECT COUNT... ${DB_PREFIX}order_voucher" />
           </folding>
         </state>
       </provider>
@@ -847,11 +822,11 @@
         <state relative-caret-position="272">
           <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
           <folding>
-            <marker date="1483605952955" expanded="true" signature="103:920" ph="INSERT INTO `${DB_PREFIX}return`... " />
-            <marker date="1483605952955" expanded="true" signature="1060:1931" ph="SELECT r.ret... " />
-            <marker date="1483605952955" expanded="true" signature="2127:2512" ph="SELECT r.ret... ${DB_PREFIX}return" />
-            <marker date="1483605952955" expanded="true" signature="2624:2733" ph="SELECT COUNT... ${DB_PREFIX}return" />
-            <marker date="1483605952955" expanded="true" signature="2852:3183" ph="SELECT rh.da... ${DB_PREFIX}" />
+            <marker date="1483606183889" expanded="true" signature="103:920" ph="INSERT INTO `${DB_PREFIX}return`... " />
+            <marker date="1483606183889" expanded="true" signature="1060:1931" ph="SELECT r.ret... " />
+            <marker date="1483606183889" expanded="true" signature="2127:2512" ph="SELECT r.ret... ${DB_PREFIX}return" />
+            <marker date="1483606183889" expanded="true" signature="2624:2733" ph="SELECT COUNT... ${DB_PREFIX}return" />
+            <marker date="1483606183889" expanded="true" signature="2852:3183" ph="SELECT rh.da... ${DB_PREFIX}" />
           </folding>
         </state>
       </provider>
@@ -861,18 +836,18 @@
         <state relative-caret-position="288">
           <caret line="79" column="121" lean-forward="false" selection-start-line="79" selection-start-column="121" selection-end-line="79" selection-end-column="121" />
           <folding>
-            <marker date="1483605980228" expanded="true" signature="111:1783" ph="INSERT INTO ${DB_PREFIX}affiliate... " />
-            <marker date="1483605980228" expanded="true" signature="6909:6999" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="7106:7220" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="7325:7413" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="7526:7656" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="7922:8215" ph="INSERT INTO ${DB_PREFIX}affiliate_transaction... " />
-            <marker date="1483605980228" expanded="true" signature="9688:9780" ph="DELETE FROM " />
-            <marker date="1483605980228" expanded="true" signature="9871:9992" ph="SELECT SUM(a... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="10105:10302" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483605980228" expanded="true" signature="10355:10685" ph="INSERT INTO ${DB_PREFIX}affiliate_login... " />
-            <marker date="1483605980228" expanded="true" signature="11011:11126" ph="SELECT * FRO... ${DB_PREFIX}affiliate_login" />
-            <marker date="1483605980228" expanded="true" signature="11224:11337" ph="DELETE FROM " />
+            <marker date="1483606183954" expanded="true" signature="111:1783" ph="INSERT INTO ${DB_PREFIX}affiliate... " />
+            <marker date="1483606183954" expanded="true" signature="6909:6999" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="7106:7220" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="7325:7413" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="7526:7656" ph="SELECT COUNT... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="7922:8215" ph="INSERT INTO ${DB_PREFIX}affiliate_transaction... " />
+            <marker date="1483606183954" expanded="true" signature="9688:9780" ph="DELETE FROM " />
+            <marker date="1483606183954" expanded="true" signature="9871:9992" ph="SELECT SUM(a... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="10105:10302" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606183954" expanded="true" signature="10355:10685" ph="INSERT INTO ${DB_PREFIX}affiliate_login... " />
+            <marker date="1483606183954" expanded="true" signature="11011:11126" ph="SELECT * FRO... ${DB_PREFIX}affiliate_login" />
+            <marker date="1483606183954" expanded="true" signature="11224:11337" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -882,48 +857,48 @@
         <state relative-caret-position="266">
           <caret line="465" column="47" lean-forward="true" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
           <folding>
-            <marker date="1483606079148" expanded="true" signature="102:3846" ph="INSERT INTO `${DB_PREFIX}order`... " />
-            <marker date="1483606079148" expanded="true" signature="4005:4469" ph="INSERT INTO ${DB_PREFIX}order_product... " />
-            <marker date="1483606079148" expanded="true" signature="4592:5033" ph="INSERT INTO ${DB_PREFIX}order_option... " />
-            <marker date="1483606079148" expanded="true" signature="5236:5862" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
-            <marker date="1483606079148" expanded="true" signature="6288:6568" ph="INSERT INTO ${DB_PREFIX}order_total... " />
-            <marker date="1483606079148" expanded="true" signature="9808:9892" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="9916:9999" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="10119:10583" ph="INSERT INTO ${DB_PREFIX}order_product... " />
-            <marker date="1483606079148" expanded="true" signature="10706:11147" ph="INSERT INTO ${DB_PREFIX}order_option... " />
-            <marker date="1483606079148" expanded="true" signature="11337:11421" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="11527:12153" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
-            <marker date="1483606079148" expanded="true" signature="12504:12586" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="12686:12966" ph="INSERT INTO ${DB_PREFIX}order_total... " />
-            <marker date="1483606079148" expanded="true" signature="13112:13190" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13214:13300" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13324:13409" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13433:13519" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13543:13627" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13651:13737" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="13995:14089" ph="DELETE FROM " />
-            <marker date="1483606079148" expanded="true" signature="14307:14545" ph="SELECT *, (S... ${DB_PREFIX}order" />
-            <marker date="1483606079148" expanded="true" signature="14318:14452" ph="SELECT os.na... ${DB_PREFIX}order_status" />
-            <marker date="1483606079148" expanded="true" signature="14620:14734" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606079148" expanded="true" signature="15009:15114" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606079148" expanded="true" signature="15287:15402" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606079148" expanded="true" signature="15681:15787" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606079148" expanded="true" signature="22376:22486" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606079148" expanded="true" signature="23556:23642" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="23962:24120" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="24678:24913" ph="INSERT INTO ${DB_PREFIX}order_history... " />
-            <marker date="1483606079148" expanded="true" signature="25422:25508" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="25799:25951" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="26395:26505" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606079148" expanded="true" signature="27368:27454" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="27618:27749" ph="SELECT COUNT... ${DB_PREFIX}product_to_download" />
-            <marker date="1483606079148" expanded="true" signature="28120:28279" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="33845:33997" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="35216:35302" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="35689:35799" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606079148" expanded="true" signature="37168:37315" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="41694:41841" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606079148" expanded="true" signature="44945:45104" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="102:3846" ph="INSERT INTO `${DB_PREFIX}order`... " />
+            <marker date="1483606184058" expanded="true" signature="4005:4469" ph="INSERT INTO ${DB_PREFIX}order_product... " />
+            <marker date="1483606184058" expanded="true" signature="4592:5033" ph="INSERT INTO ${DB_PREFIX}order_option... " />
+            <marker date="1483606184058" expanded="true" signature="5236:5862" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
+            <marker date="1483606184058" expanded="true" signature="6288:6568" ph="INSERT INTO ${DB_PREFIX}order_total... " />
+            <marker date="1483606184058" expanded="true" signature="9808:9892" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="9916:9999" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="10119:10583" ph="INSERT INTO ${DB_PREFIX}order_product... " />
+            <marker date="1483606184058" expanded="true" signature="10706:11147" ph="INSERT INTO ${DB_PREFIX}order_option... " />
+            <marker date="1483606184058" expanded="true" signature="11337:11421" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="11527:12153" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
+            <marker date="1483606184058" expanded="true" signature="12504:12586" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="12686:12966" ph="INSERT INTO ${DB_PREFIX}order_total... " />
+            <marker date="1483606184058" expanded="true" signature="13112:13190" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13214:13300" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13324:13409" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13433:13519" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13543:13627" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13651:13737" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="13995:14089" ph="DELETE FROM " />
+            <marker date="1483606184058" expanded="true" signature="14307:14545" ph="SELECT *, (S... ${DB_PREFIX}order" />
+            <marker date="1483606184058" expanded="true" signature="14318:14452" ph="SELECT os.na... ${DB_PREFIX}order_status" />
+            <marker date="1483606184058" expanded="true" signature="14620:14734" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606184058" expanded="true" signature="15009:15114" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606184058" expanded="true" signature="15287:15402" ph="SELECT * FRO... ${DB_PREFIX}country" />
+            <marker date="1483606184058" expanded="true" signature="15681:15787" ph="SELECT * FRO... ${DB_PREFIX}zone" />
+            <marker date="1483606184058" expanded="true" signature="22376:22486" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
+            <marker date="1483606184058" expanded="true" signature="23556:23642" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="23962:24120" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="24678:24913" ph="INSERT INTO ${DB_PREFIX}order_history... " />
+            <marker date="1483606184058" expanded="true" signature="25422:25508" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="25799:25951" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="26395:26505" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
+            <marker date="1483606184058" expanded="true" signature="27368:27454" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="27618:27749" ph="SELECT COUNT... ${DB_PREFIX}product_to_download" />
+            <marker date="1483606184058" expanded="true" signature="28120:28279" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="33845:33997" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="35216:35302" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="35689:35799" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
+            <marker date="1483606184058" expanded="true" signature="37168:37315" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="41694:41841" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483606184058" expanded="true" signature="44945:45104" ph="SELECT * FRO... ${DB_PREFIX}" />
           </folding>
         </state>
       </provider>

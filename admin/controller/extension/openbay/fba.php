@@ -546,7 +546,7 @@ class ControllerExtensionOpenbayFba extends Controller {
                         $request['fulfillment_policy'] = $this->config->get('openbay_fba_fulfill_policy');
 
                         $request['destination_address'] = array(
-                            'name' => $order['shipping_firstname'] . ' ' . $order['shipping_lastname'],
+                            'name' => $order['shipping_fullname'],
                             'line_1' => (!empty($order['shipping_company']) ? $order['shipping_company'] : $order['shipping_address_1']),
                             'line_2' => (!empty($order['shipping_company']) ? $order['shipping_address_1'] : $order['shipping_address_2']),
                             'line_3' => (!empty($order['shipping_company']) ? $order['shipping_address_2'] : ''),
@@ -795,12 +795,11 @@ class ControllerExtensionOpenbayFba extends Controller {
         if ($order_info['shipping_address_format']) {
             $format = $order_info['shipping_address_format'];
         } else {
-            $format = '{firstname} {lastname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
+            $format = '{fullname}' . "\n" . '{company}' . "\n" . '{address_1}' . "\n" . '{address_2}' . "\n" . '{city} {postcode}' . "\n" . '{zone}' . "\n" . '{country}';
         }
 
         $find = array(
-            '{firstname}',
-            '{lastname}',
+            '{fullname}',
             '{company}',
             '{address_1}',
             '{address_2}',
@@ -812,8 +811,7 @@ class ControllerExtensionOpenbayFba extends Controller {
         );
 
         $replace = array(
-            'firstname' => $order_info['shipping_firstname'],
-            'lastname'  => $order_info['shipping_lastname'],
+            'fullname' => $order_info['shipping_fullname'],
             'company'   => $order_info['shipping_company'],
             'address_1' => $order_info['shipping_address_1'],
             'address_2' => $order_info['shipping_address_2'],

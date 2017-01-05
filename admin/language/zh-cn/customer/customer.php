@@ -26,7 +26,7 @@ $_['column_action']         = '操作';
 
 // Entry
 $_['entry_customer_group']  = '客户等级';
-$_['entry_firstname']       = '名字';
+$_['entry_fullname']       = '名字';
 $_['entry_lastname']        = '姓氏';
 $_['entry_email']           = 'E-Mail';
 $_['entry_telephone']       = '电话';
@@ -60,7 +60,7 @@ $_['help_points']           = '适用减号-减少奖励积分';
 $_['error_warning']         = '警告: 详细检查相关错误！';
 $_['error_permission']      = '警告: 无权限修改客户！';
 $_['error_exists']          = '警告: E-Mail 已被注册使用了！';
-$_['error_firstname']       = '名字必须为 1 至 32 字符！';
+$_['error_fullname']       = '名字必须为 1 至 32 字符！';
 $_['error_lastname']        = '姓氏必须在 1 至 32 字符!';
 $_['error_email']           = 'E-Mail 无效！';
 $_['error_telephone']       = '电话必须为 3 至 32 字符！';

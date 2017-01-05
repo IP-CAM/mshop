@@ -173,7 +173,7 @@ final class Openbay {
 		$lname = implode(' ', $name);
 
 		return array(
-			'firstname' => $fname,
+			'fullname' => $fname,
 			'surname'   => $lname
 		);
 	}

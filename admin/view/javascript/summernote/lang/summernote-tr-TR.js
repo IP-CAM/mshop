@@ -2,16 +2,16 @@
   $.extend($.summernote.lang, {
     'tr-TR': {
       font: {
-        bold: 'Kalın',
-        italic: 'İtalik',
-        underline: 'Altı çizili',
+        bold: 'Kalin',
+        italic: 'Italik',
+        underline: 'Alti cizili',
         clear: 'Temizle',
-        height: 'Satır yüksekliği',
-        name: 'Yazı Tipi',
-        strikethrough: 'Üstü çizili',
+        height: 'Satir yüksekligi',
+        name: 'Yazi Tipi',
+        strikethrough: '"Ustü cizili',
         subscript: 'Alt Simge',
-        superscript: 'Üst Simge',
-        size: 'Yazı tipi boyutu'
+        superscript: '"Ust Simge',
+        size: 'Yazi tipi boyutu'
       },
       image: {
         image: 'Resim',
@@ -20,86 +20,86 @@
         resizeHalf: '1/2 boyut',
         resizeQuarter: '1/4 boyut',
         floatLeft: 'Sola hizala',
-        floatRight: 'Sağa hizala',
-        floatNone: 'Hizalamayı kaldır',
-        shapeRounded: 'Şekil: Yuvarlatılmış Köşe',
-        shapeCircle: 'Şekil: Daire',
-        shapeThumbnail: 'Şekil: K.Resim',
-        shapeNone: 'Şekil: Yok',
+        floatRight: 'Saga hizala',
+        floatNone: 'Hizalamayi kaldir',
+        shapeRounded: 'Sekil: Yuvarlatilmis K"ose',
+        shapeCircle: 'Sekil: Daire',
+        shapeThumbnail: 'Sekil: K.Resim',
+        shapeNone: 'Sekil: Yok',
         dragImageHere: 'Buraya sürükleyin',
-        selectFromFiles: 'Dosya seçin',
-        url: 'Resim bağlantısı',
-        remove: 'Resimi Kaldır'
+        selectFromFiles: 'Dosya secin',
+        url: 'Resim baglantisi',
+        remove: 'Resimi Kaldir'
       },
       video: {
         video: 'Video',
-        videoLink: 'Video bağlantısı',
+        videoLink: 'Video baglantisi',
         insert: 'Video ekle',
-        url: 'Video bağlantısı?',
+        url: 'Video baglantisi?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion veya Youku)'
       },
       link: {
-        link: 'Bağlantı',
-        insert: 'Bağlantı ekle',
-        unlink: 'Bağlantıyı kaldır',
-        edit: 'Bağlantıyı düzenle',
-        textToDisplay: 'Görüntülemek için',
-        url: 'Bağlantı adresi?',
-        openInNewWindow: 'Yeni pencerede aç'
+        link: 'Baglanti',
+        insert: 'Baglanti ekle',
+        unlink: 'Baglantiyi kaldir',
+        edit: 'Baglantiyi düzenle',
+        textToDisplay: 'G"orüntülemek icin',
+        url: 'Baglanti adresi?',
+        openInNewWindow: 'Yeni pencerede ac'
       },
       table: {
         table: 'Tablo'
       },
       hr: {
-        insert: 'Yatay çizgi ekle'
+        insert: 'Yatay cizgi ekle'
       },
       style: {
-        style: 'Biçim',
+        style: 'Bicim',
         normal: 'Normal',
-        blockquote: 'Alıntı',
-        pre: 'Önbiçimli',
-        h1: 'Başlık 1',
-        h2: 'Başlık 2',
-        h3: 'Başlık 3',
-        h4: 'Başlık 4',
-        h5: 'Başlık 5',
-        h6: 'Başlık 6'
+        blockquote: 'Alinti',
+        pre: '"Onbicimli',
+        h1: 'Baslik 1',
+        h2: 'Baslik 2',
+        h3: 'Baslik 3',
+        h4: 'Baslik 4',
+        h5: 'Baslik 5',
+        h6: 'Baslik 6'
       },
       lists: {
-        unordered: 'Madde işaretli liste',
-        ordered: 'Numaralı liste'
+        unordered: 'Madde isaretli liste',
+        ordered: 'Numarali liste'
       },
       options: {
-        help: 'Yardım',
+        help: 'Yardim',
         fullscreen: 'Tam ekran',
         codeview: 'HTML Kodu'
       },
       paragraph: {
         paragraph: 'Paragraf',
-        outdent: 'Girintiyi artır',
+        outdent: 'Girintiyi artir',
         indent: 'Girintiyi azalt',
         left: 'Sola hizala',
         center: 'Ortaya hizala',
-        right: 'Sağa hizala',
+        right: 'Saga hizala',
         justify: 'Yasla'
       },
       color: {
         recent: 'Son renk',
         more: 'Daha fazla renk',
         background: 'Arka plan rengi',
-        foreground: 'Yazı rengi',
-        transparent: 'Seffaflık',
-        setTransparent: 'Şeffaflığı ayarla',
-        reset: 'Sıfırla',
-        resetToDefault: 'Varsayılanlara sıfırla'
+        foreground: 'Yazi rengi',
+        transparent: 'Seffaflik',
+        setTransparent: 'Seffafligi ayarla',
+        reset: 'Sifirla',
+        resetToDefault: 'Varsayilanlara sifirla'
       },
       shortcut: {
-        shortcuts: 'Kısayollar',
+        shortcuts: 'Kisayollar',
         close: 'Kapat',
-        textFormatting: 'Yazı biçimlendirme',
+        textFormatting: 'Yazi bicimlendirme',
         action: 'Eylem',
-        paragraphFormatting: 'Paragraf biçimlendirme',
-        documentStyle: 'Biçim'
+        paragraphFormatting: 'Paragraf bicimlendirme',
+        documentStyle: 'Bicim'
       },
       history: {
         undo: 'Geri al',
