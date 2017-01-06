@@ -2,105 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feda2a4b-7a7f-4d1d-8106-6089e29d212e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.admin.1483612551" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.country.catalog.1483610236" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1483610147" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1483610147" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.1.1483610886" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1483612739" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/common/column_left.php" afterPath="$PROJECT_DIR$/admin/controller/common/column_left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/customer/customer.php" afterPath="$PROJECT_DIR$/admin/controller/customer/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/openbay/fba.php" afterPath="$PROJECT_DIR$/admin/controller/extension/openbay/fba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/laybuy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/pp_express.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/pp_express.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/pp_pro_iframe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/extension/payment/securetrading_ws.php" afterPath="$PROJECT_DIR$/admin/controller/extension/payment/securetrading_ws.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/controller/marketing/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/report/customer_online.php" afterPath="$PROJECT_DIR$/admin/controller/report/customer_online.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/order.php" afterPath="$PROJECT_DIR$/admin/controller/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/recurring.php" afterPath="$PROJECT_DIR$/admin/controller/sale/recurring.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/sale/return.php" afterPath="$PROJECT_DIR$/admin/controller/sale/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/user/user.php" afterPath="$PROJECT_DIR$/admin/controller/user/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/customer/customer.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/customer/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/laybuy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_search.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_view.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_express_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/payment/pp_pro_iframe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/localisation/country.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/localisation/country.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/marketing/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/sale/order.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/sale/return.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/sale/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/en-gb/user/user.php" afterPath="$PROJECT_DIR$/admin/language/en-gb/user/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/customer/customer.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/customer/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/laybuy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_search.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_view.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_express_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_pro_iframe.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/extension/payment/pp_pro_iframe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/localisation/country.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/localisation/country.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/marketing/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/sale/order.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/sale/return.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/sale/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/zh-cn/user/user.php" afterPath="$PROJECT_DIR$/admin/language/zh-cn/user/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/customer/customer.php" afterPath="$PROJECT_DIR$/admin/model/customer/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/openbay/ebay.php" afterPath="$PROJECT_DIR$/admin/model/extension/openbay/ebay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/openbay/order.php" afterPath="$PROJECT_DIR$/admin/model/extension/openbay/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/payment/laybuy.php" afterPath="$PROJECT_DIR$/admin/model/extension/payment/laybuy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/extension/payment/securetrading_ws.php" afterPath="$PROJECT_DIR$/admin/model/extension/payment/securetrading_ws.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/marketing/affiliate.php" afterPath="$PROJECT_DIR$/admin/model/marketing/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/marketing/coupon.php" afterPath="$PROJECT_DIR$/admin/model/marketing/coupon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/report/affiliate.php" afterPath="$PROJECT_DIR$/admin/model/report/affiliate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/report/customer.php" afterPath="$PROJECT_DIR$/admin/model/report/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/order.php" afterPath="$PROJECT_DIR$/admin/model/sale/order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/recurring.php" afterPath="$PROJECT_DIR$/admin/model/sale/recurring.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/return.php" afterPath="$PROJECT_DIR$/admin/model/sale/return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/sale/voucher.php" afterPath="$PROJECT_DIR$/admin/model/sale/voucher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/model/user/user.php" afterPath="$PROJECT_DIR$/admin/model/user/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-multiple/index.html" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-multiple/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-time-zones/date.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/axes-time-zones/date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/canvas/index.html" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/flot/examples/canvas/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.algeria.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.algeria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.brazil.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.brazil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.france.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.france.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.germany.js" afterPath="$PROJECT_DIR$/admin/view/javascript/jquery/jqvmap/maps/jquery.vmap.germany.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ar-AR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ar-AR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ca-ES.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ca-ES.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-cs-CZ.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-cs-CZ.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-da-DK.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-da-DK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-de-DE.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-de-DE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-es-ES.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-es-ES.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fa-IR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fa-IR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fi-FI.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-fi-FI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-he-IL.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-he-IL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-hu-HU.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-hu-HU.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ko-KR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ko-KR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-lt-LT.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-lt-LT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-nb-NO.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-nb-NO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pl-PL.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pl-PL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-BR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-PT.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-pt-PT.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ro-RO.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-ro-RO.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sk-SK.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sk-SK.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sl-SI.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sl-SI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS-Latin.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS-Latin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sr-RS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sv-SE.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-sv-SE.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-th-TH.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-th-TH.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-tr-TR.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-tr-TR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-uk-UA.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-uk-UA.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-vi-VN.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/lang/summernote-vi-VN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.min.js" afterPath="$PROJECT_DIR$/admin/view/javascript/summernote/summernote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/common/column_left.tpl" afterPath="$PROJECT_DIR$/admin/view/template/common/column_left.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/customer/customer_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/customer/customer_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_order.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_order.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_transaction.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/laybuy_transaction.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_search.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_search.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_view.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_express_view.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_pro_iframe_transaction.tpl" afterPath="$PROJECT_DIR$/admin/view/template/extension/payment/pp_pro_iframe_transaction.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/marketing/affiliate_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/marketing/affiliate_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/order_info.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/recurring_info.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/recurring_info.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/sale/return_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/sale/return_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/user/user_form.tpl" afterPath="$PROJECT_DIR$/admin/view/template/user/user_form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/cart/affiliate.php" afterPath="$PROJECT_DIR$/system/library/cart/affiliate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/cart/customer.php" afterPath="$PROJECT_DIR$/system/library/cart/customer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/library/openbay.php" afterPath="$PROJECT_DIR$/system/library/openbay.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/storage/logs/error.log" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +25,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/account/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="267" column="11" lean-forward="false" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+              <folding>
+                <marker date="1483609575954" expanded="true" signature="40326:40340" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/account.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -124,15 +67,15 @@
       <find>zone</find>
       <find>zone_id</find>
       <find>oc_zone</find>
-      <find>city</find>
       <find>config</find>
       <find>en-gb</find>
       <find>oc_customer</find>
       <find>firstname</find>
       <find>fullname</find>
       <find>last</find>
-      <find>lastname</find>
       <find>lastnam</find>
+      <find>city</find>
+      <find>lastname</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/install/language/zh-cn/install/step_1.php" />
         <option value="$PROJECT_DIR$/install/language/zh-cn/install/step_2.php" />
         <option value="$PROJECT_DIR$/install/language/zh-cn/install/step_3.php" />
         <option value="$PROJECT_DIR$/install/language/zh-cn/install/step_4.php" />
@@ -176,7 +118,6 @@
         <option value="$PROJECT_DIR$/catalog/controller/checkout/login.php.bak" />
         <option value="$PROJECT_DIR$/catalog/controller/checkout/login.php" />
         <option value="$PROJECT_DIR$/catalog/controller/checkout/payment_address.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/account/edit.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/account/address_form.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/account/return_form.tpl" />
@@ -192,6 +133,8 @@
         <option value="$PROJECT_DIR$/catalog/model/account/return.php" />
         <option value="$PROJECT_DIR$/catalog/model/affiliate/affiliate.php" />
         <option value="$PROJECT_DIR$/catalog/model/checkout/order.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl" />
+        <option value="$PROJECT_DIR$/system/library/cart/customer.php" />
       </list>
     </option>
   </component>
@@ -223,7 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +189,47 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="install" />
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,6 +246,10 @@
               <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -275,16 +262,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,18 +349,20 @@
       <option name="presentableId" value="Default" />
       <updated>1483580390712</updated>
       <workItem from="1483580392329" duration="6345000" />
-      <workItem from="1483599531895" duration="6029000" />
+      <workItem from="1483599531895" duration="6448000" />
+      <workItem from="1483664414513" duration="19000" />
+      <workItem from="1483673502654" duration="954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12374000" />
+    <option name="totallyTimeSpent" value="13766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -407,15 +392,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/config/admin.php" />
-    <entry file="file://$PROJECT_DIR$/system/config/catalog.php" />
     <entry file="file://$PROJECT_DIR$/system/config/default.php" />
     <entry file="file://$PROJECT_DIR$/system/config/install.php" />
     <entry file="file://$PROJECT_DIR$/admin/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,14 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/account/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="413" column="27" lean-forward="true" selection-start-line="413" selection-start-column="27" selection-end-line="413" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/account/reset.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -511,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="251" column="9" lean-forward="false" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="55" column="69" lean-forward="true" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="346" column="9" lean-forward="false" selection-start-line="346" selection-start-column="9" selection-end-line="346" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="76" column="75" lean-forward="false" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3562">
           <caret line="542" column="62" lean-forward="false" selection-start-line="542" selection-start-column="62" selection-end-line="542" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-64">
           <caret line="189" column="54" lean-forward="false" selection-start-line="189" selection-start-column="54" selection-end-line="189" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="318" column="104" lean-forward="false" selection-start-line="318" selection-start-column="104" selection-end-line="318" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="4748" column="11" lean-forward="false" selection-start-line="4748" selection-start-column="3" selection-end-line="4748" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="105" column="72" lean-forward="false" selection-start-line="105" selection-start-column="72" selection-end-line="105" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="109" column="66" lean-forward="false" selection-start-line="109" selection-start-column="57" selection-end-line="109" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="109" column="61" lean-forward="false" selection-start-line="109" selection-start-column="61" selection-end-line="109" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="151" column="100" lean-forward="false" selection-start-line="151" selection-start-column="100" selection-end-line="151" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,17 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding>
-            <marker date="1483606185659" expanded="true" signature="40326:40340" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,9 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <marker date="1483606185550" expanded="true" signature="17152:17166" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <marker date="1483606185510" expanded="true" signature="20321:20335" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <marker date="1483606185922" expanded="true" signature="29377:29391" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <marker date="1483606185942" expanded="true" signature="14690:14704" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <marker date="1483606488373" expanded="true" signature="14275:14289" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,17 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="111" column="55" lean-forward="false" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
-          <folding>
-            <marker date="1483606183794" expanded="true" signature="105:755" ph="INSERT INTO ${DB_PREFIX}address... " />
-            <marker date="1483606183794" expanded="true" signature="2067:2207" ph="DELETE FROM " />
-            <marker date="1483606183794" expanded="true" signature="2295:2446" ph="SELECT DISTI... ${DB_PREFIX}" />
-            <marker date="1483606183794" expanded="true" signature="2523:2631" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606183794" expanded="true" signature="3024:3123" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606183794" expanded="true" signature="4288:4386" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183794" expanded="true" signature="4467:4563" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606183794" expanded="true" signature="4956:5043" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606183794" expanded="true" signature="6060:6174" ph="SELECT COUNT... ${DB_PREFIX}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <marker date="1483606518960" expanded="true" signature="14326:14340" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,21 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="126" column="63" lean-forward="false" selection-start-line="126" selection-start-column="63" selection-end-line="126" selection-end-column="63" />
-          <folding>
-            <marker date="1483606183820" expanded="true" signature="598:1588" ph="INSERT INTO ${DB_PREFIX}customer... " />
-            <marker date="1483606183820" expanded="true" signature="1655:2315" ph="INSERT INTO ${DB_PREFIX}address... " />
-            <marker date="1483606183820" expanded="true" signature="7457:7544" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="7650:7763" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="7867:7998" ph="SELECT custo... ${DB_PREFIX}customer" />
-            <marker date="1483606183820" expanded="true" signature="8104:8209" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="8393:8522" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="8639:8752" ph="SELECT SUM(p... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="8861:8953" ph="SELECT * FRO... ${DB_PREFIX}customer_ip" />
-            <marker date="1483606183820" expanded="true" signature="9057:9253" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183820" expanded="true" signature="9306:9635" ph="INSERT INTO ${DB_PREFIX}customer_login... " />
-            <marker date="1483606183820" expanded="true" signature="9958:10072" ph="SELECT * FRO... ${DB_PREFIX}customer_login" />
-            <marker date="1483606183820" expanded="true" signature="10170:10282" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,23 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="109" column="67" lean-forward="true" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
-          <folding>
-            <marker date="1483606183867" expanded="true" signature="120:284" ph="SELECT * FRO... ${DB_PREFIX}order" />
-            <marker date="1483606183867" expanded="true" signature="359:473" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606183867" expanded="true" signature="748:853" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606183867" expanded="true" signature="1026:1141" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606183867" expanded="true" signature="1420:1526" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606183867" expanded="true" signature="5312:5826" ph="SELECT o.ord... ${DB_PREFIX}order" />
-            <marker date="1483606183867" expanded="true" signature="5966:6108" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="6215:6301" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="6427:6568" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="6676:6764" ph="SELECT * FRO... ${DB_PREFIX}order_voucher" />
-            <marker date="1483606183867" expanded="true" signature="6870:6974" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="7083:7412" ph="SELECT date_... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="7509:7723" ph="SELECT COUNT... ${DB_PREFIX}order" />
-            <marker date="1483606183867" expanded="true" signature="7853:7955" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483606183867" expanded="true" signature="8085:8189" ph="SELECT COUNT... ${DB_PREFIX}order_voucher" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-          <folding>
-            <marker date="1483606183889" expanded="true" signature="103:920" ph="INSERT INTO `${DB_PREFIX}return`... " />
-            <marker date="1483606183889" expanded="true" signature="1060:1931" ph="SELECT r.ret... " />
-            <marker date="1483606183889" expanded="true" signature="2127:2512" ph="SELECT r.ret... ${DB_PREFIX}return" />
-            <marker date="1483606183889" expanded="true" signature="2624:2733" ph="SELECT COUNT... ${DB_PREFIX}return" />
-            <marker date="1483606183889" expanded="true" signature="2852:3183" ph="SELECT rh.da... ${DB_PREFIX}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,20 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="79" column="121" lean-forward="false" selection-start-line="79" selection-start-column="121" selection-end-line="79" selection-end-column="121" />
-          <folding>
-            <marker date="1483606183954" expanded="true" signature="111:1783" ph="INSERT INTO ${DB_PREFIX}affiliate... " />
-            <marker date="1483606183954" expanded="true" signature="6909:6999" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="7106:7220" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="7325:7413" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="7526:7656" ph="SELECT COUNT... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="7922:8215" ph="INSERT INTO ${DB_PREFIX}affiliate_transaction... " />
-            <marker date="1483606183954" expanded="true" signature="9688:9780" ph="DELETE FROM " />
-            <marker date="1483606183954" expanded="true" signature="9871:9992" ph="SELECT SUM(a... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="10105:10302" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606183954" expanded="true" signature="10355:10685" ph="INSERT INTO ${DB_PREFIX}affiliate_login... " />
-            <marker date="1483606183954" expanded="true" signature="11011:11126" ph="SELECT * FRO... ${DB_PREFIX}affiliate_login" />
-            <marker date="1483606183954" expanded="true" signature="11224:11337" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,49 +716,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="465" column="47" lean-forward="true" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/account/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="267" column="11" lean-forward="false" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/account.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/library/cart/customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
-            <marker date="1483606184058" expanded="true" signature="102:3846" ph="INSERT INTO `${DB_PREFIX}order`... " />
-            <marker date="1483606184058" expanded="true" signature="4005:4469" ph="INSERT INTO ${DB_PREFIX}order_product... " />
-            <marker date="1483606184058" expanded="true" signature="4592:5033" ph="INSERT INTO ${DB_PREFIX}order_option... " />
-            <marker date="1483606184058" expanded="true" signature="5236:5862" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
-            <marker date="1483606184058" expanded="true" signature="6288:6568" ph="INSERT INTO ${DB_PREFIX}order_total... " />
-            <marker date="1483606184058" expanded="true" signature="9808:9892" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="9916:9999" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="10119:10583" ph="INSERT INTO ${DB_PREFIX}order_product... " />
-            <marker date="1483606184058" expanded="true" signature="10706:11147" ph="INSERT INTO ${DB_PREFIX}order_option... " />
-            <marker date="1483606184058" expanded="true" signature="11337:11421" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="11527:12153" ph="INSERT INTO ${DB_PREFIX}order_voucher... " />
-            <marker date="1483606184058" expanded="true" signature="12504:12586" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="12686:12966" ph="INSERT INTO ${DB_PREFIX}order_total... " />
-            <marker date="1483606184058" expanded="true" signature="13112:13190" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13214:13300" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13324:13409" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13433:13519" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13543:13627" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13651:13737" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="13995:14089" ph="DELETE FROM " />
-            <marker date="1483606184058" expanded="true" signature="14307:14545" ph="SELECT *, (S... ${DB_PREFIX}order" />
-            <marker date="1483606184058" expanded="true" signature="14318:14452" ph="SELECT os.na... ${DB_PREFIX}order_status" />
-            <marker date="1483606184058" expanded="true" signature="14620:14734" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606184058" expanded="true" signature="15009:15114" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606184058" expanded="true" signature="15287:15402" ph="SELECT * FRO... ${DB_PREFIX}country" />
-            <marker date="1483606184058" expanded="true" signature="15681:15787" ph="SELECT * FRO... ${DB_PREFIX}zone" />
-            <marker date="1483606184058" expanded="true" signature="22376:22486" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606184058" expanded="true" signature="23556:23642" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="23962:24120" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="24678:24913" ph="INSERT INTO ${DB_PREFIX}order_history... " />
-            <marker date="1483606184058" expanded="true" signature="25422:25508" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="25799:25951" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="26395:26505" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606184058" expanded="true" signature="27368:27454" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="27618:27749" ph="SELECT COUNT... ${DB_PREFIX}product_to_download" />
-            <marker date="1483606184058" expanded="true" signature="28120:28279" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="33845:33997" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="35216:35302" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="35689:35799" ph="SELECT * FRO... ${DB_PREFIX}order_total" />
-            <marker date="1483606184058" expanded="true" signature="37168:37315" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="41694:41841" ph="SELECT * FRO... ${DB_PREFIX}" />
-            <marker date="1483606184058" expanded="true" signature="44945:45104" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="515:642" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="1441:1630" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="1687:1889" ph="INSERT INTO ${DB_PREFIX}customer_ip... " />
+            <marker date="1483674457833" expanded="true" signature="2066:2196" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="2250:2559" ph="SELECT * FRO... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="4358:4482" ph="SELECT SUM(a... ${DB_PREFIX}" />
+            <marker date="1483674457833" expanded="true" signature="4588:4707" ph="SELECT SUM(p... ${DB_PREFIX}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/register.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+          <folding>
+            <marker date="1483609575954" expanded="true" signature="40326:40340" ph="..." />
           </folding>
         </state>
       </provider>

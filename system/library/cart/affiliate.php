@@ -3,7 +3,6 @@ namespace Cart;
 class Affiliate {
 	private $affiliate_id;
 	private $fullname;
-	private $lastname;
 	private $email;
 	private $telephone;
 	private $fax;
@@ -21,7 +20,6 @@ class Affiliate {
 			if ($affiliate_query->num_rows) {
 				$this->affiliate_id = $affiliate_query->row['affiliate_id'];
 				$this->fullname = $affiliate_query->row['fullname'];
-				$this->lastname = $affiliate_query->row['lastname'];
 				$this->email = $affiliate_query->row['email'];
 				$this->telephone = $affiliate_query->row['telephone'];
 				$this->fax = $affiliate_query->row['fax'];
@@ -42,7 +40,6 @@ class Affiliate {
 
 			$this->affiliate_id = $affiliate_query->row['affiliate_id'];
 			$this->fullname = $affiliate_query->row['fullname'];
-			$this->lastname = $affiliate_query->row['lastname'];
 			$this->email = $affiliate_query->row['email'];
 			$this->telephone = $affiliate_query->row['telephone'];
 			$this->fax = $affiliate_query->row['fax'];
@@ -59,7 +56,6 @@ class Affiliate {
 
 		$this->affiliate_id = '';
 		$this->fullname = '';
-		$this->lastname = '';
 		$this->email = '';
 		$this->telephone = '';
 		$this->fax = '';

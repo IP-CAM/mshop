@@ -3,7 +3,6 @@ namespace Cart;
 class Customer {
 	private $customer_id;
 	private $fullname;
-	private $lastname;
 	private $customer_group_id;
 	private $email;
 	private $telephone;
@@ -23,7 +22,6 @@ class Customer {
 			if ($customer_query->num_rows) {
 				$this->customer_id = $customer_query->row['customer_id'];
 				$this->fullname = $customer_query->row['fullname'];
-				$this->lastname = $customer_query->row['lastname'];
 				$this->customer_group_id = $customer_query->row['customer_group_id'];
 				$this->email = $customer_query->row['email'];
 				$this->telephone = $customer_query->row['telephone'];
@@ -56,7 +54,6 @@ class Customer {
 
 			$this->customer_id = $customer_query->row['customer_id'];
 			$this->fullname = $customer_query->row['fullname'];
-			$this->lastname = $customer_query->row['lastname'];
 			$this->customer_group_id = $customer_query->row['customer_group_id'];
 			$this->email = $customer_query->row['email'];
 			$this->telephone = $customer_query->row['telephone'];
@@ -77,7 +74,6 @@ class Customer {
 
 		$this->customer_id = '';
 		$this->fullname = '';
-		$this->lastname = '';
 		$this->customer_group_id = '';
 		$this->email = '';
 		$this->telephone = '';
@@ -96,10 +92,6 @@ class Customer {
 
 	public function getFullName() {
 		return $this->fullname;
-	}
-
-	public function getLastName() {
-		return $this->lastname;
 	}
 
 	public function getGroupId() {
